@@ -1,0 +1,2 @@
+# Preserve the exact bytes of the backed-up files on every platform.
+* -text

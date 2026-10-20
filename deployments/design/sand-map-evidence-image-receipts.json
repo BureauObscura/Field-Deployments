@@ -1,0 +1,381 @@
+[
+  {
+    "webPath": "assets/evidence/sand-map/bead_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "7ea22ec0139eb42ad8409bcf2a2abb4659fab785349eb9d8315efe38cd561039",
+    "sourcePath": "source-assets/evidence/sand-map/bead_test.png",
+    "sourceSha256": "5bf9f80c401e5c4f56c01e559956f8a87935eff6fcb11c1bbf052765a967c126",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Change only the wooden blocks in the foreground. Extend the long vertical segment of each existing L-shaped channel all the way through the back edge of its wooden block, so that each channel has two visibly open ends. This is a ball-routing toy: a bead must be able to enter through one edge and leave through another. Remove the short strip of wood that currently closes each back channel end. Keep the existing right and left openings facing each other, keep the white bead, desk, lighting and square photo composition. Do not add text or graphics.",
+    "scene": "bead_test",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Two L grooves each have open opposing edge and open back edge, single bead rests stationary before test. No text or people.",
+      "approvalBoundary": "Project visual QA only."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/core_lift.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "d16634f6de77cf717f447e59936e33bc25b39df0ff91a8ac965e284340a92b9b",
+    "sourcePath": "source-assets/evidence/sand-map/core_lift.png",
+    "sourceSha256": "b6f409bc31eac9bc96c8148c986296dd1c3d316d596074a5b7405d845de7876c",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Edit only the small engraving on the brass lifting fork in this photograph: remove all stamped letters or marks so the metal is plain tarnished brass. Keep the fork shape, mineral disk, pale lower layer, dry sandstone basin, light, composition and every other pixel subject unchanged. Preserve native 1:1 square photograph. No added graphics or writing.",
+    "scene": "core_lift",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Unlifted layered crust on plinth, separate two-prong fork at rest. No readable engraving or people.",
+      "approvalBoundary": "Project visual QA only."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/fragment.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "b23f8a3e5e923aced5588adff3b376aa87864b47cf5e4c0f81373c9e98aef579",
+    "sourcePath": "source-assets/evidence/sand-map/fragment.png",
+    "sourceSha256": "7f737f9030c4d0ac699e71361a17a7352a76fe86282a4a5fbd9cff8fef8a52e5",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Make a native 1:1 SQUARE photoreal evidence photograph for an investigation game. It is one coherent close view of physical objects, with convincing materials, clear functional construction and natural depth. Setting: 1884 red sandstone desert survey compound, dark weathered timber and plain tarnished brass. No sea, green garden or modern plastic. Macro photograph of a palm-sized broken black mineral crust fragment lying on an earthenware dish on an 1884 timber desert workbench. The fragment is tilted naturally so its broken edge clearly exposes TWO separate layers: thin hard cracked nearly black upper face and thick pale chalky soft lower layer. Loose pale and black grains beside it, no coatings, no moisture. Small unmarked glass bell jar blurred behind, warm sandstone alcove. Compose for equal width and height with main evidence in center. No people, hands, body parts, faces, human reflections, animals, readable or unreadable writing, numbers, labels, logos, signs, symbols, drawings, diagrams, arrows, UI, collage or borders. Realistic photograph, no 3D render or illustration. Do not show results of an experiment that has not happened.",
+    "scene": "fragment",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Clearly separate cracked black upper layer and pale friable lower layer, loose grains and dry earthenware dish. No text or people observed.",
+      "approvalBoundary": "Project visual QA only."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/outer_plan.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3e41f1d0463babd6c0f72e3ed07f79780b71493931bdda70d81948d5943906c2",
+    "sourcePath": "source-assets/evidence/sand-map/outer_plan.png",
+    "sourceSha256": "b1ddb72c95eff0491826361ccc5f14324fc95c0266a07b29dd49a7f6c41efd10",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Make a native 1:1 SQUARE photoreal evidence photograph for an investigation game. It is one coherent close view of physical objects, with convincing materials, clear functional construction and natural depth. Setting: 1884 red sandstone desert survey compound, dark weathered timber and plain tarnished brass. No sea, green garden or modern plastic. Close detailed photograph of a single right-angle corner of the low square red sandstone perimeter wall. Two straight walls recede into distance, meeting at this sturdy square corner; an 1884 brass survey chain with plain unlabeled brass links runs tightly along one edge. Near coarse stone joins sharply resolved, distant red mesas and simple survey tower. Stable, dry, unaltered masonry; no modern instruments. Compose for equal width and height with main evidence in center. No people, hands, body parts, faces, human reflections, animals, readable or unreadable writing, numbers, labels, logos, signs, symbols, drawings, diagrams, arrows, UI, collage or borders. Realistic photograph, no 3D render or illustration. Do not show results of an experiment that has not happened.",
+    "scene": "outer_plan",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Physical corner and straight perimeter lines visible, unnumbered chain follows masonry; empty desert setting.",
+      "peopleTextGraphics": "None observed",
+      "approvalBoundary": "Project visual QA only, not owner approval."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/pivot_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ed9ff2d3bdbfd2e1e49bcac7470c255dec651612d2ef1210e244cb7ae691d4df",
+    "sourcePath": "source-assets/evidence/sand-map/pivot_test.png",
+    "sourceSha256": "38f4af2638c00c46111e8c6df73237c71d7a0afd25d15468cc4072f8ec641dd7",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Make a native 1:1 SQUARE photoreal evidence photograph for an investigation game. It is one coherent close view of physical objects, with convincing materials, clear functional construction and natural depth. Setting: 1884 red sandstone desert survey compound, dark weathered timber and plain tarnished brass. No sea, green garden or modern plastic. Close low oblique photograph of the near-left square timber tray in a four-section sand model table. A clearly built central brass pivot under its edge and four evenly spaced plain stop notches allow quarter turns. Within the tray two low straight granular sand ridges border one angular L-shaped passage, not a U or concentric mound. A short adjustment handle sits unused on the table edge. Show entire square tray at rest with three other sections softened in background, warm sandstone desert compound. Compose for equal width and height with main evidence in center. No people, hands, body parts, faces, human reflections, animals, readable or unreadable writing, numbers, labels, logos, signs, symbols, drawings, diagrams, arrows, UI, collage or borders. Realistic photograph, no 3D render or illustration. Do not show results of an experiment that has not happened.",
+    "scene": "pivot_test",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Square pivot tray and underside brass bearing visible, handle at rest. Sand bend is physical material, no UI.",
+      "peopleTextGraphics": "None observed",
+      "approvalBoundary": "Project visual QA only, not owner approval."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/scale_marks.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e8641be3d0c525268b8d420a32dd9d28b8046d9e2fe7893ea8dd1096eb3c8999",
+    "sourcePath": "source-assets/evidence/sand-map/scale_marks.png",
+    "sourceSha256": "3cf021436e0e9d923c544c874fcdd2cb777b141232315f589aa6040f37d98fd5",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Precise sand-shape correction only. Preserve this native square photograph, the four timber square trays, their brass pivots, the notches on the foreground wooden edge, the lighting, viewpoint and surrounding red sandstone desert court. In EACH of the four trays replace the existing U-shaped mound with a SIMPLE L-shaped sand ridge with exactly TWO straight legs and ONE right-angle corner. There must be no third side and no closed well. The visible feature should resemble the L-shaped sand ridge in the second reference photograph. Keep the sand realistically granular. Nothing else changes. No added writing or graphics.",
+    "scene": "scale_marks",
+    "qa": {
+      "status": "accepted",
+      "method": "Native image visual inspection",
+      "notes": "Distinct sand bends, physical timber scale cuts and corner fittings visible. Corrected model relief keeps matching-corners clue legible. No text or people observed."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/sight_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "fc800003bff0ee7d0e08283017af7088dc26bf99291e400edd4f991cd9b358a9",
+    "sourcePath": "source-assets/evidence/sand-map/sight_test.png",
+    "sourceSha256": "791c46456d51f05928b9f4bc598cd67cfe8c54cbc598be52341e0544edba757f",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Precise correction of table layout only. Preserve this photograph, setting, rod, light, materials and square format. The table must be a SQUARE divided into exactly FOUR SQUARE sand trays in a TWO BY TWO layout, with one central cross-shaped timber divider. It must NOT be four narrow strips in a line. The brass rod tip is seated at the far-right square tray. Each sand tray has a simple angular right-angle bent passage. Use the second reference as authoritative table geometry and keep the first reference camera atmosphere. No people, text or diagrams.",
+    "scene": "sight_test",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Model corrected to two-by-two, long rod engaged in far tray and resting untouched. Desert and timber material continuity retained.",
+      "peopleTextGraphics": "None observed",
+      "approvalBoundary": "Project visual QA only."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/survey_grid.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0d74a0d8fa343d7c3464ed6765e46f11aaf64642924d863b88835c85917aa8f7",
+    "sourcePath": "source-assets/evidence/sand-map/survey_grid.png",
+    "sourceSha256": "fe36cb351843dd8dcdac684e5bf1efbbfde2b2645108642966966d95ad09fa70",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Make a native 1:1 SQUARE photoreal evidence photograph for an investigation game. It is one coherent close view of physical objects, with convincing materials, clear functional construction and natural depth. Setting: 1884 red sandstone desert survey compound, dark weathered timber and plain tarnished brass. No sea, green garden or modern plastic. Tight photograph from the shaded sandstone viewing gallery of a large brass plumb bob hanging motionless from a thin taut black line beside a straight dark timber rail. Through the arch beyond, the dry stone court is divided into four sections around fixed stone centers. The plumb line and rail dominate, believable brass patina and sandstone, sunlit red desert outside. No paper, charts, grids or writing. Compose for equal width and height with main evidence in center. No people, hands, body parts, faces, human reflections, animals, readable or unreadable writing, numbers, labels, logos, signs, symbols, drawings, diagrams, arrows, UI, collage or borders. Realistic photograph, no 3D render or illustration. Do not show results of an experiment that has not happened.",
+    "scene": "survey_grid",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Plumb bob hangs clear of fixed timber rail, dry four-part court visible behind. No test movement depicted.",
+      "peopleTextGraphics": "None observed",
+      "approvalBoundary": "Project visual QA only, not owner approval."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/tile_plan.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c1f99b276eb2a6f77a9c6b933f7fe7b36b1129d8011525953acd5be42df4e019",
+    "sourcePath": "source-assets/evidence/sand-map/tile_plan.png",
+    "sourceSha256": "59f30475cbfb9bc2fc11e079fd700ca73e2df0e25c9e149a34af0897d4be1dfc",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Make one small correction to the wooden tile at the REAR RIGHT, directly above the brass dividers. Its existing L-shaped groove has a horizontal leg that stops short of the right side edge. Extend that horizontal leg straight through the remaining strip of wood to the RIGHT OUTER EDGE, making a clearly open notch through the side. Keep its existing front-edge opening and single right-angle turn unchanged. Do not add a turn. The result is one L-shaped channel open at its front edge and right edge. Every other tile, object, texture, lighting and native square composition stays unchanged.",
+    "scene": "tile_plan",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "All four physical wooden frames visibly have one right-angle bend and exactly two adjacent open edge exits. Foreground retained; rear straight/zigzag/closed ends corrected in three local edits. No text, diagrams, people or modern equipment observed.",
+      "approvalBoundary": "Project visual QA only.",
+      "auditCorrection": "Independent review rejected earlier rear-frame geometry. Final native output re-inspected after all three repairs."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/water_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "8af2e8ddc03858ea23cee508f6673faf4571b5903520eaff6dbc2501a72390d4",
+    "sourcePath": "source-assets/evidence/sand-map/water_test.png",
+    "sourceSha256": "981d7a966d7f643b71ebb2258ffca32410dca1cd4c56ceb8cd2b08cf0c21c749",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Make a native 1:1 SQUARE photoreal evidence photograph for an investigation game. It is one coherent close view of physical objects, with convincing materials, clear functional construction and natural depth. Setting: 1884 red sandstone desert survey compound, dark weathered timber and plain tarnished brass. No sea, green garden or modern plastic. Macro photograph of two tiny loose black mineral flakes on a dry red sandstone basin rim. The flakes have pale broken lower edges. Beside them, an unmarked slim glass water pipette rests on a folded linen pad, its clear water still contained and tip separated from the flakes. A small portable black mineral disk on its pale plinth is softly visible far behind inside basin. No wet smear, no water applied, dry test setup before action, warm desert light. Compose for equal width and height with main evidence in center. No people, hands, body parts, faces, human reflections, animals, readable or unreadable writing, numbers, labels, logos, signs, symbols, drawings, diagrams, arrows, UI, collage or borders. Realistic photograph, no 3D render or illustration. Do not show results of an experiment that has not happened.",
+    "scene": "water_test",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Two dry layered flakes beside clear-glass pipette, original core remains separate and intact behind. No applied water or result depicted.",
+      "peopleTextGraphics": "None observed",
+      "approvalBoundary": "Project visual QA only."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/wet_fragment.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c80750dba34ee9b32f656ffa944b40d3a3e2e46c9bb13254ad2371a72dc944fd",
+    "sourcePath": "source-assets/evidence/sand-map/wet_fragment.png",
+    "sourceSha256": "ccc2fdb8679b921f07be3ad7b3ccd396be701a0a50d55d24e940a9d76b95c113",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Make a native 1:1 SQUARE photoreal evidence photograph for an investigation game. It is one coherent close view of physical objects, with convincing materials, clear functional construction and natural depth. Setting: 1884 red sandstone desert survey compound, dark weathered timber and plain tarnished brass. No sea, green garden or modern plastic. Close photograph of a clean shallow white ceramic test dish on an 1884 sandstone alcove workbench. Exactly three separate tiny dry black crust grains lie apart, each visibly retaining a pale lower edge. A slender glass dropper holding clear water rests on a small wooden support BESIDE the dish, its tip away from the grains; NO water applied yet, no smear. Blank absorbent linen off to the side, warm window light, tactile material detail, sober scientific apparatus. Compose for equal width and height with main evidence in center. No people, hands, body parts, faces, human reflections, animals, readable or unreadable writing, numbers, labels, logos, signs, symbols, drawings, diagrams, arrows, UI, collage or borders. Realistic photograph, no 3D render or illustration. Do not show results of an experiment that has not happened.",
+    "scene": "wet_fragment",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Three separate dry grains with pale lower edges, water dropper still resting aside, white test dish. No result or dissolving depicted.",
+      "peopleTextGraphics": "None observed",
+      "approvalBoundary": "Project visual QA only."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/sand-map/wind_control.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "61ddedb95a6dcd03178eacf6621f15942fa092cf14fc4b214d1c12399c7583b4",
+    "sourcePath": "source-assets/evidence/sand-map/wind_control.png",
+    "sourceSha256": "6ab00b568429f65d644e4a71da2ca3ae7a36f308718db863594dce7d9a641bc4",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Make a native 1:1 SQUARE photoreal evidence photograph for an investigation game. It is one coherent close view of physical objects, with convincing materials, clear functional construction and natural depth. Setting: 1884 red sandstone desert survey compound, dark weathered timber and plain tarnished brass. No sea, green garden or modern plastic. On a dry sandstone parapet overlooking an arid red desert basin, a portable open fitted wooden sample case holds two identical empty clear glass air-sample flasks with removable ground-glass stoppers resting beside them. White blank narrow blotter strips kept separate in two small dishes. No deposits or condensation already collected. Close-up with lower basin blurred beyond. Apparatus ready for outside-versus-basin air comparison. Compose for equal width and height with main evidence in center. No people, hands, body parts, faces, human reflections, animals, readable or unreadable writing, numbers, labels, logos, signs, symbols, drawings, diagrams, arrows, UI, collage or borders. Realistic photograph, no 3D render or illustration. Do not show results of an experiment that has not happened.",
+    "scene": "wind_control",
+    "qa": {
+      "status": "accepted",
+      "method": "Native output visual inspection",
+      "notes": "Two separate empty flasks, stoppers and dry blotters visible, ready for matched samples. No completed collection depicted.",
+      "peopleTextGraphics": "None observed",
+      "approvalBoundary": "Project visual QA only, not owner approval."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  }
+]

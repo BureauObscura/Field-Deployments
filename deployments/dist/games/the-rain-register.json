@@ -1,0 +1,900 @@
+{
+  "version": 1,
+  "slug": "the-rain-register",
+  "title": "The Rain Register",
+  "number": "06",
+  "coordinate": "Weather installation / 18 October 2486 / 04:12",
+  "duration": "20–30 minutes",
+  "summary": "Release a suspended storm and choose which part can travel home.",
+  "motif": "storm",
+  "start": "airlock",
+  "intro": [
+    "You are a Bureau field agent at a weather installation in 2486. Recover a sample of its interrupted storm and a record of the sequence that produces it.",
+    "Beyond the airlock, a sheet of rain hangs above a dry floor. The droplets have formed. None reaches the drain. A ceramic recording ribbon is stationary on its rollers."
+  ],
+  "brief": [
+    "Enter the installation at the assigned coordinate, establish its condition and return with a physical sample.",
+    "The collector can preserve either the storm’s airborne stage or its liquid stage. Establish what each method retains before choosing.",
+    "Begin in the chamber: photograph the drops and seal an air sample before testing. Inspection and previews do not advance the main storm."
+  ],
+  "baseline": {
+    "location": "chamber",
+    "title": "Record the suspended rain",
+    "body": [
+      "You photograph the underside of the rain sheet against a fixed floor mark. During the observation, the drops hold their shape and height.",
+      "A sealed air tube takes a small sample from the walkway, outside the rain sheet. The air carries a faint dusty mineral note. The floor below remains dry.",
+      "You record the ribbon position and photograph the empty drain. These measurements will distinguish the interrupted condition from the weather you eventually release."
+    ],
+    "result": "The chamber-air control and first-condition photographs are packed.",
+    "inventory": [
+      "Sealed chamber-air control",
+      "Droplet-height photographs",
+      "Ribbon-position record"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "airlock",
+      "title": "Airlock",
+      "subtitle": "A dry plateau outside",
+      "image": "assets/scenes/the-rain-register/airlock.jpg",
+      "description": [
+        "Bare mineral ground stretches beyond the outer doorway under cloud. A pressure linkage runs from the chamber to an indicator inside.",
+        "A service passage connects the recorder, duct gallery and collection bench. The inner door opens onto the rain walkway."
+      ],
+      "sensory": {
+        "air": "Dry mineral air",
+        "contact": "Cool enamel door edge",
+        "residue": "Fine pale dust"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "outside_control",
+          "x": 52,
+          "y": 57,
+          "label": "Compare the outside air"
+        },
+        {
+          "evidence": "pressure_link",
+          "x": 18,
+          "y": 54,
+          "label": "Follow the pressure linkage"
+        }
+      ]
+    },
+    {
+      "id": "chamber",
+      "title": "Weather chamber",
+      "subtitle": "Rain above a dry floor",
+      "image": "assets/scenes/the-rain-register/chamber.jpg",
+      "description": [
+        "A rectangular rain sheet hangs well above the dry floor. A clear perimeter leads toward the drain.",
+        "The walkway keeps you outside the droplets. Four disconnected signal leads terminate at its service panel."
+      ],
+      "sensory": {
+        "air": "A faint charged, dusty note",
+        "contact": "Dry walkway rail",
+        "residue": "No water below the droplets"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "drop_trace",
+          "x": 56,
+          "y": 43,
+          "label": "Inspect the droplet layers"
+        },
+        {
+          "evidence": "stage_contacts",
+          "x": 17,
+          "y": 57,
+          "label": "Inspect the stage contacts"
+        }
+      ]
+    },
+    {
+      "id": "recorder",
+      "title": "Ribbon recorder",
+      "subtitle": "One original coating",
+      "image": "assets/scenes/the-rain-register/recorder.jpg",
+      "description": [
+        "A translucent ribbon passes over plain rollers. Broad cloudy bands alternate with fine lines. A contact head rests clear of the surface.",
+        "Beside it, an optical reader has a visibly wider aperture."
+      ],
+      "sensory": {
+        "air": "Dry ceramic and warm insulation",
+        "contact": "Smooth roller housing",
+        "residue": "A fine powder tray below the head"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "original_surface",
+          "x": 40,
+          "y": 50,
+          "label": "Examine the original ribbon"
+        },
+        {
+          "evidence": "wear_test",
+          "x": 57,
+          "y": 38,
+          "label": "Test the service strip"
+        }
+      ]
+    },
+    {
+      "id": "duct",
+      "title": "Duct gallery",
+      "subtitle": "The air before rain",
+      "image": "assets/scenes/the-rain-register/duct.jpg",
+      "description": [
+        "A narrow dust band hangs across an open duct. A capped sampling port sits before the chamber inlet.",
+        "A sequence rail links the pressure bellows and wind vane beneath a service cover."
+      ],
+      "sensory": {
+        "air": "Sharp mineral dust",
+        "contact": "Cool metal duct seam",
+        "residue": "A suspended band inside the duct"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "air_phase",
+          "x": 70,
+          "y": 67,
+          "label": "Inspect the air collection port"
+        },
+        {
+          "evidence": "order_rail",
+          "x": 35,
+          "y": 47,
+          "label": "Trace the first two stages"
+        }
+      ]
+    },
+    {
+      "id": "drain",
+      "title": "Drain trench",
+      "subtitle": "The water after impact",
+      "image": "assets/scenes/the-rain-register/drain.jpg",
+      "description": [
+        "A single drop hangs over the dry trench. Its grate is displaced beside an unused mineral tray.",
+        "The linkage below connects an impact plate to the runoff float. There is no standing reservoir to sample."
+      ],
+      "sensory": {
+        "air": "Bare mineral floor",
+        "contact": "Dry ceramic grate",
+        "residue": "Pale sediment in an unused tray"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "water_phase",
+          "x": 68,
+          "y": 57,
+          "label": "Inspect the water collection port"
+        },
+        {
+          "evidence": "drain_interlock",
+          "x": 53,
+          "y": 46,
+          "label": "Trace the last two stages"
+        }
+      ]
+    },
+    {
+      "id": "bench",
+      "title": "Collection bench",
+      "subtitle": "One coupling, two methods",
+      "image": "assets/scenes/the-rain-register/bench.jpg",
+      "description": [
+        "A spare cartridge, air tube and condenser share the collection bench. Both collectors fit one coupling.",
+        "The enclosed preview channel returns its test air and water to a reservoir. It can reset without releasing the main storm."
+      ],
+      "sensory": {
+        "air": "Clean glass and cool metal",
+        "contact": "Firm collector coupling",
+        "residue": "Blank cartridge beside the case"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "copy_trial",
+          "x": 21,
+          "y": 61,
+          "label": "Compare an optical copy"
+        },
+        {
+          "evidence": "service_spool",
+          "x": 49,
+          "y": 66,
+          "label": "Inspect the two playback paths"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "outside_control",
+      "title": "The weather stays inside",
+      "location": "airlock",
+      "kind": "Controlled sample",
+      "body": [
+        "After the baseline, you compare equal air samples at the outer window and inside the chamber. The outside sample has ordinary dry mineral dust; the chamber sample has a sharper edge.",
+        "You repeat the comparison. Nothing falls outside, and the difference remains. The exterior air cannot substitute for the interrupted storm."
+      ],
+      "excerpt": "The plateau gives a control, not a storm sample.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/outside_control.jpg",
+        "alt": "Two empty glass sampling cylinders beside the airlock, with dry mineral ground outside.",
+        "caption": "Matching cylinders are ready for the outside and chamber air."
+      },
+      "examination": {
+        "lead": "Two matching cylinders sit beside the outer doorway. The plateau beyond is dry.",
+        "action": "Compare the two air samples"
+      }
+    },
+    {
+      "id": "pressure_link",
+      "title": "Pressure releases the wind",
+      "location": "airlock",
+      "kind": "Mechanism examination",
+      "body": [
+        "The pressure bellows holds the wind contact shut. As pressure falls, its linkage will release that contact; raising pressure holds it closed.",
+        "The wind contact then supplies the droplet contact. Neither path reaches the runoff relay directly. The order begins with falling pressure, followed by dry wind."
+      ],
+      "excerpt": "Falling pressure must come before dry wind.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/pressure_link.jpg",
+        "alt": "A pressure bellows connected by a lever to a closed contact inside the airlock housing.",
+        "caption": "Bellows, linkage and wind contact."
+      },
+      "examination": {
+        "lead": "A short lever joins the pressure bellows to a closed contact. Its pivot is exposed.",
+        "action": "Trace the bellows linkage"
+      }
+    },
+    {
+      "id": "drop_trace",
+      "title": "The last drops have not fallen",
+      "location": "chamber",
+      "kind": "Observation",
+      "body": [
+        "The lower drops are suspended above the impact plate. Fine dry dust lies beneath them without a splash mark.",
+        "Beyond the plate, the runoff float remains down. A drop must strike before water can reach that float. Droplet formation therefore precedes runoff."
+      ],
+      "excerpt": "First drops must precede runoff.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/drop_trace.jpg",
+        "alt": "Water droplets hang above a dusty impact plate; a float rests in the dry channel beyond.",
+        "caption": "Drops above the untouched impact plate."
+      },
+      "examination": {
+        "lead": "The lowest drops hang over a metal plate. Fine dust covers the surface beneath them.",
+        "action": "Examine the drops and impact plate"
+      }
+    },
+    {
+      "id": "stage_contacts",
+      "title": "Wind comes before the drops",
+      "location": "chamber",
+      "kind": "Mechanism examination",
+      "body": [
+        "The droplet circuit is fed through a vane contact in the inlet duct. The vane must move before the droplet lead receives a signal.",
+        "The pressure, wind, droplet and runoff leads can be reconnected at the recorder. Their mismatched positions account for the stopped sequence without requiring a missing fifth stage."
+      ],
+      "excerpt": "The four available stages are sufficient; wind must precede drops.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/stage_contacts.jpg",
+        "alt": "Four disconnected signal leads beside a vane-operated contact in the walkway service panel.",
+        "caption": "The four leads and the vane contact."
+      },
+      "examination": {
+        "lead": "Four leads lie disconnected at the walkway panel. A vane contact feeds one terminal.",
+        "action": "Follow the vane contact"
+      }
+    },
+    {
+      "id": "original_surface",
+      "title": "Fine bands in one coating",
+      "location": "recorder",
+      "kind": "Material examination",
+      "body": [
+        "Magnification shows a single recorded coating. Its fine bands are narrower than the optical reader’s aperture; the contact head can follow them individually.",
+        "No second recorded layer lies below. The powder tray is positioned to receive the coating as the contact head passes. A complete contact run would spend this original."
+      ],
+      "excerpt": "Contact playback resolves the fine bands and removes the only recorded coating.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/original_surface.jpg",
+        "alt": "Fine bands in one coating on a translucent ribbon, beside a narrow contact head and wider optical aperture.",
+        "caption": "Original ribbon, contact head and optical aperture."
+      },
+      "examination": {
+        "lead": "Fine bands cross the ribbon between wider cloudy strips. Two different readers sit above it.",
+        "action": "Compare the bands with both readers"
+      }
+    },
+    {
+      "id": "wear_test",
+      "title": "A full pass leaves bare ceramic",
+      "location": "recorder",
+      "kind": "Repeatable service test",
+      "body": [
+        "You run the head over a replaceable service strip with the same coating and band widths. Its fine signal survives through the contact read, then the strip emerges bare.",
+        "A second strip repeats the result. The optical reader leaves a control strip intact but merges its narrow bands. You return the head clear of the original."
+      ],
+      "excerpt": "Contact reads the full detail once; optical copying loses fine detail.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/wear_test.jpg",
+        "alt": "Untested coated service strips beneath a raised contact head, with an optical reader beside them.",
+        "caption": "Replaceable strips ready for the wear test."
+      },
+      "examination": {
+        "lead": "The raised head sits over a replaceable strip. An untouched control strip waits beside the optical reader.",
+        "action": "Run the service-strip test"
+      }
+    },
+    {
+      "id": "air_phase",
+      "title": "A sample before the first impact",
+      "location": "duct",
+      "kind": "Collection examination",
+      "body": [
+        "The air port sits downstream of the dust band and upstream of the first drops. Its tube opens only during the dry-wind stage, then seals before water enters.",
+        "It will retain the sharp mineral air that precedes impact. The coupling cannot hold this tube and the condenser together. Later liquid will go to the drain."
+      ],
+      "excerpt": "The air tube captures the dry-wind stage and excludes the later water.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/air_phase.jpg",
+        "alt": "A closed air-sampling port and empty glass tube below the dust band in the duct.",
+        "caption": "Air port before the first drops."
+      },
+      "examination": {
+        "lead": "A capped port sits beside the dust band. The empty air tube fits its coupling.",
+        "action": "Examine the air port and tube"
+      }
+    },
+    {
+      "id": "order_rail",
+      "title": "Pressure, then wind, then drops",
+      "location": "duct",
+      "kind": "Mechanism examination",
+      "body": [
+        "The sequence rail starts at the pressure bellows. Its first latch releases the wind vane; the vane’s latch releases the droplet contact.",
+        "The rail has no route that bypasses either latch. Read from the start, its three stages are falling pressure, dry wind, then first drops."
+      ],
+      "excerpt": "Pressure fall → dry wind → first drops.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/order_rail.jpg",
+        "alt": "A pressure bellows, vane shaft and droplet contact joined by two mechanical latches.",
+        "caption": "The exposed sequence rail."
+      },
+      "examination": {
+        "lead": "The service cover exposes a rail with two latches. Both rods are visible from end to end.",
+        "action": "Trace the two latches"
+      }
+    },
+    {
+      "id": "water_phase",
+      "title": "A sample after the first impact",
+      "location": "drain",
+      "kind": "Collection examination",
+      "body": [
+        "The condenser coupling opens from the runoff float. It collects droplets and liquid only after rain reaches the mineral floor.",
+        "The sample will carry the wet mineral fraction. By then the sharp airborne onset has passed the air port. Fitting the condenser commits the one coupling to this later stage."
+      ],
+      "excerpt": "The condenser captures the wet fraction after impact and misses the earlier air.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/water_phase.jpg",
+        "alt": "An empty glass condenser beside a closed coupling linked to the lowered float in a dry trench.",
+        "caption": "Water collector beside the runoff float."
+      },
+      "examination": {
+        "lead": "The empty condenser rests beside a coupling. A rod connects the coupling to the float below.",
+        "action": "Trace the water collector connection"
+      }
+    },
+    {
+      "id": "drain_interlock",
+      "title": "Runoff is the final stage",
+      "location": "drain",
+      "kind": "Mechanism examination",
+      "body": [
+        "The impact plate releases the runoff float only after the wind vane has released the droplet contact. The pressure linkage sits ahead of that vane.",
+        "Tracing the entire chain gives falling pressure, dry wind, first drops, then runoff. Moving the final contact earlier would leave it waiting for water that has not arrived."
+      ],
+      "excerpt": "The chain ends with runoff after the first drops.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/drain_interlock.jpg",
+        "alt": "An impact plate linked through a spring latch to a float resting in a dry ceramic channel.",
+        "caption": "The final latch above the runoff float."
+      },
+      "examination": {
+        "lead": "A rod runs beneath the impact plate to a latch beside the lowered float.",
+        "action": "Trace the plate-to-float latch"
+      }
+    },
+    {
+      "id": "copy_trial",
+      "title": "The spare retains broad changes",
+      "location": "bench",
+      "kind": "Repeatable optical test",
+      "body": [
+        "You scan the original without contact and preview the scan in the closed service channel. Broad changes survive, but closely spaced bands merge. The output has weaker gusts and coarser drops.",
+        "The original remains unmarked. The service channel resets without loss. A spare cartridge could run this reduced pattern while the original and main suspended rain remain intact."
+      ],
+      "excerpt": "A noncontact copy preserves the original but produces a less detailed storm.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/copy_trial.jpg",
+        "alt": "An optical reader held above the intact ribbon, with a blank cartridge and idle service channel beside it.",
+        "caption": "Noncontact reader and blank cartridge."
+      },
+      "examination": {
+        "lead": "The optical head clears the ribbon. A blank cartridge waits beside the closed service channel.",
+        "action": "Scan and preview the spare cartridge"
+      }
+    },
+    {
+      "id": "service_spool",
+      "title": "Separate original and copy paths",
+      "location": "bench",
+      "kind": "Mechanism examination",
+      "body": [
+        "The original contact path drives the main chamber and removes the recording’s single coating. Its narrow head can resolve every visible band.",
+        "The optical path feeds the smaller service channel. A spare cartridge can retain only the wider bands its reader resolves. It cannot drive the full chamber or reproduce every original fluctuation."
+      ],
+      "excerpt": "The original yields one complete storm; a spare yields a reduced service-channel storm.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-rain-register/service_spool.jpg",
+        "alt": "A narrow contact reader and a separate wide optical reader lead to different playback housings.",
+        "caption": "Separate original and spare playback paths."
+      },
+      "examination": {
+        "lead": "Two cables leave the bench by separate routes. One begins at the contact head, the other at the optical reader.",
+        "action": "Follow both playback paths"
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "sequence",
+      "title": "The storm has one physical order",
+      "question": "Which sequence can carry the storm all the way to runoff?",
+      "pairs": [
+        [
+          "order_rail",
+          "drop_trace"
+        ],
+        [
+          "pressure_link",
+          "drain_interlock"
+        ]
+      ],
+      "success": "Falling pressure releases dry wind. Wind releases the first drops. Impact then permits runoff. Reconnect those four stages in that order.",
+      "hints": [
+        "Start with the linkage that holds the wind contact closed.",
+        "Combine the first three stages with the mechanism beneath the drain.",
+        "Connect Pressure, then wind, then drops with The last drops have not fallen, or Pressure releases the wind with Runoff is the final stage."
+      ]
+    },
+    {
+      "id": "record",
+      "title": "Fidelity spends the original",
+      "question": "What does contact playback recover that the spare cannot?",
+      "pairs": [
+        [
+          "original_surface",
+          "wear_test"
+        ],
+        [
+          "copy_trial",
+          "service_spool"
+        ]
+      ],
+      "success": "The original can produce one complete storm with its fine fluctuations. Contact playback spends its coating. Optical copying preserves it but loses the narrow bands and uses the smaller service channel.",
+      "hints": [
+        "Compare what each reader can resolve and what remains after it passes.",
+        "One service test measures wear; another compares an optical copy.",
+        "Connect Fine bands in one coating with A full pass leaves bare ceramic, or The spare retains broad changes with Separate original and copy paths."
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "recording",
+      "title": "Choose the playback source",
+      "location": "recorder",
+      "requires": {
+        "deductions": [
+          "record"
+        ]
+      },
+      "intro": [
+        "Both paths can run the corrected sequence. Choose which recording will supply the recovery. The head stays raised until the final collection."
+      ],
+      "options": [
+        {
+          "id": "original",
+          "label": "Prepare the original",
+          "description": "Thread the original through the raised contact head.",
+          "cost": "The final run will spend the only original coating.",
+          "result": [
+            "You align the original beneath the head without lowering it. The full chamber is ready for the final run."
+          ],
+          "sceneNote": "The original is aligned; its contact head remains raised.",
+          "epilogues": {}
+        },
+        {
+          "id": "copy",
+          "label": "Prepare an optical spare",
+          "description": "Copy the broad pattern into a spare cartridge for the service channel.",
+          "cost": "The copy loses fine fluctuations and produces a weaker sample.",
+          "result": [
+            "You scan the original without contact and seat the spare in the service reader. The original stays intact."
+          ],
+          "sceneNote": "A spare cartridge is seated beside the untouched original.",
+          "epilogues": {}
+        }
+      ]
+    },
+    {
+      "id": "collector",
+      "title": "Choose which phase to recover",
+      "location": "bench",
+      "requires": {
+        "evidence": [
+          "air_phase",
+          "water_phase"
+        ]
+      },
+      "intro": [
+        "There is one collector coupling. The tube captures air before impact; the condenser captures water afterward. Fit one and leave it closed until collection."
+      ],
+      "options": [
+        {
+          "id": "air",
+          "label": "Fit the air tube",
+          "description": "Collect the dry-wind stage before the drops fall.",
+          "cost": "The wet mineral fraction will pass to the drain.",
+          "result": [
+            "You fit the air tube and check its seal. Its inlet is still closed."
+          ],
+          "sceneNote": "A sealed air tube occupies the collection coupling.",
+          "epilogues": {}
+        },
+        {
+          "id": "water",
+          "label": "Fit the condenser",
+          "description": "Collect the wet fraction after the drops reach the floor.",
+          "cost": "The sharp airborne onset will pass before collection begins.",
+          "result": [
+            "You fit the condenser and seat its empty vial. The float-controlled inlet remains closed."
+          ],
+          "sceneNote": "An empty condenser vial occupies the collection coupling.",
+          "epilogues": {}
+        }
+      ]
+    }
+  ],
+  "puzzle": {
+    "id": "weather_order",
+    "title": "Reconnect the weather sequence",
+    "location": "recorder",
+    "type": "sequence",
+    "intro": [
+      "Arrange the four signal stages from first to last. Each stage appears once. The service preview will show whether the next physical condition is available.",
+      "Preview tests use the closed service channel and do not touch the original coating or release the main rain. The final playback source is selected separately."
+    ],
+    "requires": {
+      "deductions": [
+        "sequence"
+      ],
+      "evidence": [
+        "stage_contacts"
+      ]
+    },
+    "controls": [
+      {
+        "id": "step1",
+        "label": "Stage 1",
+        "options": [
+          {
+            "value": "pressure",
+            "label": "Falling pressure",
+            "feedback": "The pressure bellows releases its latch."
+          },
+          {
+            "value": "wind",
+            "label": "Dry wind",
+            "feedback": "The vane moves in the inlet duct."
+          },
+          {
+            "value": "drops",
+            "label": "First drops",
+            "feedback": "Droplets reach the impact plate."
+          },
+          {
+            "value": "runoff",
+            "label": "Runoff",
+            "feedback": "Liquid raises the drain float."
+          }
+        ]
+      },
+      {
+        "id": "step2",
+        "label": "Stage 2",
+        "options": [
+          {
+            "value": "pressure",
+            "label": "Falling pressure",
+            "feedback": "The pressure bellows releases its latch."
+          },
+          {
+            "value": "wind",
+            "label": "Dry wind",
+            "feedback": "The vane moves in the inlet duct."
+          },
+          {
+            "value": "drops",
+            "label": "First drops",
+            "feedback": "Droplets reach the impact plate."
+          },
+          {
+            "value": "runoff",
+            "label": "Runoff",
+            "feedback": "Liquid raises the drain float."
+          }
+        ]
+      },
+      {
+        "id": "step3",
+        "label": "Stage 3",
+        "options": [
+          {
+            "value": "pressure",
+            "label": "Falling pressure",
+            "feedback": "The pressure bellows releases its latch."
+          },
+          {
+            "value": "wind",
+            "label": "Dry wind",
+            "feedback": "The vane moves in the inlet duct."
+          },
+          {
+            "value": "drops",
+            "label": "First drops",
+            "feedback": "Droplets reach the impact plate."
+          },
+          {
+            "value": "runoff",
+            "label": "Runoff",
+            "feedback": "Liquid raises the drain float."
+          }
+        ]
+      },
+      {
+        "id": "step4",
+        "label": "Stage 4",
+        "options": [
+          {
+            "value": "pressure",
+            "label": "Falling pressure",
+            "feedback": "The pressure bellows releases its latch."
+          },
+          {
+            "value": "wind",
+            "label": "Dry wind",
+            "feedback": "The vane moves in the inlet duct."
+          },
+          {
+            "value": "drops",
+            "label": "First drops",
+            "feedback": "Droplets reach the impact plate."
+          },
+          {
+            "value": "runoff",
+            "label": "Runoff",
+            "feedback": "Liquid raises the drain float."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "step1": "pressure",
+      "step2": "wind",
+      "step3": "drops",
+      "step4": "runoff"
+    },
+    "hints": [
+      "Start with the cause that releases the wind.",
+      "Drops need the wind contact; runoff needs impact.",
+      "Set falling pressure, dry wind, first drops, then runoff."
+    ],
+    "success": [
+      "The preview completes all four stages. Its small test drops reach the return reservoir, and the service channel resets.",
+      "The signal leads now follow the physical chain. The original coating is still unspent, and the main rain remains suspended until final collection."
+    ],
+    "failure": "A stage is waiting for a condition that has not occurred, or appears twice. Trace each latch from falling pressure to runoff. The preview resets without changing the original."
+  },
+  "endings": [
+    {
+      "id": "onset",
+      "title": "Before the first drop",
+      "subtitle": "Complete airborne onset",
+      "requires": {
+        "deductions": [
+          "sequence",
+          "record"
+        ],
+        "puzzle": true,
+        "choices": {
+          "recording": [
+            "original"
+          ],
+          "collector": [
+            "air"
+          ]
+        }
+      },
+      "locked": "Correct the sequence, establish both deductions, and prepare the original with the air tube.",
+      "action": "Lower the contact head and collect the original storm’s dry-wind stage.",
+      "consequence": "The full sequence will consume the original coating. Its later water will drain without collection.",
+      "body": [
+        "You lower the head. The chamber pressure falls and the suspended dust moves. The air tube opens into a sharp mineral gust, then seals as the first drops descend.",
+        "Rain reaches the floor. The smell softens into wet stone after your tube has closed. Water runs through the trench while the recording leaves the head as bare ceramic.",
+        "You photograph the emptied chamber and pack the spent ribbon with the sealed tube. The full onset is recovered; the wet fraction remains a field observation.",
+        "You return to the Bureau with the sample, baseline control and playback record. The original storm cannot be repeated from its spent coating."
+      ],
+      "recovered": [
+        "Original-storm air tube",
+        "Spent original ribbon",
+        "Baseline control and playback record"
+      ],
+      "siteStatus": "Main storm completed; original spent.",
+      "sensory": {
+        "air": "Sharp mineral air before rain",
+        "contact": "Sealed collector in its carrier",
+        "residue": "Bare ceramic recording surface"
+      }
+    },
+    {
+      "id": "fall",
+      "title": "Rain to the floor",
+      "subtitle": "Complete wet fraction",
+      "requires": {
+        "deductions": [
+          "sequence",
+          "record"
+        ],
+        "puzzle": true,
+        "choices": {
+          "recording": [
+            "original"
+          ],
+          "collector": [
+            "water"
+          ]
+        }
+      },
+      "locked": "Correct the sequence, establish both deductions, and prepare the original with the condenser.",
+      "action": "Play the original through the condenser and collect the water after impact.",
+      "consequence": "The full sequence will consume the original. The early airborne onset will pass before the condenser opens.",
+      "body": [
+        "The contact head settles onto the original. A dry gust crosses the chamber before the condenser inlet opens. Then the suspended rain falls together and strikes the mineral floor.",
+        "The float rises. Water enters the vial with a strong wet-stone scent and fine pale sediment. The condenser closes at the end of runoff.",
+        "You photograph the wet trench and the bare ribbon. The liquid preserves the full storm’s wet stage, while its sharp onset survives only in your observation.",
+        "At the Bureau, the vial and baseline control arrive with the spent ribbon. The record identifies the stage recovered and the original coating consumed to obtain it."
+      ],
+      "recovered": [
+        "Original-storm water and sediment",
+        "Spent original ribbon",
+        "Baseline control and playback record"
+      ],
+      "siteStatus": "Main storm completed; original spent.",
+      "sensory": {
+        "air": "Wet mineral floor",
+        "contact": "Sealed collector in its carrier",
+        "residue": "Pale sediment in collected rain"
+      }
+    },
+    {
+      "id": "spare_air",
+      "title": "A spare gust",
+      "subtitle": "Reduced airborne onset",
+      "requires": {
+        "deductions": [
+          "sequence",
+          "record"
+        ],
+        "puzzle": true,
+        "choices": {
+          "recording": [
+            "copy"
+          ],
+          "collector": [
+            "air"
+          ]
+        }
+      },
+      "locked": "Correct the sequence, establish both deductions, and prepare the spare with the air tube.",
+      "action": "Play the optical spare in the service channel and collect its dry-wind stage.",
+      "consequence": "The original stays intact. The sample will lack fine fluctuations that the optical copy could not retain.",
+      "body": [
+        "The spare passes through the service reader. A smaller pressure change releases a short gust into the air tube. The reduced pattern carries a faint, sharp mineral note.",
+        "The tube seals before the service drops fall. Their water returns to the enclosed reservoir. Beyond the bench, the main sheet of rain remains suspended.",
+        "You remove the spare cartridge and pack it with the tube. The original remains on its rollers with the contact head raised. Its fine bands are still visible.",
+        "You return to the Bureau with a usable reduced sample, the spare and your baseline record. The recovery preserves the original for a later full run, while documenting the detail this copy omitted."
+      ],
+      "recovered": [
+        "Service-storm air tube",
+        "Optical spare cartridge",
+        "Baseline control and fidelity comparison"
+      ],
+      "siteStatus": "Original intact; main rain still suspended.",
+      "sensory": {
+        "air": "A short mineral gust",
+        "contact": "Sealed collector in its carrier",
+        "residue": "Fine bands retained at the site"
+      }
+    },
+    {
+      "id": "spare_water",
+      "title": "A small fall of rain",
+      "subtitle": "Reduced wet fraction",
+      "requires": {
+        "deductions": [
+          "sequence",
+          "record"
+        ],
+        "puzzle": true,
+        "choices": {
+          "recording": [
+            "copy"
+          ],
+          "collector": [
+            "water"
+          ]
+        }
+      },
+      "locked": "Correct the sequence, establish both deductions, and prepare the spare with the condenser.",
+      "action": "Play the optical spare in the service channel and condense its wet stage.",
+      "consequence": "The original stays intact. The smaller output and merged bands will limit the recovered wet fraction.",
+      "body": [
+        "You start the spare cartridge. Pressure falls in the service channel and a short dry gust passes the closed condenser. Coarse drops follow and strike the small mineral plate.",
+        "The float opens the condenser. A shallow measure reaches the vial, carrying a faint wet-stone note. The irregular fine pulses of the original are absent from this run.",
+        "You seal the vial and remove the spare cartridge. The main chamber is unchanged. Its suspended drops and original ribbon remain available at the recorded coordinate.",
+        "You return to the Bureau with the reduced wet sample and the cartridge that produced it. The baseline and comparison record distinguish its limited fidelity from the unspent original."
+      ],
+      "recovered": [
+        "Service-storm condensate",
+        "Optical spare cartridge",
+        "Baseline control and fidelity comparison"
+      ],
+      "siteStatus": "Original intact; main rain still suspended.",
+      "sensory": {
+        "air": "Faint wet mineral plate",
+        "contact": "Sealed collector in its carrier",
+        "residue": "Small pale deposit in the vial"
+      }
+    }
+  ]
+}

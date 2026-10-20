@@ -1,0 +1,873 @@
+{
+  "version": 1,
+  "slug": "the-dry-tide",
+  "title": "The Dry Tide",
+  "number": "05",
+  "coordinate": "Coastal cistern / 246 BCE / before sunrise",
+  "duration": "20–30 minutes",
+  "summary": "Water rises above a dry stone basin, carrying a different scent at each level.",
+  "motif": "water",
+  "start": "stair",
+  "intro": [
+    "You are a Bureau field agent in a coastal cistern in 246 BCE, before sunrise. Recover the water’s changing scent and establish what a collection will cost the site.",
+    "A ring of water hangs above an almost dry basin. It sinks into the stone, then rises again. Resin reaches you first, followed by fermented sweetness and wet limestone."
+  ],
+  "brief": [
+    "The coordinate identifies this assignment. Establish the cistern’s physical rules without supplying an explanation for its origin.",
+    "Water, suspended particles and mineral deposits may preserve different parts of the scent. Your kit offers separate receivers, a common flask and a linen strainer.",
+    "Begin at the basin. Seal a scent blotter, photograph the rise and fall, and measure the water before operating a gate. The tide repeats while you investigate."
+  ],
+  "baseline": {
+    "location": "basin",
+    "title": "Record one untouched tide",
+    "body": [
+      "You remain on the dry perimeter and photograph a full rise and fall. The water returns to the same mark. No channel has yet been opened.",
+      "You hold a fresh blotter above the basin without touching it. Resin arrives while the ring is low, a dark fruit smell follows, and wet stone remains after the water sinks. You seal the blotter and mark the order.",
+      "The receiving well holds nine marked measures at the high point. You record its level against your survey rod without removing any water."
+    ],
+    "result": "Untouched tide recorded. The scent order and original water level are on file.",
+    "inventory": [
+      "Sealed tide blotter",
+      "Rise-and-fall photographs",
+      "Nine-measure level record"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "stair",
+      "title": "The descending stair",
+      "subtitle": "Daylight ends at the lower arch",
+      "image": "assets/scenes/the-dry-tide/stair.jpg",
+      "description": [
+        "Pale steps descend beneath a low limestone arch. A lamp throws amber light across the landing.",
+        "Shallow channels pass under the stair toward the basin. Nothing flows toward the entrance. The sea is audible beyond the rock."
+      ],
+      "sensory": {
+        "air": "Salt air giving way to cedar resin.",
+        "contact": "Cool limestone worn smooth at the step edges.",
+        "residue": "Pale mineral dust in the dry corners."
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "stairs_plan",
+          "x": 66,
+          "y": 70,
+          "label": "Follow the stone channels"
+        },
+        {
+          "evidence": "dry_edge",
+          "x": 40,
+          "y": 85,
+          "label": "Examine the dry perimeter"
+        }
+      ]
+    },
+    {
+      "id": "basin",
+      "title": "The raised water",
+      "subtitle": "A tide with no incoming stream",
+      "image": "assets/scenes/the-dry-tide/basin.jpg",
+      "description": [
+        "A thin water ring stands above the basin. Through its clear edge you can see the stone beneath. The surrounding floor is dry.",
+        "The ring lowers into the central stone, then begins to rise again. The movement repeats at the same pace."
+      ],
+      "sensory": {
+        "air": "Resin, then dark fruit, then wet stone.",
+        "contact": "Cold dampness on the basin rim.",
+        "residue": "A faint brown line below the highest water mark."
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "tide_marks",
+          "x": 60,
+          "y": 50,
+          "label": "Watch the three scent changes"
+        },
+        {
+          "evidence": "drawdown",
+          "x": 49,
+          "y": 59,
+          "label": "Measure a small withdrawal"
+        }
+      ]
+    },
+    {
+      "id": "channels",
+      "title": "The channel gallery",
+      "subtitle": "A collector that can return its water",
+      "image": "assets/scenes/the-dry-tide/channels.jpg",
+      "description": [
+        "A bronze slide selects among three inlet grooves. Beyond it, a stone wedge narrows the flow toward the sampling ledge.",
+        "The final gate leads toward either the basin or a blind trough. A catch tray allows small tests without losing water."
+      ],
+      "sensory": {
+        "air": "Wet stone with a thin trace of resin.",
+        "contact": "A bronze slide moves against gritty stone.",
+        "residue": "Clay gathered below the lowest groove."
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "gate_height",
+          "x": 70,
+          "y": 46,
+          "label": "Compare the inlet grooves"
+        },
+        {
+          "evidence": "flow_gap",
+          "x": 58,
+          "y": 40,
+          "label": "Examine the narrow throat"
+        }
+      ]
+    },
+    {
+      "id": "shelf",
+      "title": "The mineral shelf",
+      "subtitle": "What the water leaves behind",
+      "image": "assets/scenes/the-dry-tide/shelf.jpg",
+      "description": [
+        "Amber flecks sit in the lower mineral ridges. The highest deposit is pale and chalky.",
+        "Your clean linen and sample tile lie beside the deposits. A filter could retain material that currently travels with the water."
+      ],
+      "sensory": {
+        "air": "Dry clay and a faint fermented sweetness.",
+        "contact": "Raised mineral lines beneath a gloved fingertip.",
+        "residue": "Amber flecks embedded in pale deposits."
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "salt_layers",
+          "x": 62,
+          "y": 31,
+          "label": "Read the mineral ridges"
+        },
+        {
+          "evidence": "filter_trial",
+          "x": 44,
+          "y": 54,
+          "label": "Test a linen strip"
+        }
+      ]
+    },
+    {
+      "id": "receivers",
+      "title": "The sampling ledge",
+      "subtitle": "One fitting, two ways to keep the tide",
+      "image": "assets/scenes/the-dry-tide/receivers.jpg",
+      "description": [
+        "Your case opens on a dry stone ledge. The three-vial rack and common flask share one receiver fitting.",
+        "The vials can close between scent changes. The flask takes a continuous flow. Both are empty."
+      ],
+      "sensory": {
+        "air": "Clean glass and the damp air of the cistern.",
+        "contact": "Dry cloth beneath the receiver fitting.",
+        "residue": "A few drops on the outside of the empty catch tray."
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "receiver_rack",
+          "x": 42,
+          "y": 53,
+          "label": "Check the separate receivers"
+        },
+        {
+          "evidence": "common_flask",
+          "x": 57,
+          "y": 57,
+          "label": "Check the common flask"
+        }
+      ]
+    },
+    {
+      "id": "return",
+      "title": "The uphill return",
+      "subtitle": "The water goes back into the wall",
+      "image": "assets/scenes/the-dry-tide/return.jpg",
+      "description": [
+        "Water climbs a short stone lip into a dark wall opening. A pale rind follows its highest line.",
+        "You can reach the loose deposit from the dry ledge. It records what the tide leaves behind."
+      ],
+      "sensory": {
+        "air": "Mineral dampness with a dry resin edge.",
+        "contact": "A sharp salt ridge above smooth wet stone.",
+        "residue": "A narrow copper-brown ribbon in the returning water."
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "return_lip",
+          "x": 80,
+          "y": 50,
+          "label": "Watch the uphill return"
+        },
+        {
+          "evidence": "salt_crust",
+          "x": 76,
+          "y": 35,
+          "label": "Examine the dry salt rind"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "stairs_plan",
+      "title": "One closed water circuit",
+      "location": "stair",
+      "kind": "Site plan",
+      "body": [
+        "The channels join the sampling gallery to the basin. The outer trough ends in solid stone. There is no visible inlet from the sea or above.",
+        "Diverted water can return through the wall opening or remain in a container. Your sketch records every visible connection."
+      ],
+      "excerpt": "Diverted water comes from the same circulating supply.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/stairs_plan.jpg",
+        "alt": "A connected stone channel beside a side trough that ends in solid limestone.",
+        "caption": "Channel junction and the blind outer trough."
+      },
+      "examination": {
+        "lead": "One channel continues toward the basin. The outer trough ends against solid stone.",
+        "action": "Trace the visible water circuit"
+      }
+    },
+    {
+      "id": "dry_edge",
+      "title": "The perimeter stays dry",
+      "location": "stair",
+      "kind": "Surface observation",
+      "body": [
+        "Dust remains loose immediately outside the raised water ring. Nothing spills onto the surrounding floor.",
+        "When the ring sinks, a wet line appears only inside the rim. The water follows the same boundary each cycle."
+      ],
+      "excerpt": "The basin retains its water within a fixed circuit.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/dry_edge.jpg",
+        "alt": "Loose dry dust immediately beside the wet base of the raised water ring.",
+        "caption": "The wet boundary and untouched dust beside it."
+      },
+      "examination": {
+        "lead": "Loose dust reaches the edge of the ring. A dark wet line lies just inside it.",
+        "action": "Compare the wet and dry edges"
+      }
+    },
+    {
+      "id": "tide_marks",
+      "title": "Three changes in one rise",
+      "location": "basin",
+      "kind": "Scent observation",
+      "body": [
+        "You compare fresh blotters across a full rise: cedar-like resin, fermented sweetness, then mineral dampness.",
+        "A second comparison gives the same order. Combining the blotters produces a broad scent whose transitions are harder to distinguish."
+      ],
+      "excerpt": "Separate catches preserve an order that a mixed catch obscures.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/tide_marks.jpg",
+        "alt": "Three clean blotters on the basin rim before the compact water ring.",
+        "caption": "Fresh blotters prepared for one complete rise."
+      },
+      "examination": {
+        "lead": "Three fresh blotters lie apart on the rim. The ring continues its rise.",
+        "action": "Compare the three scent arrivals"
+      }
+    },
+    {
+      "id": "drawdown",
+      "title": "Removed water is not replaced",
+      "location": "basin",
+      "kind": "Measured withdrawal",
+      "body": [
+        "You take one measure into the catch tray. The next two rises stop one mark lower.",
+        "Returning the measure through the wall opening restores the original height. Nothing remains outside the circuit after your test."
+      ],
+      "excerpt": "The tide loses height in proportion to the water kept outside its circuit.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/drawdown.jpg",
+        "alt": "An empty catch tray and measuring cup beside the water ring and an unnumbered gauge.",
+        "caption": "Measurement kit before withdrawing any water."
+      },
+      "examination": {
+        "lead": "The catch tray is empty. The gauge stands beside the ring’s current height.",
+        "action": "Withdraw and return one measure"
+      }
+    },
+    {
+      "id": "gate_height",
+      "title": "The middle groove takes the changing layer",
+      "location": "channels",
+      "kind": "Inlet inspection",
+      "body": [
+        "The low groove opens into settled clay. The upper groove sits above the water for most of the rise. The middle groove meets the moving layer throughout.",
+        "An amber fleck passes the middle opening and enters the return. This inlet reaches all three arrivals without scraping the bed."
+      ],
+      "excerpt": "Use the middle inlet to reach the full moving layer.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/gate_height.jpg",
+        "alt": "Three inlet grooves: clay at the bottom, water crossing the middle, dry stone above.",
+        "caption": "The three inlet positions beside the bronze slide."
+      },
+      "examination": {
+        "lead": "Clay fills the lowest groove. Water passes the middle opening, below the upper groove.",
+        "action": "Compare the three inlet grooves"
+      }
+    },
+    {
+      "id": "flow_gap",
+      "title": "A narrow throat keeps the changes apart",
+      "location": "channels",
+      "kind": "Flow test",
+      "body": [
+        "Through the wide gap, the first two scent changes arrive together and water heaps against the tray.",
+        "The fine gap gives a thin stream with distinct arrivals. You return all test water. The narrow opening can pass a complete rise slowly."
+      ],
+      "excerpt": "The fine gap separates the arrivals; the wide gap mixes them.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/flow_gap.jpg",
+        "alt": "A movable stone wedge beside the channel throat and catch tray.",
+        "caption": "Adjustable throat before comparing the openings."
+      },
+      "examination": {
+        "lead": "The stone wedge sits beside the channel throat. A catch tray waits below.",
+        "action": "Compare the wide and fine gaps"
+      }
+    },
+    {
+      "id": "salt_layers",
+      "title": "Resin and clay travel with the water",
+      "location": "shelf",
+      "kind": "Deposit inspection",
+      "body": [
+        "Amber resin flecks and dark fragments occupy the lower mineral ridges. The highest deposit contains much less visible organic material.",
+        "You dampen loose flecks with a drop from your kit’s control-water bottle. They smell sweeter than the pale upper deposit. You seal these test fragments separately."
+      ],
+      "excerpt": "Suspended particles carry part of the richer scent.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/salt_layers.jpg",
+        "alt": "Amber flecks and dark fragments in lower mineral ridges beneath a paler upper deposit.",
+        "caption": "The deposits before the loose fragments are dampened."
+      },
+      "examination": {
+        "lead": "Amber flecks sit in the lower ridges. The upper crust is much paler.",
+        "action": "Dampen and compare loose deposits"
+      }
+    },
+    {
+      "id": "filter_trial",
+      "title": "The cloth keeps what the water loses",
+      "location": "shelf",
+      "kind": "Filter test",
+      "body": [
+        "You pass a small catch-tray portion through linen. Brown particles stay in the weave; the filtered water looks clearer and smells thinner.",
+        "You rinse the particles back into the tray and return the entire portion. The test is reversible because nothing is retained. Keeping the loaded cloth would permanently separate those particles from the tide."
+      ],
+      "excerpt": "Filtering preserves a residue while stripping richness from the returning tide.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/filter_trial.jpg",
+        "alt": "Clean linen above an empty dish beside a tray of cloudy water.",
+        "caption": "Clean strainer and the small portion ready for testing."
+      },
+      "examination": {
+        "lead": "The linen is clean. Fine brown particles remain suspended in the tray water.",
+        "action": "Pass a small portion through linen"
+      }
+    },
+    {
+      "id": "receiver_rack",
+      "title": "Three individually sealed receivers",
+      "location": "receivers",
+      "kind": "Equipment check",
+      "body": [
+        "Three narrow vials each hold one measure. Closing them separately preserves the successive scent arrivals.",
+        "Their combined capacity is three of the nine measures recorded at baseline. Six would remain at the site."
+      ],
+      "excerpt": "Three vials preserve separate fractions and leave most water at the site.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/receiver_rack.jpg",
+        "alt": "Three empty separately stoppered vials in a rack on the sampling ledge.",
+        "caption": "The three-vial receiver, still empty."
+      },
+      "examination": {
+        "lead": "Each narrow vial has its own stopper. The rack fits the collection collar.",
+        "action": "Check the separate receivers"
+      }
+    },
+    {
+      "id": "common_flask",
+      "title": "One vessel for the entire rise",
+      "location": "receivers",
+      "kind": "Equipment check",
+      "body": [
+        "The flask holds all nine measures. Its wide mouth takes continuous flow, but the successive arrivals will mix inside it.",
+        "A full collection would leave no circulating water. The baseline record would preserve an order that the flask cannot keep separate."
+      ],
+      "excerpt": "The whole rise fits in one flask at the cost of exhausting the circulating water.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/common_flask.jpg",
+        "alt": "One empty wide-mouthed glass flask beside its stopper and collection fitting.",
+        "caption": "The common receiver before collection."
+      },
+      "examination": {
+        "lead": "The flask has one broad opening and a single stopper. Its interior is empty.",
+        "action": "Check the common flask"
+      }
+    },
+    {
+      "id": "return_lip",
+      "title": "The return restores the next rise",
+      "location": "return",
+      "kind": "Return observation",
+      "body": [
+        "A clay ribbon climbs the lip. As it disappears, the basin begins its next rise.",
+        "You intercept water in the tray. The next ring is lower until you pour it through the wall opening. The blind trough has no return connection. You restore all test water."
+      ],
+      "excerpt": "Return test water to the wall opening to restore the tide.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/return_lip.jpg",
+        "alt": "A clay-colored water ribbon crossing the stone lip into the wall opening, with an empty tray beside it.",
+        "caption": "The active return before the interception test."
+      },
+      "examination": {
+        "lead": "A narrow ribbon crosses the lip into the wall. The catch tray rests beside the channel.",
+        "action": "Intercept and restore the return"
+      }
+    },
+    {
+      "id": "salt_crust",
+      "title": "The dry rind records the last fraction",
+      "location": "return",
+      "kind": "Deposit sample plan",
+      "body": [
+        "A loose salt rind rests above the return, clear of the channel. Its mineral smell resembles the tide’s final stage, with a faint resin trace.",
+        "This dry deposit is easy to carry. It cannot replace the rich early arrivals or establish their order."
+      ],
+      "excerpt": "The dry rind preserves the mineral finish, not the whole moving scent.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/the-dry-tide/salt_crust.jpg",
+        "alt": "A small loose pale salt rind with one amber fleck on dry stone above the return.",
+        "caption": "Loose dry rind above the moving water."
+      },
+      "examination": {
+        "lead": "The pale rind rests loose on dry stone, clear of the return channel.",
+        "action": "Examine the loose salt rind"
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "layers",
+      "title": "Where the changing scent is carried",
+      "question": "Which clues show why clear water and retained particles give different recoveries?",
+      "pairs": [
+        [
+          "salt_layers",
+          "filter_trial"
+        ],
+        [
+          "tide_marks",
+          "filter_trial"
+        ]
+      ],
+      "success": "The tide carries scent in both its water and its suspended material. Filtering produces a separate residue and a thinner water sample; unfiltered receivers retain the richer sequence.",
+      "hints": [
+        "Compare the deposits with water passed through cloth.",
+        "The linen test changes both the clarity and the scent of the water.",
+        "Connect the mineral ridges or the three scent changes with the filter test."
+      ]
+    },
+    {
+      "id": "reserve",
+      "title": "What a collection costs the site",
+      "question": "Which clues show what happens to water kept in a receiver?",
+      "pairs": [
+        [
+          "stairs_plan",
+          "drawdown"
+        ],
+        [
+          "drawdown",
+          "return_lip"
+        ]
+      ],
+      "success": "This is one circulating supply. Water kept in the case lowers the next tide; returning it restores the level. Taking all nine measures leaves no water for another rise.",
+      "hints": [
+        "Find a test in which water leaves and returns.",
+        "Check the basin withdrawal against the channel plan or the return opening.",
+        "Connect removed water lowering the ring with evidence that only the return restores it."
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "receiver",
+      "title": "Choose the receiver",
+      "location": "receivers",
+      "requires": {
+        "evidence": [
+          "receiver_rack",
+          "common_flask"
+        ]
+      },
+      "intro": [
+        "One locking collar takes either receiver. Choose separated arrivals or a continuous collection."
+      ],
+      "options": [
+        {
+          "id": "separate",
+          "label": "Mount the three-vial rack",
+          "description": "Keep the successive water fractions separate.",
+          "cost": "Capacity is three measures. You cannot take the full nine-measure tide in these vials.",
+          "result": [
+            "You mount the rack and label its empty vials in collection order."
+          ],
+          "sceneNote": "Three empty capped vials wait under the outlet.",
+          "epilogues": {
+            "residue": [
+              "Separate control vials retain the order of the weaker filtered arrivals."
+            ],
+            "dry_rind": [
+              "The vial rack returns empty. You did not divert the moving water."
+            ]
+          }
+        },
+        {
+          "id": "combined",
+          "label": "Mount the common flask",
+          "description": "Keep a continuous water collection in one vessel.",
+          "cost": "The fractions will mix. Taking a full flask leaves no circulating water at the site.",
+          "result": [
+            "You mount the empty flask. It can take the whole rise, mixing the arrivals."
+          ],
+          "sceneNote": "The empty common flask is mounted beneath the outlet.",
+          "epilogues": {
+            "residue": [
+              "The combined filtrate control loses the separation between its arrivals."
+            ],
+            "dry_rind": [
+              "The common flask returns empty. You left its full capacity unused."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "filter",
+      "title": "Prepare the return path",
+      "location": "shelf",
+      "requires": {
+        "deductions": [
+          "layers"
+        ],
+        "evidence": [
+          "filter_trial"
+        ]
+      },
+      "intro": [
+        "Prepare the raised cage for the final collection: open flow or linen that will retain particles."
+      ],
+      "options": [
+        {
+          "id": "open",
+          "label": "Keep the flow unfiltered",
+          "description": "Allow water and particles to remain together.",
+          "cost": "Your water may contain sediment. There will be no separately retained material sample.",
+          "result": [
+            "You latch the empty cage above the channel. It will not touch the tide."
+          ],
+          "sceneNote": "The empty filter cage is raised clear of the channel.",
+          "epilogues": {
+            "dry_rind": [
+              "The unfiltered collection path remains unused. The circulating water keeps its suspended material."
+            ]
+          }
+        },
+        {
+          "id": "linen",
+          "label": "Fit the linen strainer",
+          "description": "Recover the suspended material on cloth.",
+          "cost": "Returning water loses some scent. Unfiltered-water recoveries become unavailable on this run.",
+          "result": [
+            "You secure clean linen in the raised cage. It will meet the stream only during final collection."
+          ],
+          "sceneNote": "A clean linen strainer waits above the collection stream.",
+          "epilogues": {
+            "dry_rind": [
+              "The prepared linen remains clean. You return it with the kit without changing the tide."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "puzzle": {
+    "id": "collector",
+    "title": "Set the tide collector",
+    "location": "channels",
+    "type": "channels",
+    "requires": {
+      "evidence": [
+        "gate_height",
+        "flow_gap",
+        "return_lip"
+      ]
+    },
+    "intro": [
+      "Set the inlet height, flow gap and return path. Test water enters a catch tray, never your final receiver.",
+      "Pass the changing layers slowly and restore every drop to the circuit. Wrong setups reset without spending water."
+    ],
+    "controls": [
+      {
+        "id": "intake",
+        "label": "Intake groove",
+        "options": [
+          {
+            "value": "low",
+            "label": "Lower groove",
+            "feedback": "The opening meets the settled clay."
+          },
+          {
+            "value": "middle",
+            "label": "Middle groove",
+            "feedback": "The opening crosses the moving water layer."
+          },
+          {
+            "value": "high",
+            "label": "Upper groove",
+            "feedback": "The opening reaches only the highest water."
+          }
+        ]
+      },
+      {
+        "id": "gap",
+        "label": "Flow gap",
+        "options": [
+          {
+            "value": "wide",
+            "label": "Wide opening",
+            "feedback": "A broad stream can enter the tray."
+          },
+          {
+            "value": "half",
+            "label": "Half opening",
+            "feedback": "Water gathers against the wedge."
+          },
+          {
+            "value": "fine",
+            "label": "Fine opening",
+            "feedback": "A narrow stream can pass the wedge."
+          }
+        ]
+      },
+      {
+        "id": "return",
+        "label": "Test-water return",
+        "options": [
+          {
+            "value": "basin",
+            "label": "Wall opening",
+            "feedback": "The return leads under the wall toward the basin."
+          },
+          {
+            "value": "outer",
+            "label": "Outer trough",
+            "feedback": "The return ends in the blind stone trough."
+          },
+          {
+            "value": "closed",
+            "label": "Closed return",
+            "feedback": "Water remains in the catch tray."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "intake": "middle",
+      "gap": "fine",
+      "return": "basin"
+    },
+    "hints": [
+      "Each setting needs a different observation: the inlet, the timing and the return.",
+      "The middle groove meets the moving layer. A thin stream keeps the scent changes apart.",
+      "Select Middle groove, Fine opening and Wall opening."
+    ],
+    "success": [
+      "Resin, fermented sweetness and mineral water pass the ledge separately.",
+      "You return every test drop. The ring reaches baseline again. The final collection will determine what remains in your case."
+    ],
+    "failure": "The test fails to separate the arrivals or return its water. Check the moving layer, fine flow and active return. All test water is restored."
+  },
+  "endings": [
+    {
+      "id": "fractions",
+      "title": "Three vials in order",
+      "subtitle": "The changing scent returns as separate fractions.",
+      "requires": {
+        "deductions": [
+          "layers",
+          "reserve"
+        ],
+        "puzzle": true,
+        "choices": {
+          "receiver": [
+            "separate"
+          ],
+          "filter": [
+            "open"
+          ]
+        }
+      },
+      "locked": "Understand the scent and water reserve, set the collector, and prepare separate unfiltered receivers.",
+      "action": "Take one measure from each arrival and return the remaining flow.",
+      "consequence": "Three of the nine measures leave the site. The tide will be lower, but the samples retain their separate order.",
+      "body": [
+        "You fill one vial at each scent change and close it before the next arrival. The remaining water climbs the return lip.",
+        "The next ring rises three marks below baseline. Six measures still complete the circuit; the missing three are sealed in your case.",
+        "At the Bureau, separate blotters reveal resin, fermented sweetness and mineral dampness. Their labels preserve the collection order.",
+        "The baseline photographs show the level before withdrawal. Your recovery preserves distinct arrivals while leaving most of the water at the site."
+      ],
+      "recovered": [
+        "Three ordered water fractions",
+        "Baseline blotter and level record"
+      ],
+      "siteStatus": "Reduced tide still circulating",
+      "sensory": {
+        "air": "Three distinct scent arrivals on separate blotters.",
+        "contact": "Cool narrow vials held in their rack.",
+        "residue": "Fine sediment in the first two fractions."
+      }
+    },
+    {
+      "id": "whole",
+      "title": "The full weight of the tide",
+      "subtitle": "The entire circulating water returns in one vessel.",
+      "requires": {
+        "deductions": [
+          "layers",
+          "reserve"
+        ],
+        "puzzle": true,
+        "choices": {
+          "receiver": [
+            "combined"
+          ],
+          "filter": [
+            "open"
+          ]
+        }
+      },
+      "locked": "Understand the scent and water reserve, set the collector, and mount the unfiltered common flask.",
+      "action": "Divert all nine measures into the flask and close it.",
+      "consequence": "The layers will mix, and no water will remain for the next rise.",
+      "body": [
+        "The flask receives the resin-rich flow, sweeter middle water and final mineral layer. Nothing enters the return.",
+        "You wait through the usual interval. The central stone stays dark, but no ring rises. All nine measures are in the flask.",
+        "The layers mix during your return. At the Bureau, one blotter carries their dense combined scent; photographs and timing notes preserve their former order.",
+        "You file the complete water sample with the last image of the basin. The material is recovered in full, and the record states that no replenishment was observed."
+      ],
+      "recovered": [
+        "Complete combined water sample",
+        "Baseline scent sequence",
+        "Photograph of the emptied basin"
+      ],
+      "siteStatus": "No circulating water remains",
+      "sensory": {
+        "air": "Resin and dark sweetness over a mineral finish.",
+        "contact": "A heavy sealed flask in the padded case.",
+        "residue": "Clouded water with suspended amber flecks."
+      }
+    },
+    {
+      "id": "residue",
+      "title": "What the cloth retained",
+      "subtitle": "A material recovery changes the water it came from.",
+      "requires": {
+        "deductions": [
+          "layers",
+          "reserve"
+        ],
+        "puzzle": true,
+        "choices": {
+          "filter": [
+            "linen"
+          ],
+          "receiver": [
+            "separate",
+            "combined"
+          ]
+        }
+      },
+      "locked": "Understand the particles and water reserve, set the collector, choose a receiver and fit the linen strainer.",
+      "action": "Lower the strainer through one full tide and keep the collected residue.",
+      "consequence": "The returned water will be clearer and less richly scented. Removing the cloth cannot restore its particles.",
+      "body": [
+        "You lower the linen into the thin stream. Amber flecks and dark clay collect in the weave while clearer water passes through.",
+        "A small filtrate control enters the prepared receiver. The rest returns to the basin. The next ring smells less rich, with a more exposed mineral finish.",
+        "At the Bureau, the cloth carries resin and fermented sweetness. The control smells mainly of water on stone. Their difference demonstrates what the separation removed.",
+        "You record the retained material beside the changed tide. Returning the filtered water preserved most of its volume, but left fewer scent-bearing particles in circulation."
+      ],
+      "recovered": [
+        "Linen with resin and clay",
+        "Clear filtrate control",
+        "Baseline scent record"
+      ],
+      "siteStatus": "Clearer, weaker tide remains",
+      "sensory": {
+        "air": "Rich damp cloth beside a thinner clear sample.",
+        "contact": "A sealed cloth packet against the cold glass control.",
+        "residue": "Amber particles and clay retained in the weave."
+      }
+    },
+    {
+      "id": "dry_rind",
+      "title": "The line above the water",
+      "subtitle": "A small stable sample leaves the moving tide intact.",
+      "requires": {
+        "evidence": [
+          "salt_crust",
+          "tide_marks"
+        ]
+      },
+      "locked": "Observe the scent sequence and examine the loose salt rind.",
+      "action": "Lift the loose dry rind and return with it and the baseline record.",
+      "consequence": "The specimen represents the mineral finish. It cannot preserve the full first arrivals or replace a water collection.",
+      "body": [
+        "You lift the loose rind into a specimen envelope without breaking the channel. No water enters a receiver.",
+        "From the landing, you watch the ring reach its original mark once more. The moving resin and fruit notes remain at the coordinate.",
+        "At the Bureau, a dampened grain releases mineral earth and a faint resin trace. The baseline blotter provides the broader scent context.",
+        "Your report states the recovery’s limit: the stable rind represents the finish, while the full changing water remains available for another assignment."
+      ],
+      "recovered": [
+        "Loose mineral rind",
+        "Baseline tide blotter",
+        "Untouched level photographs"
+      ],
+      "siteStatus": "Tide left at its original level",
+      "sensory": {
+        "air": "Mineral earth with a faint resin trace.",
+        "contact": "Dry grains shifting inside a specimen envelope.",
+        "residue": "A small pale rind with one amber fleck."
+      }
+    }
+  ]
+}

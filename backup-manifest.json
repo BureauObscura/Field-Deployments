@@ -1,0 +1,1263 @@
+{
+  "format": "field-deployments-backup-v1",
+  "date": "2026-10-20",
+  "category": "game",
+  "projects": [
+    {
+      "project": "deployments",
+      "commit": "dd6913381547a9224bbdc51732abfb141d0c8037"
+    },
+    {
+      "project": "ninth-pane",
+      "commit": "da98b693e9bc282eab3e08d096f555ceb268802b"
+    }
+  ],
+  "scope": "Six game builds, tests, accepted native artwork, and public image provenance. Distribution bytes and accepted native files are unchanged. Private hosting records, credentials, infrastructure, rejected image attempts, and private Git history are excluded.",
+  "files": [
+    {
+      "path": "deployments/design/ninth-pane-image-receipts.json",
+      "bytes": 1664,
+      "sha256": "f5cf9ecf9a4aabbe081f8ce5646dd713f4727415bf15f38a21fe123e8f04dbcc"
+    },
+    {
+      "path": "deployments/design/sand-map-evidence-image-receipts.json",
+      "bytes": 24152,
+      "sha256": "7c3b0260450706158f04c595a62fceffb818485d9f923d7d43486e6dcc3fd47b"
+    },
+    {
+      "path": "deployments/design/sand-map-image-receipts.json",
+      "bytes": 16242,
+      "sha256": "3cb0730afff4d5c85df0c3890ae01f36c69647954d8fcbd4743430b2f26614f6"
+    },
+    {
+      "path": "deployments/design/seventh-rinse-evidence-image-receipts.json",
+      "bytes": 27017,
+      "sha256": "93c6f6e4fb7ee67b571a04fe1c36beece57c5534fa268d4a3b23a1ab393d6f28"
+    },
+    {
+      "path": "deployments/design/seventh-rinse-image-receipts.json",
+      "bytes": 17324,
+      "sha256": "7d016a2d369170e74db2668fc6412cff021eb5b705e125ce655a7d62eb8b918e"
+    },
+    {
+      "path": "deployments/design/the-dry-tide-evidence-image-receipts.json",
+      "bytes": 25755,
+      "sha256": "b4299012c5ce20a897eda96adbaeebaba06f1e6e5af75083ff8a8a90bfe6f773"
+    },
+    {
+      "path": "deployments/design/the-dry-tide-image-receipts.json",
+      "bytes": 15599,
+      "sha256": "92e378a713a9a73508bcad9c478aca100ccb56f68d19fbe19985ae518d9124be"
+    },
+    {
+      "path": "deployments/design/the-rain-register-evidence-image-receipts.json",
+      "bytes": 28870,
+      "sha256": "bbc04b4249bda6ddeeaa6cc7d2fe5f61b2f03a9b5407fa9477537f09a3712250"
+    },
+    {
+      "path": "deployments/design/the-rain-register-image-receipts.json",
+      "bytes": 15719,
+      "sha256": "8f59a4bee238e96ee3e3b9c7655773c2cb46292b27ebeac53151a2af002a1e75"
+    },
+    {
+      "path": "deployments/design/third-exposure-evidence-image-receipts.json",
+      "bytes": 28077,
+      "sha256": "71c5d6734d824a40fa2ad588d2c5a00601c94dea29ff233d4967897c48a2ed56"
+    },
+    {
+      "path": "deployments/design/third-exposure-image-receipts.json",
+      "bytes": 17499,
+      "sha256": "972d5e945d9438dfc63a8143e6a90e09873bfc723baac3060c4f3dc4e948fc3c"
+    },
+    {
+      "path": "deployments/dist/account.js",
+      "bytes": 1720,
+      "sha256": "6b51f6ff22644b5524bb8f6f00db3f5b34b33403e3787c19ca5164c3a480a3cf"
+    },
+    {
+      "path": "deployments/dist/app.js",
+      "bytes": 25815,
+      "sha256": "2c171d2db2d159af9ff6759becc178836cbf4d50dd383950dc40b4bc921c3e34"
+    },
+    {
+      "path": "deployments/dist/assets/brand/OFL-IBM-Plex-Mono.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "deployments/dist/assets/brand/bo-glyph-small-paper.svg",
+      "bytes": 396,
+      "sha256": "811f9c72502af5a6de156518b97aa0c4fd72ce99c747661f4fa501608a4e4f97"
+    },
+    {
+      "path": "deployments/dist/assets/brand/bo-lockup-stacked-no-division-paper.svg",
+      "bytes": 5537,
+      "sha256": "36939f9591980fae8d25b39784cefdebf5c5209625c0f2c52761b1a4519be4e0"
+    },
+    {
+      "path": "deployments/dist/assets/brand/ibm-plex-mono-latin-400-normal.woff2",
+      "bytes": 14708,
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "path": "deployments/dist/assets/brand/ibm-plex-mono-latin-500-normal.woff2",
+      "bytes": 14888,
+      "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22"
+    },
+    {
+      "path": "deployments/dist/assets/brand/ibm-plex-mono-latin-600-normal.woff2",
+      "bytes": 15620,
+      "sha256": "0d1f0b8d0722224e32e9f28261bdc86c79115be73444ae5eceb73976a1bcdf83"
+    },
+    {
+      "path": "deployments/dist/assets/brand/ibm-plex-mono-latin-700-normal.woff2",
+      "bytes": 14908,
+      "sha256": "4f84d86cfd060f4ded334358ff8a4c81d4db2ed5addd568359d693f44a87765a"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/bead_test.jpg",
+      "bytes": 359311,
+      "sha256": "7ea22ec0139eb42ad8409bcf2a2abb4659fab785349eb9d8315efe38cd561039"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/core_lift.jpg",
+      "bytes": 381226,
+      "sha256": "d16634f6de77cf717f447e59936e33bc25b39df0ff91a8ac965e284340a92b9b"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/fragment.jpg",
+      "bytes": 431701,
+      "sha256": "b23f8a3e5e923aced5588adff3b376aa87864b47cf5e4c0f81373c9e98aef579"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/outer_plan.jpg",
+      "bytes": 542572,
+      "sha256": "3e41f1d0463babd6c0f72e3ed07f79780b71493931bdda70d81948d5943906c2"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/pivot_test.jpg",
+      "bytes": 426674,
+      "sha256": "ed9ff2d3bdbfd2e1e49bcac7470c255dec651612d2ef1210e244cb7ae691d4df"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/scale_marks.jpg",
+      "bytes": 503430,
+      "sha256": "e8641be3d0c525268b8d420a32dd9d28b8046d9e2fe7893ea8dd1096eb3c8999"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/sight_test.jpg",
+      "bytes": 474254,
+      "sha256": "fc800003bff0ee7d0e08283017af7088dc26bf99291e400edd4f991cd9b358a9"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/survey_grid.jpg",
+      "bytes": 339183,
+      "sha256": "0d74a0d8fa343d7c3464ed6765e46f11aaf64642924d863b88835c85917aa8f7"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/tile_plan.jpg",
+      "bytes": 438286,
+      "sha256": "c1f99b276eb2a6f77a9c6b933f7fe7b36b1129d8011525953acd5be42df4e019"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/water_test.jpg",
+      "bytes": 405042,
+      "sha256": "8af2e8ddc03858ea23cee508f6673faf4571b5903520eaff6dbc2501a72390d4"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/wet_fragment.jpg",
+      "bytes": 402561,
+      "sha256": "c80750dba34ee9b32f656ffa944b40d3a3e2e46c9bb13254ad2371a72dc944fd"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/sand-map/wind_control.jpg",
+      "bytes": 401205,
+      "sha256": "61ddedb95a6dcd03178eacf6621f15942fa092cf14fc4b214d1c12399c7583b4"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/cam_plan.jpg",
+      "bytes": 374690,
+      "sha256": "663ce61838f04cd81eae91281b48118acc6f82766e571da19c08a1dd298eb48b"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/direction_test.jpg",
+      "bytes": 442528,
+      "sha256": "6ef169d61e445b7f00d067c1c5a081f2fb95919fc3f5da7efcb9e151c7b3e5c7"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/dry_test.jpg",
+      "bytes": 307003,
+      "sha256": "d0104ca59673ff89dc965ca09e11f861ed4db0ac6dee5eae7045e7f623825854"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/dye_test.jpg",
+      "bytes": 233001,
+      "sha256": "a7da78ea410d5848a5910e82940c29d98eefca55c7dc2f49eb6b622d7fbede97"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/filter_test.jpg",
+      "bytes": 448076,
+      "sha256": "a5fcc46780c32bd1fcdb5f60cd0f84844426d97aa687f0150b584d6e017ca80e"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/level_marks.jpg",
+      "bytes": 413306,
+      "sha256": "75aaa77fc5b564ad0fda557314bfd6d8cb387db633ccb0a45a2032ba536b111e"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/outlet_test.jpg",
+      "bytes": 413768,
+      "sha256": "32701a36cc0225390b2ad2b4af92fe26f5fd64b25bf130882d7adf867c4b62d7"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/outside_control.jpg",
+      "bytes": 333835,
+      "sha256": "90e1cc6df68df35816cc05461915b821f1745eea83ee74fc56c8f2b66ac45762"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/power.jpg",
+      "bytes": 466601,
+      "sha256": "bb90f311371d76451f59f26c68a835e7e9f965c0f8b902cd908c7df018c1b5b4"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/sleeve.jpg",
+      "bytes": 391223,
+      "sha256": "6a6af89e78d320929832db4ab6398a35b55d100eef1d0e2de09f2b4db4684c14"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/thread_test.jpg",
+      "bytes": 299396,
+      "sha256": "d8a958c477f039c48da540dfe3b42b9da304968a8c46f909cda29b838c9294b6"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/seventh-rinse/wet_test.jpg",
+      "bytes": 384697,
+      "sha256": "84365ba195d2d0fa3efb45c18a142ea02e50af0aee3a285b7b3be52747386dd1"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/common_flask.jpg",
+      "bytes": 461063,
+      "sha256": "bcb81256a257bc6f743e62511df61d84c0a9c6e838bebeac37a155c737ea7a58"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/drawdown.jpg",
+      "bytes": 419550,
+      "sha256": "da4372d4f82073433a777c017930aa91cbde92031d8f61ee7d2b6b56f797b8ca"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/dry_edge.jpg",
+      "bytes": 369736,
+      "sha256": "220041ddef329beecc0f99fcf6d0cceee1b04dee00c01118366a0bc7df4d05a8"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/filter_trial.jpg",
+      "bytes": 500888,
+      "sha256": "3062917ad974881ee55a204e9efc563f2ec6f7c77113bbca64a63fc52f27eb1a"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/flow_gap.jpg",
+      "bytes": 523483,
+      "sha256": "248953eb1185bc01b6e874d618f51a74907c6339fb178c19ac2f9c4923d7a689"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/gate_height.jpg",
+      "bytes": 557517,
+      "sha256": "a7c09c7b402c4d9cf397156195c1907c236c2a7ba91b1184aebafa954eefa1f3"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/receiver_rack.jpg",
+      "bytes": 408158,
+      "sha256": "2a20f66949c231c8563fad73299e99b05b5a5b4e63013415faefa5d3a37e3c1a"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/return_lip.jpg",
+      "bytes": 506363,
+      "sha256": "0f0ea7f42aa9f60e0f5328d818ac77128e0f0c1f52fdbeeaa85cdea7657a5603"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/salt_crust.jpg",
+      "bytes": 415821,
+      "sha256": "22fe12b83e803dc692ee04f5fecd21b8c1e51ba2239c8f241dd84f16a53a16b0"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/salt_layers.jpg",
+      "bytes": 545569,
+      "sha256": "610961a60708568271469f0f5acf8b3e6efef7b7a6a35f5c2a09f0334bf209fe"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/stairs_plan.jpg",
+      "bytes": 511657,
+      "sha256": "b5b2ef35bc2cdc5e2f21e307d7833319f916d7887575226c6fe8273c7361aad0"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-dry-tide/tide_marks.jpg",
+      "bytes": 380353,
+      "sha256": "8289f05ff9d1f2289eb21764e7c70caeb6669f4653ef4fe5a6008723411ca0df"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/air_phase.jpg",
+      "bytes": 403298,
+      "sha256": "e13f9a4ad0130717075703884875d4422aed77c8ff3ac94c8d94831597a2ec16"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/copy_trial.jpg",
+      "bytes": 327709,
+      "sha256": "a43cc5ccbeb077f587279c833cbfdd43700351a352076a2b8667e2cddf984f0c"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/drain_interlock.jpg",
+      "bytes": 339278,
+      "sha256": "f11e81bfbaebac2f640bff6a5f31286d3f424fe4506f28ed6502ff03a4e2a72d"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/drop_trace.jpg",
+      "bytes": 317343,
+      "sha256": "a978f1bcd737fd13b401996f2479cce44efaff25cc7b2908efadfecf59f34529"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/order_rail.jpg",
+      "bytes": 388255,
+      "sha256": "0ce69d244cfd75cd78a0c7501baf07a04ca42d7d3943a1ff622e8e16acccd17f"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/original_surface.jpg",
+      "bytes": 339083,
+      "sha256": "de2c692a3290fff126eec5f368bff0784c92b9efd206ff2aa7a1ca68c5012b97"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/outside_control.jpg",
+      "bytes": 326090,
+      "sha256": "9fbf12e16adeca20741b27c9ea4233260588c08c44e90a257e292fcd6388b23e"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/pressure_link.jpg",
+      "bytes": 318148,
+      "sha256": "584a62d331e3707c333ca072485c1fa4f41ee3ab43fde86e209d90aac092dbfd"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/service_spool.jpg",
+      "bytes": 346516,
+      "sha256": "500b4da3439d48b304577fec57423df11990e307034b0142f9db3a1cdfa143fa"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/stage_contacts.jpg",
+      "bytes": 341418,
+      "sha256": "3db73c0fc9389d6ca0cfd8b80e7fce897392c5b0ad3256c4875bd256fd524092"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/water_phase.jpg",
+      "bytes": 329565,
+      "sha256": "e269d92f9a45ebdb28e9198710492a301b0804782c32676a46b633aab1268fef"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/the-rain-register/wear_test.jpg",
+      "bytes": 309294,
+      "sha256": "ae96f832d3540f93f63d98a061df8c1e4d41eb41f3a8c91e060afb4519af7531"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/bench_plan.jpg",
+      "bytes": 483922,
+      "sha256": "65a7851d2c597fdc2c4c3bc52c729119cff1f85973b50f284c55c1d922dc2f4f"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/blank_control.jpg",
+      "bytes": 356621,
+      "sha256": "f2d223051646c5180e0c7f3bf7ea997e4cb912849ed976aad26c6de456171728"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/catcher_test.jpg",
+      "bytes": 481316,
+      "sha256": "345d0c4f23c8340f13875fb4b62ff12eed3898f7fbe94356a332fa0fc9610ffc"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/face_test.jpg",
+      "bytes": 341870,
+      "sha256": "aefbee1974fc9f3cfb3fc6ac5e92cc343fcf0ff5ef4b09b3d17568b03c68fcfb"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/filter_test.jpg",
+      "bytes": 394867,
+      "sha256": "791c363669dcab6a3d9354379252f4a130cffe4a8f23cbeddf9a6295cc112634"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/mask_test.jpg",
+      "bytes": 432095,
+      "sha256": "b3984dda238f540754eada3a35a5bd6af1a426cb3302ef9ffee268af6a160b35"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/outside_test.jpg",
+      "bytes": 401272,
+      "sha256": "3f6403cd9e977c23a0a9a932a80ca3e524fb9f60b1947b96074cd42019fe4a31"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/plate_edge.jpg",
+      "bytes": 413751,
+      "sha256": "77a4fbb7cd0f34289e370336c0e7e9d1f6e1163618cf14aa6fbc5b77bf04feea"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/repeat_test.jpg",
+      "bytes": 401864,
+      "sha256": "189838e0edcad64a74377679b3a44c9dfde401145d28fdebed75c8f00b9bc794"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/surface_layers.jpg",
+      "bytes": 542523,
+      "sha256": "7489dea4a69c15f8a1ec5d6dad139bf32f1173b1f821eabeea86f3907d5dedb8"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/transport.jpg",
+      "bytes": 466956,
+      "sha256": "a3dc09c53a06a6a221e1de51c4a143dca9284842073ed1120306cccaf557c293"
+    },
+    {
+      "path": "deployments/dist/assets/evidence/third-exposure/weather_card.jpg",
+      "bytes": 577219,
+      "sha256": "394c66ac6f91947a0b9a69b51cace3eb4821a39d2ce269f196ea9b52db64c387"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/ninth-pane.jpg",
+      "bytes": 556644,
+      "sha256": "8bd762fb99f83516a3510d3fb60c0905d2515d342fd2df5354090574234b2f1c"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/sand-map/alcove.jpg",
+      "bytes": 453810,
+      "sha256": "e4ee31cf56b1dd50147d99d201b1f54cf18839be75cbd663acc17bca846ab99f"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/sand-map/basin.jpg",
+      "bytes": 537166,
+      "sha256": "10c4a82b2c8bf0093598b32f485e2871fab0d4dd6af5aaccadbbbe3846a8afdc"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/sand-map/court.jpg",
+      "bytes": 504841,
+      "sha256": "52241883de06c950dffd4d4f4a0402d6c2eb4438ab3227200864e7b9aa21b455"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/sand-map/gallery.jpg",
+      "bytes": 437487,
+      "sha256": "8c95f1abf09b9fa2aa1ce1e25bb31e917be6a20167923d39848c52556b5b3bbf"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/sand-map/maproom.jpg",
+      "bytes": 385333,
+      "sha256": "fc780f3c042fa2e0a32d84ee756e58a3861c0f67573591963b9549e98e35c832"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/sand-map/ridge.jpg",
+      "bytes": 558856,
+      "sha256": "5f05c9568dc0b5f97e73a5756bace2d10336b22c0e4a82b5f111d1617c92c603"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/seventh-rinse/drying.jpg",
+      "bytes": 408061,
+      "sha256": "55d293fc31077c425a51838c99de27689dd42c8e6f648fdb97fea465c8bd577a"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/seventh-rinse/filter.jpg",
+      "bytes": 340703,
+      "sha256": "2482e4d6714bd51aeb1d5dcfb0793df4284c1c6975c0429f10af59952d394764"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/seventh-rinse/folding.jpg",
+      "bytes": 242327,
+      "sha256": "9b1477a9347c0511eb55ce84de2b793649be3cd67be632ab3a4c3f52e4421d50"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/seventh-rinse/service.jpg",
+      "bytes": 396925,
+      "sha256": "2f71972ffd5fe7abf53cd5ee9723d58a931b1c23e750d71648a162e661c79de3"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/seventh-rinse/street.jpg",
+      "bytes": 414434,
+      "sha256": "4a37e2b0e67e07d0bbf752610f4cc8db1ee37f5157c1df2cb461aff514b66905"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/seventh-rinse/washfloor.jpg",
+      "bytes": 386417,
+      "sha256": "05e1468e340c038969385c58f534de02117ffeaea0e0956c2d59e917b8dfdc43"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-dry-tide/basin.jpg",
+      "bytes": 401637,
+      "sha256": "45059f5d6af8caea7641d539921718ba7e169f24551f8a452c1eed068bd4867f"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-dry-tide/channels.jpg",
+      "bytes": 538250,
+      "sha256": "f0971543f6427c3279e227ecd6992ad991f72ba8aba709b4bc931cb6b5412f55"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-dry-tide/receivers.jpg",
+      "bytes": 430028,
+      "sha256": "ca0cf4fca0971b55a8769503ce20faa8dad3dce7bf57ccaf3d635f6c41e6064e"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-dry-tide/return.jpg",
+      "bytes": 475328,
+      "sha256": "dcdb88d226537854e34236d44a7cee2d1e08d0a8b8f4cca2ad58d94c08102580"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-dry-tide/shelf.jpg",
+      "bytes": 548434,
+      "sha256": "71954f75cb8703c8c48aecb10ba07b11beabb352d7fdca974aa22f8a3617dc4b"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-dry-tide/stair.jpg",
+      "bytes": 439788,
+      "sha256": "3233f09f0c4a0d107f5e4918356a224939f3d023a00109abcc739bd6a7df007d"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-rain-register/airlock.jpg",
+      "bytes": 371553,
+      "sha256": "bdcb3d336a61ecbddee3d23ddf54400d923315b172074d5dd4c364411701fdf4"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-rain-register/bench.jpg",
+      "bytes": 284416,
+      "sha256": "68fcacda17f839cc143134c51f00689d27513024cf49924f5b610ceb9a73ff25"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-rain-register/chamber.jpg",
+      "bytes": 429292,
+      "sha256": "940c2854587e09ac18a62495bde932984fa85bef8a30e7d418dd4802a531a479"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-rain-register/drain.jpg",
+      "bytes": 344885,
+      "sha256": "6e5d4b8103967f85002d145c0f0e57437bd4576e84bad587eb0a0cba4ddc00c0"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-rain-register/duct.jpg",
+      "bytes": 430481,
+      "sha256": "6b575799d160ae60692ab3fe5a2c776d3ddcf4627291296f220b4c58608d8c82"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/the-rain-register/recorder.jpg",
+      "bytes": 324902,
+      "sha256": "a1b603438beb297656919f700b9ca2f6b1d7ac4961c111b710d896865d267ff2"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/third-exposure/darkroom.jpg",
+      "bytes": 393030,
+      "sha256": "2144cfac11bef350fc1ad5c0d4dafe227c5ec1a2c8f042e8a588274105f24b7e"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/third-exposure/entrance.jpg",
+      "bytes": 446033,
+      "sha256": "d62567661ede349dfdeb717431f75e2adc422aff89f8f5d126a8b5fc809eb369"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/third-exposure/gallery.jpg",
+      "bytes": 404202,
+      "sha256": "70b882eb3bc57847858de8cda78b1e4fed7cef5ad9a764884d6c2359ca39040c"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/third-exposure/lenshall.jpg",
+      "bytes": 427380,
+      "sha256": "b15325231285ab3250483b3a440e70f13ec11185d2a46b03267372c859bde91b"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/third-exposure/shutterroom.jpg",
+      "bytes": 321371,
+      "sha256": "b19ed4f2c98daa6c46e42e11670bc483d1b866cf1fbd2cb765d0b1fb597a04e3"
+    },
+    {
+      "path": "deployments/dist/assets/scenes/third-exposure/terrace.jpg",
+      "bytes": 454214,
+      "sha256": "566f180a474767c06203a0fb642417d11042e038b77c1350cdb5a5b4e7a8bccc"
+    },
+    {
+      "path": "deployments/dist/audio.js",
+      "bytes": 2522,
+      "sha256": "9fb4792669855331cc80925fe7c1dc60adc033fb5583017838298975878b8957"
+    },
+    {
+      "path": "deployments/dist/engine.js",
+      "bytes": 10010,
+      "sha256": "6f9441b25d7fc203a347cea366f1e0cb66bca4de96640caa675d614baaa32016"
+    },
+    {
+      "path": "deployments/dist/games/sand-map.json",
+      "bytes": 37940,
+      "sha256": "d1e4d4e51d02bcd43993fb90a22a0152b88acd44e48f0ec592f7ed4f75e04239"
+    },
+    {
+      "path": "deployments/dist/games/seventh-rinse.json",
+      "bytes": 40931,
+      "sha256": "1274714f95fe7de725d5912b3c6f939c2401c2b4444b91f67f493e00f166bf34"
+    },
+    {
+      "path": "deployments/dist/games/the-dry-tide.json",
+      "bytes": 35560,
+      "sha256": "94cb6160bfbfef1ab3621be58fdc26e9cbe75b6cfe7314c360c78c8523b8a41f"
+    },
+    {
+      "path": "deployments/dist/games/the-rain-register.json",
+      "bytes": 37083,
+      "sha256": "245cd26c1a58f5fa449d79f68a9f35ca277dedef2b29c1968468a53145e427ea"
+    },
+    {
+      "path": "deployments/dist/games/third-exposure.json",
+      "bytes": 38395,
+      "sha256": "841fa8cb6c76c1587f546e104cf9f97814434f66890e4939ccb725a08ce1c7a4"
+    },
+    {
+      "path": "deployments/dist/index.html",
+      "bytes": 1057,
+      "sha256": "fb96e57e5db86510681be4af64d047a663502da0ca91029387509bd5741ce5fd"
+    },
+    {
+      "path": "deployments/dist/instruments.js",
+      "bytes": 5150,
+      "sha256": "4934b60135988a4d184cc0969277671be053ba3aba496957bb646281e9d3ddba"
+    },
+    {
+      "path": "deployments/dist/style.css",
+      "bytes": 19417,
+      "sha256": "a7ed4931c312c4728a61ec0ef19ef72e1522a42fdb4de60159cdfbc96eb7ff6e"
+    },
+    {
+      "path": "deployments/docs/image-provenance.json",
+      "bytes": 229988,
+      "sha256": "f4f19d462276cac60a268e61ea8155c1f755cf58c79be1196471140a3f4f5b1e"
+    },
+    {
+      "path": "deployments/package.json",
+      "bytes": 232,
+      "sha256": "141ba1d9569787124ff06fd12a5a107ec01881c8dce02f077a86ec2334f24959"
+    },
+    {
+      "path": "deployments/scripts/check.mjs",
+      "bytes": 18408,
+      "sha256": "5e29275075f03b9ae5abaebf279716cf1afd5a1a74729cd6104e5202a29b9073"
+    },
+    {
+      "path": "deployments/scripts/image-provenance.mjs",
+      "bytes": 3147,
+      "sha256": "bf7e514cf46127e7637dd2a59fc63ebd5975589adf068b0e9268961c2b9b4789"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/bead_test.png",
+      "bytes": 2266834,
+      "sha256": "5bf9f80c401e5c4f56c01e559956f8a87935eff6fcb11c1bbf052765a967c126"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/core_lift.png",
+      "bytes": 2388245,
+      "sha256": "b6f409bc31eac9bc96c8148c986296dd1c3d316d596074a5b7405d845de7876c"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/fragment.png",
+      "bytes": 2695925,
+      "sha256": "7f737f9030c4d0ac699e71361a17a7352a76fe86282a4a5fbd9cff8fef8a52e5"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/outer_plan.png",
+      "bytes": 3179472,
+      "sha256": "b1ddb72c95eff0491826361ccc5f14324fc95c0266a07b29dd49a7f6c41efd10"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/pivot_test.png",
+      "bytes": 2675231,
+      "sha256": "38f4af2638c00c46111e8c6df73237c71d7a0afd25d15468cc4072f8ec641dd7"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/scale_marks.png",
+      "bytes": 2924454,
+      "sha256": "3cf021436e0e9d923c544c874fcdd2cb777b141232315f589aa6040f37d98fd5"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/sight_test.png",
+      "bytes": 2665938,
+      "sha256": "791c46456d51f05928b9f4bc598cd67cfe8c54cbc598be52341e0544edba757f"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/survey_grid.png",
+      "bytes": 2281826,
+      "sha256": "fe36cb351843dd8dcdac684e5bf1efbbfde2b2645108642966966d95ad09fa70"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/tile_plan.png",
+      "bytes": 2512846,
+      "sha256": "59f30475cbfb9bc2fc11e079fd700ca73e2df0e25c9e149a34af0897d4be1dfc"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/water_test.png",
+      "bytes": 2599832,
+      "sha256": "981d7a966d7f643b71ebb2258ffca32410dca1cd4c56ceb8cd2b08cf0c21c749"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/wet_fragment.png",
+      "bytes": 2568195,
+      "sha256": "ccc2fdb8679b921f07be3ad7b3ccd396be701a0a50d55d24e940a9d76b95c113"
+    },
+    {
+      "path": "deployments/source-assets/evidence/sand-map/wind_control.png",
+      "bytes": 2510681,
+      "sha256": "6ab00b568429f65d644e4a71da2ca3ae7a36f308718db863594dce7d9a641bc4"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/cam_plan.png",
+      "bytes": 2435933,
+      "sha256": "8140b97a5edc013fafb78762f57b588e25dcdb65cd9474a9bf9ba282cc84d3be"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/direction_test.png",
+      "bytes": 2615561,
+      "sha256": "4b28234da4632e71d31b1e2fbc6e6d7074c7719d74812ab140d71e3b43456cb5"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/dry_test.png",
+      "bytes": 2222514,
+      "sha256": "1fa1f3c55f7890c7ea5a0eb20e991f237dbac5692f3bca9002f7918c40c3da42"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/dye_test.png",
+      "bytes": 1961236,
+      "sha256": "13396d98bc8cd82432989ba7ebd691bad4e4804c2c94e0504ee6272e3b022db5"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/filter_test.png",
+      "bytes": 2387115,
+      "sha256": "a6380b3cc46b17fdfc70aceeba56f14c70e8200b9283141964766baf086391ad"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/level_marks.png",
+      "bytes": 2567332,
+      "sha256": "efc2d5dc10a8d07c27c17c2aba72f544457838a63125e2fb98b8c84fe4323d4c"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/outlet_test.png",
+      "bytes": 2397908,
+      "sha256": "44169a9a0616664c3771079638bd90337f25e5607e9ae9a6a13642fb76c5cb93"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/outside_control.png",
+      "bytes": 2321355,
+      "sha256": "36832fb1146b97f24ffbbf808e22e23fe9d4fee20c4e5eff0012e7bcf0e1eb0b"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/power.png",
+      "bytes": 2739417,
+      "sha256": "45791b10a48862c6bdaa52b5e333882c7a52e9092dc76126d407c5ee4df895d2"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/sleeve.png",
+      "bytes": 2630383,
+      "sha256": "5063fb2f3d057bd9636894fc5e628dd2d4b2c2e85bef604ec029af6fcd1757bc"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/thread_test.png",
+      "bytes": 2376721,
+      "sha256": "e172b31a46b983f67d021150de9f8c4eae324ea5869a104aa6c9a4904c9211b1"
+    },
+    {
+      "path": "deployments/source-assets/evidence/seventh-rinse/wet_test.png",
+      "bytes": 2514000,
+      "sha256": "7c7f38bedc0e46db203b5df0d7702d024fd58cf4f1808f4644deb8c6193b0467"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/common_flask.png",
+      "bytes": 2802565,
+      "sha256": "773a36c5bcc6def12dad5c85160dc93c0d3e468ca21bd89083a92f0b4a83b567"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/drawdown.png",
+      "bytes": 2606083,
+      "sha256": "26058375335b5ffa46496ba1c495504e7fe21100f176c6899a66f9c3d8d22264"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/dry_edge.png",
+      "bytes": 2363517,
+      "sha256": "f47b2e2eeb2eaf7ad5ad3048025c31974c0206189eccb1744f24dece2d07d2cb"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/filter_trial.png",
+      "bytes": 2948519,
+      "sha256": "636b6948abd03a24d5b85f91156da43466e8b3e079f478a541dbe78244bc4173"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/flow_gap.png",
+      "bytes": 3205847,
+      "sha256": "d81c1ae4fd4e688ba12a3cb61943bfae1d80a8b75956ca72610d2be779a5d737"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/gate_height.png",
+      "bytes": 3256484,
+      "sha256": "272a100ce56f29822bfed5a72d7355fffbc291d26e33baddb436a31d62663b33"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/receiver_rack.png",
+      "bytes": 2575607,
+      "sha256": "939f797f208c8944851eec2193d351e3db150d4fcd9ad182b37f3e1c02d356d5"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/return_lip.png",
+      "bytes": 2985896,
+      "sha256": "5b3ac13b2139638fa6de411f4b7abc4a2f360f441663777d701b209a7e1ad061"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/salt_crust.png",
+      "bytes": 2572168,
+      "sha256": "88c5c7656757b0c2765584f2feeffdfdafd7d9de8226f67c1b0d4cce0fbcb212"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/salt_layers.png",
+      "bytes": 3129585,
+      "sha256": "b3e7220232e121f2b92fa932534ea86bcd03d892c0cf71f5c7628a3124599aab"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/stairs_plan.png",
+      "bytes": 2986967,
+      "sha256": "3a8d9457475defddb56a0f80e510b29ffe0b5f5051943b574e765a674cf9a48e"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-dry-tide/tide_marks.png",
+      "bytes": 2505280,
+      "sha256": "495f05090b6f1eb6fdab0c27e9095d4d05818f36db865a671a9850b9a4f7b910"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/air_phase.png",
+      "bytes": 2706355,
+      "sha256": "029dc0ed31c091f46882b55080bb31aa9f6d55c2459caf4e8188edd6dc9c1855"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/copy_trial.png",
+      "bytes": 2100266,
+      "sha256": "df02eae4638344644c8d23f43be3fa6e9a1d19b7d57e372537d9e19ae16a97df"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/drain_interlock.png",
+      "bytes": 2453124,
+      "sha256": "a3924497a952dd7775b6259ddb87c753cb1250354efef2b5ce251174e536592f"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/drop_trace.png",
+      "bytes": 2437610,
+      "sha256": "b1bebf4d8b126d8e419770668362ce929c46c813f9fc6a4e7b6d51fea7adda2d"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/order_rail.png",
+      "bytes": 2563732,
+      "sha256": "7b562b05e881a4422c2f38af2bedc6fbf6adbc108525d3693cd80d0501ab330c"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/original_surface.png",
+      "bytes": 2239085,
+      "sha256": "9fdfd57e536bc580375d84445ea8c4b3885a854bb4f6765ee7a9feddbcacd0ef"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/outside_control.png",
+      "bytes": 2382817,
+      "sha256": "2e9697f46dbb65770535ae95c3c6f0a24104e4e217b1dc4da7bc952dcc95c646"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/pressure_link.png",
+      "bytes": 2245840,
+      "sha256": "2883f3b0231934c52949d8348f5c322d88c9dd0302cd30d83d52908df89d18bb"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/service_spool.png",
+      "bytes": 2156533,
+      "sha256": "7903443b0d2aac68a1a6e79302ba1d48e4c506f4748db4f65d1422f1f31172c5"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/stage_contacts.png",
+      "bytes": 2473233,
+      "sha256": "6c00c3c570eadc08df31998a78f2c060c76febf9a4de14716cecbe90edfff8b3"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/water_phase.png",
+      "bytes": 2460090,
+      "sha256": "cf6e88327c1ada6979a1956b6ac7ae5f9fcfe61b7c49fc2e9aaae76ea146df2b"
+    },
+    {
+      "path": "deployments/source-assets/evidence/the-rain-register/wear_test.png",
+      "bytes": 2118721,
+      "sha256": "20a4c057c2bebff1943193ba93c76a5f415b8fa863ed7a52322ff6b4426983ab"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/bench_plan.png",
+      "bytes": 2671581,
+      "sha256": "d34c802bb3bb3c42c92b771f32a12a486e76ce319df00c4693fedc92e7f7fad0"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/blank_control.png",
+      "bytes": 2170745,
+      "sha256": "e71754fa4d44e6bc1d85e5b1edf7932b4afa22daa5cc17d01f58eeabee98ac4b"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/catcher_test.png",
+      "bytes": 3051135,
+      "sha256": "1b6c82d0cade80eb1d8f042b54fe3651eee59286ddcc61a9b62a2cdb20b9ea4c"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/face_test.png",
+      "bytes": 2223051,
+      "sha256": "6a7374b1ec81cfbea63694f832d26d2cf86c9cc878badccd997174ea1a7cf181"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/filter_test.png",
+      "bytes": 2278569,
+      "sha256": "9f09059dcb90c92f4565f754d6543818e75247fba8040f3f1ccafd66ddaf0543"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/mask_test.png",
+      "bytes": 2530973,
+      "sha256": "ef470720519a5ed1f39273c358b8e04339d61a9da63c081c0f1d9afe11021dcd"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/outside_test.png",
+      "bytes": 2673237,
+      "sha256": "e5165380b7b108b3ac45e5001a34f982c380fbbe2b1c212fb2535c9d1cb5f18b"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/plate_edge.png",
+      "bytes": 2529799,
+      "sha256": "6441be08c24bcad3fe33b9a3548cc185bc1132a525f150bedead59ab3b7bc381"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/repeat_test.png",
+      "bytes": 2504753,
+      "sha256": "e335f16cff325572fd65e42487257b5178f601c9f4bc33c422f49d7bdbe4d803"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/surface_layers.png",
+      "bytes": 3138997,
+      "sha256": "55ab0f9625ab2f009480c7c696b4132c101816bc44926d8591c08662f05ec271"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/transport.png",
+      "bytes": 2952298,
+      "sha256": "809e1c34d2a79314ba3c1e30ca5f9126fb681f160bc1eee036891c713fb43918"
+    },
+    {
+      "path": "deployments/source-assets/evidence/third-exposure/weather_card.png",
+      "bytes": 3358213,
+      "sha256": "06df3f9d8aeadb67d99dca9b37dd632ab3060882d49cb00f4c81f5c64b05effe"
+    },
+    {
+      "path": "deployments/source-assets/scenes/ninth-pane/library-card.png",
+      "bytes": 2980709,
+      "sha256": "5b0692e80e567293300813f158bd738fec16d450cbf41c90cef7db80b53b66c5"
+    },
+    {
+      "path": "deployments/source-assets/scenes/sand-map/alcove.png",
+      "bytes": 2626932,
+      "sha256": "c1a85ba78aa1c4f17a90c04881918f960fb31c45fc863b645628961c0d5ac02e"
+    },
+    {
+      "path": "deployments/source-assets/scenes/sand-map/basin.png",
+      "bytes": 3033757,
+      "sha256": "da4d70eae20ea6e890da988900ea7c97b7c912ede0f2c7fe5d2b4ef457b6dbca"
+    },
+    {
+      "path": "deployments/source-assets/scenes/sand-map/court.png",
+      "bytes": 2921272,
+      "sha256": "6ef086541c7382bd042d81677dbe4861d98c925cdf6388136076a6a52d8ba25e"
+    },
+    {
+      "path": "deployments/source-assets/scenes/sand-map/gallery.png",
+      "bytes": 2808485,
+      "sha256": "1cecdc134b0aeddd6cfb8b046307a66d09b068460ff5d7a26f0fb0295b3f9244"
+    },
+    {
+      "path": "deployments/source-assets/scenes/sand-map/maproom.png",
+      "bytes": 2501268,
+      "sha256": "9d108a7abc1a7865d5e7ded8bd54b984018580895d71c20bae65ba374b439b96"
+    },
+    {
+      "path": "deployments/source-assets/scenes/sand-map/ridge.png",
+      "bytes": 3006510,
+      "sha256": "0aa0c0ec36799820ec67a3cd8091b03394e537f3b68a49ba384315c332deb3cf"
+    },
+    {
+      "path": "deployments/source-assets/scenes/seventh-rinse/drying.png",
+      "bytes": 2679070,
+      "sha256": "0b834ac8ec6f075c35e7271e61e51d7caa78bc98aa40d69e68f9af414335491c"
+    },
+    {
+      "path": "deployments/source-assets/scenes/seventh-rinse/filter.png",
+      "bytes": 2252144,
+      "sha256": "d6e78dafd0e5bd2af7fd9324bc6d3504b30993b42488ca439875236dcf994c65"
+    },
+    {
+      "path": "deployments/source-assets/scenes/seventh-rinse/folding.png",
+      "bytes": 1967813,
+      "sha256": "bacc28fc10d439b436446dd3dc1aaf048900fbcdc7adc41afe7a2e29afb3f030"
+    },
+    {
+      "path": "deployments/source-assets/scenes/seventh-rinse/service.png",
+      "bytes": 2498154,
+      "sha256": "178d58677a2f6543601df283a5718a9ed957cdf0a1d2d7623d71ebe188e1f63f"
+    },
+    {
+      "path": "deployments/source-assets/scenes/seventh-rinse/street.png",
+      "bytes": 2605456,
+      "sha256": "8974b83cca1ef00c28ef4d81015d283a146942141101e4075bfa0156fe312a9e"
+    },
+    {
+      "path": "deployments/source-assets/scenes/seventh-rinse/washfloor.png",
+      "bytes": 2429279,
+      "sha256": "5e4df6959110f2d4b00c927c8757098b22bf492a0af570dc0224c4cbe887d80b"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-dry-tide/basin.png",
+      "bytes": 2590770,
+      "sha256": "0ffef09314a9483eeb6cecf6f2810231243d12cd9bfaed894c7ba5b7097dd02a"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-dry-tide/channels.png",
+      "bytes": 3378982,
+      "sha256": "c3ca99699b28741c99d8b3c31c4eb9cd67729eebb93c3dec46e41c034869a7b0"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-dry-tide/receivers.png",
+      "bytes": 2814727,
+      "sha256": "2e0897096325e6f2fae8285e5843bf6c56bb0498635018f8548f388f2901bef8"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-dry-tide/return.png",
+      "bytes": 3040961,
+      "sha256": "f40c653ce0242c326846f5a37d1654c296644e01ce3ea65f867b8fec2534c797"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-dry-tide/shelf.png",
+      "bytes": 3347425,
+      "sha256": "c8c58c376a94a59224d273bb554c361b82984e83ea3d0092598a03f30aab49a5"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-dry-tide/stair.png",
+      "bytes": 2920713,
+      "sha256": "18562970537e42d54bca4c370fb59facd9ceb068ea9bf7c423860026bb60b335"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-rain-register/airlock.png",
+      "bytes": 2536137,
+      "sha256": "07170e3b6711ad5aba2efbdf116c7e37eacfd049ed7a03ba870396a4300ba651"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-rain-register/bench.png",
+      "bytes": 2039467,
+      "sha256": "c57dda763f6dce3541235e7af061f22b320345901b2c08f16691f0330aad14c4"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-rain-register/chamber.png",
+      "bytes": 2903925,
+      "sha256": "b465988cd8e25302dca75e3a04a2d6689d6cbe3c303b32588d6b45ee67f479db"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-rain-register/drain.png",
+      "bytes": 2546865,
+      "sha256": "850228124b23b17d33b602225032c127b8a1d97161ac17ef91e177328f80c5d3"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-rain-register/duct.png",
+      "bytes": 2809883,
+      "sha256": "f15a1207565068e5ee83db9f49dcb78b9c084b7b9e4aeab2d843e592f6b02157"
+    },
+    {
+      "path": "deployments/source-assets/scenes/the-rain-register/recorder.png",
+      "bytes": 2104543,
+      "sha256": "f8dae77503b26981b3f7db107c7147d0001e6ad3a9a3d9c9ad7f2b0d25e83fa6"
+    },
+    {
+      "path": "deployments/source-assets/scenes/third-exposure/darkroom.png",
+      "bytes": 2338938,
+      "sha256": "5a4f30ddd9dca0ec0c14a695332005dc376d99588b58eca6b47d686f3005bb13"
+    },
+    {
+      "path": "deployments/source-assets/scenes/third-exposure/entrance.png",
+      "bytes": 2953053,
+      "sha256": "1e9ef0ef1f8ed9d603fc9a3499e2907fd1e46f1dd5d8e739aee064fd8eef9cc1"
+    },
+    {
+      "path": "deployments/source-assets/scenes/third-exposure/gallery.png",
+      "bytes": 2696545,
+      "sha256": "5bde07969cf08eeeaf5e38df6136cb0833e51c61c1b73e7227d25e8d35559e42"
+    },
+    {
+      "path": "deployments/source-assets/scenes/third-exposure/lenshall.png",
+      "bytes": 2625509,
+      "sha256": "c0c5102b9cb5e424a5e3eeecd10fa9831d8d6042ed1d0a6cad89fe2d8f3a12d2"
+    },
+    {
+      "path": "deployments/source-assets/scenes/third-exposure/shutterroom.png",
+      "bytes": 2137523,
+      "sha256": "0c16ce545611070a736b96b633c737b7cc9d6ca3cd4e953cbac83e4c0fee5048"
+    },
+    {
+      "path": "deployments/source-assets/scenes/third-exposure/terrace.png",
+      "bytes": 3035318,
+      "sha256": "534166080dff917ec33c3173e7610ea6b4ea4d841164eb804763b7f967bfb1c0"
+    },
+    {
+      "path": "deployments/tests/account.test.mjs",
+      "bytes": 2884,
+      "sha256": "f11b4c73e1d1a4a2aec63e2d850e8135981ba719d74d941fefd8f969d2f55841"
+    },
+    {
+      "path": "deployments/tests/app-lifecycle.test.mjs",
+      "bytes": 8639,
+      "sha256": "e3e2204f76eb70aab3a57d82210a180482ba0f65947333ca46ceb04bec8a438d"
+    },
+    {
+      "path": "deployments/tests/engine.test.mjs",
+      "bytes": 9260,
+      "sha256": "51bd89dcccb42839bf6a4347c62ecf33a708187f05a5b7decb5c84b7cd585587"
+    },
+    {
+      "path": "deployments/tests/evidence-view.test.mjs",
+      "bytes": 4954,
+      "sha256": "68041367afdceb64b7040fa0f811045303df6b120da9379e8749c71d485d82ef"
+    },
+    {
+      "path": "deployments/tests/reachability.test.mjs",
+      "bytes": 4795,
+      "sha256": "d8abbcbb9f067a01e1508a3999ffb0372a03cbe624d3a6541d46b20d74c962b7"
+    },
+    {
+      "path": "ninth-pane/dist/account.js",
+      "bytes": 1723,
+      "sha256": "39d62eaee57314125676e807e935e9043c035759743e03083c5d31fe3bbc5b35"
+    },
+    {
+      "path": "ninth-pane/dist/app.js",
+      "bytes": 38414,
+      "sha256": "d3a3ee322ed49def57dd137402123855bda9a5f209ac4b85a8bf2b3168d25b91"
+    },
+    {
+      "path": "ninth-pane/dist/assets/brand/OFL-IBM-Plex-Mono.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "ninth-pane/dist/assets/brand/bo-glyph-small-paper.svg",
+      "bytes": 396,
+      "sha256": "811f9c72502af5a6de156518b97aa0c4fd72ce99c747661f4fa501608a4e4f97"
+    },
+    {
+      "path": "ninth-pane/dist/assets/brand/bo-lockup-stacked-no-division-paper.svg",
+      "bytes": 5537,
+      "sha256": "36939f9591980fae8d25b39784cefdebf5c5209625c0f2c52761b1a4519be4e0"
+    },
+    {
+      "path": "ninth-pane/dist/assets/brand/ibm-plex-mono-latin-400-normal.woff2",
+      "bytes": 14708,
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "path": "ninth-pane/dist/assets/brand/ibm-plex-mono-latin-500-normal.woff2",
+      "bytes": 14888,
+      "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22"
+    },
+    {
+      "path": "ninth-pane/dist/assets/brand/ibm-plex-mono-latin-600-normal.woff2",
+      "bytes": 15620,
+      "sha256": "0d1f0b8d0722224e32e9f28261bdc86c79115be73444ae5eceb73976a1bcdf83"
+    },
+    {
+      "path": "ninth-pane/dist/assets/brand/ibm-plex-mono-latin-700-normal.woff2",
+      "bytes": 14908,
+      "sha256": "4f84d86cfd060f4ded334358ff8a4c81d4db2ed5addd568359d693f44a87765a"
+    },
+    {
+      "path": "ninth-pane/dist/assets/scenes/boiler.jpg",
+      "bytes": 370521,
+      "sha256": "be2d0718cbb104026854294500aee731d259c3964285db775c2a004264b9ebaf"
+    },
+    {
+      "path": "ninth-pane/dist/assets/scenes/exterior.jpg",
+      "bytes": 428440,
+      "sha256": "4f12a7c6d440d0986dda4431b742095669e779e424b5b95cbe22a7c14923c83d"
+    },
+    {
+      "path": "ninth-pane/dist/assets/scenes/nave.jpg",
+      "bytes": 465081,
+      "sha256": "bf9e90f51069b98cda65344062bff09aa5f254badd62a0a777bbfbee18072a90"
+    },
+    {
+      "path": "ninth-pane/dist/assets/scenes/office.jpg",
+      "bytes": 547015,
+      "sha256": "33371cee578611c1314c84871e7e1c90a04c8a1ff307fbbaacb2667866298884"
+    },
+    {
+      "path": "ninth-pane/dist/assets/scenes/potting.jpg",
+      "bytes": 630582,
+      "sha256": "f4b2db22daf182c3c6ce4eb2b150a206d3daacf89ffbce3167e4680dce9829b2"
+    },
+    {
+      "path": "ninth-pane/dist/audio.js",
+      "bytes": 5090,
+      "sha256": "ea07863796a80a6ec54862f6ff92aa9a13a53681cefbc209376aeccd582563ac"
+    },
+    {
+      "path": "ninth-pane/dist/engine.js",
+      "bytes": 7809,
+      "sha256": "67633e38a5f70e34c6b73b4cf84e86cebc5359d5585597aded15e44bab52e6ff"
+    },
+    {
+      "path": "ninth-pane/dist/index.html",
+      "bytes": 1313,
+      "sha256": "3335a22636967f4686dae2e670489925c05a04b5027e8a98a1d87a88f2a95708"
+    },
+    {
+      "path": "ninth-pane/dist/story.js",
+      "bytes": 21395,
+      "sha256": "06bbc9f70e778d9d5f3280544e8d0e62e6f57ee020434dbf4d1e4211fbc6eee9"
+    },
+    {
+      "path": "ninth-pane/dist/style.css",
+      "bytes": 28480,
+      "sha256": "5551043ed34206693783ad9edee55792240f9dfe0f1c328dbd759da4d1d88a70"
+    },
+    {
+      "path": "ninth-pane/docs/image-provenance.json",
+      "bytes": 10609,
+      "sha256": "38f15524fa8f8063455bd1dbf7a9d2fc227ee283e3d141a309fa042c8efde07f"
+    },
+    {
+      "path": "ninth-pane/package.json",
+      "bytes": 402,
+      "sha256": "f08f75d5ae9b620b375a04654cf8f8ef6461c622d06f01347026c00efee6da76"
+    },
+    {
+      "path": "ninth-pane/source-assets/office-original.png",
+      "bytes": 2352027,
+      "sha256": "9c341cda497a4c0835f3c4c1fd262a1bd0efc7b4238f6d7918cfd76025c54eec"
+    },
+    {
+      "path": "ninth-pane/source-assets/potting-original.png",
+      "bytes": 2663497,
+      "sha256": "1cf21dcff18b3859ea840ddabd2c05d6c99937810b3eadd4a0c4997771aa7f2c"
+    },
+    {
+      "path": "ninth-pane/source-assets/scenes/boiler.png",
+      "bytes": 2336895,
+      "sha256": "9317ffe35d87d4b5389eb120f6e082d081a94da5caab87f17a10c422ee3b3748"
+    },
+    {
+      "path": "ninth-pane/source-assets/scenes/exterior.png",
+      "bytes": 2737787,
+      "sha256": "a36efd04d6b8f17a71748ce5b8fe8d41960619df92f5925141a997472cb54912"
+    },
+    {
+      "path": "ninth-pane/source-assets/scenes/nave.png",
+      "bytes": 2906415,
+      "sha256": "7ca3422d84c037b74a9d82427ea47ed362ed493bc8c24c32b0bf05931cae968f"
+    },
+    {
+      "path": "ninth-pane/tests/account.test.mjs",
+      "bytes": 2887,
+      "sha256": "38c5c20f7fd90f109bac4c84ca75edb98bd23269ba585c9693c3d99873f1f4fe"
+    },
+    {
+      "path": "ninth-pane/tests/engine.test.mjs",
+      "bytes": 19926,
+      "sha256": "cefae3e82098d123bdd005917d6a4f98108db16c533d055f064b3f3572b7cdfb"
+    }
+  ]
+}

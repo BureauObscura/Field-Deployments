@@ -1,0 +1,27 @@
+[
+  {
+    "webPath": "assets/scenes/ninth-pane.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "8bd762fb99f83516a3510d3fb60c0905d2515d342fd2df5354090574234b2f1c",
+    "sourcePath": "source-assets/scenes/ninth-pane/library-card.png",
+    "sourceSha256": "5b0692e80e567293300813f158bd738fec16d450cbf41c90cef7db80b53b66c5",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: precise-object-edit. Input image is the approved Ninth Pane exterior scene and is the edit target. Create a native 1:1 SQUARE version of this photograph with equal width and height for the game library. Preserve the exact glasshouse architecture, door and steps, wet stone path, pots, dark garden foliage, cold rainy evening and warm amber lamps. Recompose the same setting naturally within a square frame while retaining the recognizable entrance and the foreground path. Extend the photographic scene as needed; no letterbox, border or stretched pixels. Keep the tactile photographic realism and existing colors. No people, silhouettes, faces, body parts, human reflections or animals. No writing, logos, captions or UI. Change only framing to a square composition.",
+    "scene": "library-card",
+    "qa": "Native square. Glasshouse entrance, wet path, warm interior lamps and dark empty garden retained. No people, animals, visible text or interface.",
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  }
+]

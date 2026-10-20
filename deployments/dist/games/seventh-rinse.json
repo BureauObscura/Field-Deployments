@@ -1,0 +1,936 @@
+{
+  "version": 1,
+  "slug": "seventh-rinse",
+  "title": "The Seventh Rinse",
+  "number": "04",
+  "coordinate": "Tiled wash room · 23 October 1986 · 23:10",
+  "duration": "20–30 minutes",
+  "summary": "Step a washer through a reversible cycle and recover the scent released when its ceramic filter returns to an earlier condition.",
+  "motif": "machine",
+  "start": "street",
+  "intro": [
+    "You are a Bureau field agent assigned to a wash room in 1986. Test the older machine at the end of the row, recover its changing scent, and return with evidence of the cycle that produced it.",
+    "The machine is disconnected from its motor. Its rear hand wheel is accessible. Across the open filter grille, a white mineral line continues over a chipped ceramic edge without a gap."
+  ],
+  "brief": [
+    "Your coordinate is the wash room, rear service space and drying area. The Bureau assignment concerns the older washer and the material held in its ceramic filter.",
+    "Establish whether its changes can be reversed and whether a recovered sample keeps its condition outside the drum. Bring back sensory evidence with a record of the settings used.",
+    "First sample the still wash water and photograph the drum, filter and controls. The motor stays disconnected. Every turn will be made by you, and the machine remains still while you examine the case."
+  ],
+  "baseline": {
+    "location": "washfloor",
+    "title": "Record the stopped machine",
+    "body": [
+      "You photograph the disconnected motor lead, water level and hand-wheel position. The drum is still. A clean card held at its mouth takes on laundry soap, damp cotton and a faint chalky floral note.",
+      "You seal a small sample of the standing wash water and photograph the chipped filter edge. The white deposit crossing the chip is visible in the close view.",
+      "Your case now contains the initial scent and condition. You mark the wheel’s starting position so every test can finish where it began."
+    ],
+    "result": "The initial water sample, scent card and machine photographs are packed.",
+    "inventory": [
+      "Original wash-water sample",
+      "Drum-air scent card",
+      "Filter and control photographs"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "street",
+      "title": "Street entrance",
+      "subtitle": "Rain beyond the glass",
+      "image": "assets/scenes/seventh-rinse/street.jpg",
+      "description": [
+        "Rain gathers in the shallow pavement joints outside the wash room. Through the windows, the rows of machines are still under fluorescent light.",
+        "The older machine stands at the far end, separate from the matching row. Its service door is open, giving a view of the hand wheel behind it."
+      ],
+      "sensory": {
+        "air": "Wet pavement and cool air",
+        "contact": "Cold door handle",
+        "residue": "Rainwater in the threshold grooves"
+      },
+      "weather": "rain",
+      "weatherLabel": "Street rain",
+      "hotspots": [
+        {
+          "evidence": "power",
+          "x": 33,
+          "y": 64,
+          "label": "Check the disconnected drive"
+        },
+        {
+          "evidence": "outside_control",
+          "x": 75,
+          "y": 56,
+          "label": "Compare the entrance air"
+        }
+      ]
+    },
+    {
+      "id": "washfloor",
+      "title": "Wash floor",
+      "subtitle": "The stopped drum",
+      "image": "assets/scenes/seventh-rinse/washfloor.jpg",
+      "description": [
+        "Pale mint tiles surround the older round-door washer. Its drum contains still water below the opening. The remaining machines are dry.",
+        "The filter access is open beneath it. A thin line of water reaches a floor joint and stops. This is the place to record the condition before touching the controls."
+      ],
+      "sensory": {
+        "air": "Laundry soap and damp cotton",
+        "contact": "Cool enamel",
+        "residue": "White residue at the filter opening"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "wet_test",
+          "x": 32,
+          "y": 58,
+          "label": "Test wet and dry material"
+        },
+        {
+          "evidence": "level_marks",
+          "x": 75,
+          "y": 49,
+          "label": "Inspect the water levels"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "title": "Service space",
+      "subtitle": "Turn each stage by hand",
+      "image": "assets/scenes/seventh-rinse/service.jpg",
+      "description": [
+        "The removed rear cover exposes a belt, hand wheel and selector. The motor lead is disconnected. A sight tube runs beside the drum.",
+        "The selector has stops for returning water, collecting it and draining it. The wheel can be held at each marked stage without moving on."
+      ],
+      "sensory": {
+        "air": "Dry rubber and damp metal",
+        "contact": "Ridged hand-wheel rim",
+        "residue": "Soap film below the sight tube"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "cam_plan",
+          "x": 31,
+          "y": 63,
+          "label": "Read the cycle stops"
+        },
+        {
+          "evidence": "direction_test",
+          "x": 74,
+          "y": 53,
+          "label": "Compare forward and reverse"
+        }
+      ]
+    },
+    {
+      "id": "folding",
+      "title": "Folding bench",
+      "subtitle": "Prepare a visible witness",
+      "image": "assets/scenes/seventh-rinse/folding.jpg",
+      "description": [
+        "A plain cotton square lies beside scissors, glass dishes and a small dye stamp. A clean section of the laminate bench is dry.",
+        "A photograph of a controlled cut or a stamped mark can show a material change more clearly than a scent description alone. The materials have not yet been prepared."
+      ],
+      "sensory": {
+        "air": "Dry cotton and laminate",
+        "contact": "Smooth bench edge",
+        "residue": "A few loose cotton fibers"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "thread_test",
+          "x": 32,
+          "y": 61,
+          "label": "Test a cut thread"
+        },
+        {
+          "evidence": "dye_test",
+          "x": 74,
+          "y": 58,
+          "label": "Test a stamped mark"
+        }
+      ]
+    },
+    {
+      "id": "filter",
+      "title": "Filter compartment",
+      "subtitle": "The scent source",
+      "image": "assets/scenes/seventh-rinse/filter.jpg",
+      "description": [
+        "The pale ceramic filter sits behind a removable grille. Its surface carries a brown soap ring and a white mineral deposit. One corner is chipped.",
+        "A side outlet can divert a small flow into a receiver. Removing the whole filter will require the drum to be drained first."
+      ],
+      "sensory": {
+        "air": "Soap with a chalky floral edge",
+        "contact": "Cool metal grille",
+        "residue": "White mineral deposit and brown soap"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "filter_test",
+          "x": 34,
+          "y": 56,
+          "label": "Observe the filter in reverse"
+        },
+        {
+          "evidence": "outlet_test",
+          "x": 75,
+          "y": 64,
+          "label": "Test the collection outlet"
+        }
+      ]
+    },
+    {
+      "id": "drying",
+      "title": "Drying area",
+      "subtitle": "A stable sample outside the drum",
+      "image": "assets/scenes/seventh-rinse/drying.jpg",
+      "description": [
+        "The dryers are off. A low rack and a clear sample box stand on the worktop. The room is warmer and drier than the wash floor.",
+        "Anything placed here is clear of the machine’s water and moving parts. A recovered specimen can be checked before it is packed."
+      ],
+      "sensory": {
+        "air": "Warm dry cotton",
+        "contact": "Dry rack rails",
+        "residue": "Fine pale lint"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "dry_test",
+          "x": 34,
+          "y": 63,
+          "label": "Check a dried witness"
+        },
+        {
+          "evidence": "sleeve",
+          "x": 74,
+          "y": 56,
+          "label": "Inspect the filter carrier"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "power",
+      "title": "The drive is disconnected",
+      "location": "street",
+      "kind": "Equipment examination",
+      "body": [
+        "The motor lead is disconnected. The drum cannot advance under power. The rear hand wheel still engages the drum through the visible drive.",
+        "A mechanical stop holds the selected stage. Reading, moving between rooms and inspecting evidence will not turn the machine."
+      ],
+      "excerpt": "Every stage requires a deliberate turn of the hand wheel.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/power.jpg",
+        "alt": "Separated motor connectors below the washer’s belt and hand wheel.",
+        "caption": "Disconnected motor lead and manual drive."
+      },
+      "examination": {
+        "lead": "The motor lead lies beside the exposed belt. A stop rests against the hand wheel.",
+        "action": "Trace the disconnected drive"
+      }
+    },
+    {
+      "id": "outside_control",
+      "title": "Entrance-air comparison",
+      "location": "street",
+      "kind": "Controlled sample",
+      "body": [
+        "After the baseline, you compare air at the street door with air above the stopped drum. Repeating with the door closed removes the pavement note from the room but leaves soap and chalky floral scent at the drum.",
+        "The changing recovery target can be sampled inside the machine without treating street rain as its source."
+      ],
+      "excerpt": "The drum scent remains when the street air is excluded.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/outside_control.jpg",
+        "alt": "Two clean blotters beside the closed entrance, with wet pavement beyond the glass.",
+        "caption": "Blotters ready for the entrance-air comparison."
+      },
+      "examination": {
+        "lead": "Two fresh blotters wait at the closed street door. The pavement outside is wet.",
+        "action": "Compare the two air samples"
+      }
+    },
+    {
+      "id": "wet_test",
+      "title": "Only submerged material changes",
+      "location": "washfloor",
+      "kind": "Repeatable test",
+      "body": [
+        "You place two identical cut threads in separate mesh pockets. One is fully submerged; the other stays dry above the water. With the wheel reversed to its seventh stop, the wet thread’s cut closes. The dry thread remains cut.",
+        "A forward turn restores the wet thread’s cut. You exchange the pockets and repeat. The result follows full water contact, rather than a particular pocket."
+      ],
+      "excerpt": "Full water contact is required; the dry control stays unchanged.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/wet_test.jpg",
+        "alt": "Two mesh pockets containing cut threads, one submerged and one above the water.",
+        "caption": "Wet and dry controls before the wheel is turned."
+      },
+      "examination": {
+        "lead": "The lower mesh pocket sits under water. The second pocket and its cut thread remain dry.",
+        "action": "Test both mesh pockets"
+      }
+    },
+    {
+      "id": "level_marks",
+      "title": "The upper water line",
+      "location": "washfloor",
+      "kind": "Instrument examination",
+      "body": [
+        "The lowest water mark leaves the drum mesh dry. The middle mark wets its lower edge. At the upper mark, the mesh pockets and ceramic filter are completely submerged.",
+        "The sight tube shows these three positions clearly. The upper mark is the required condition for a full material test."
+      ],
+      "excerpt": "Use the upper mark to cover the mesh and filter completely.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/level_marks.jpg",
+        "alt": "A glass sight tube with three unnumbered level marks.",
+        "caption": "Three possible water levels on the sight tube."
+      },
+      "examination": {
+        "lead": "Three scratches mark the tube. The water is below the highest one.",
+        "action": "Compare the water levels"
+      }
+    },
+    {
+      "id": "cam_plan",
+      "title": "The seventh stop",
+      "location": "service",
+      "kind": "Mechanism plan",
+      "body": [
+        "The wheel has seven indexed stops. A cam engages the reversal mechanism at the seventh. The first stop opens the loading position; the fourth is a wash hold with the reversal cam clear.",
+        "The outlet selector can send flow back to the drum, to a clean collector or to the drain. The collection test needs the collector route, a reverse turn and a stop at seven."
+      ],
+      "excerpt": "Reverse to stop seven with the collector outlet selected.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/cam_plan.jpg",
+        "alt": "A seven-stop indexing cam beside a three-way outlet valve.",
+        "caption": "The indexed cam and outlet selector."
+      },
+      "examination": {
+        "lead": "A pin rests beside the notched cam. Three branches leave the outlet valve.",
+        "action": "Follow the cam and outlet paths"
+      }
+    },
+    {
+      "id": "direction_test",
+      "title": "Forward restores the change",
+      "location": "service",
+      "kind": "Repeatable test",
+      "body": [
+        "A marked test strip is wetted, then a short cut is made in its edge. Reversing the wheel to seven closes the cut. Turning forward from that position restores it.",
+        "You repeat the pair of movements twice, returning to the starting setting. The same strip alternates between the two conditions. No change occurs while the wheel is held still."
+      ],
+      "excerpt": "Reverse restores the earlier condition; forward brings back the later cut.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/direction_test.jpg",
+        "alt": "A damp marked cotton strip with a short edge cut, beside the stationary hand wheel.",
+        "caption": "Test strip prepared for a forward-and-reverse comparison."
+      },
+      "examination": {
+        "lead": "A short cut interrupts the edge of the damp strip. The wheel is held still.",
+        "action": "Compare forward and reverse turns"
+      }
+    },
+    {
+      "id": "thread_test",
+      "title": "A cut joins again",
+      "location": "folding",
+      "kind": "Controlled witness",
+      "body": [
+        "You photograph a cotton thread, wet it in the drum and cut it across a dark backing. At the reverse seventh stop the two ends join. The fibers remain aligned when gently lifted with tweezers.",
+        "A forward turn separates the same cut again. Repeating the test confirms that the thread’s condition follows the wheel, rather than the cut merely being hidden by water."
+      ],
+      "excerpt": "The thread joins and separates at the same recorded cut.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/thread_test.jpg",
+        "alt": "Two cut cotton-thread ends aligned on a dark backing beside tweezers.",
+        "caption": "The visible gap before the thread test."
+      },
+      "examination": {
+        "lead": "The two cut ends sit apart on the dark tile. Their loose fibers are visible.",
+        "action": "Test the cut thread"
+      }
+    },
+    {
+      "id": "dye_test",
+      "title": "A mark disappears and returns",
+      "location": "folding",
+      "kind": "Controlled witness",
+      "body": [
+        "You wet a fresh cotton tab and stamp a small square on it. At the reverse seventh stop, the square disappears. A forward turn restores it in the same position.",
+        "Repeating with a second tab gives the same result. The dye provides a clear color record, but its solvent makes that tab unsuitable as a clean scent carrier."
+      ],
+      "excerpt": "A dye mark makes the change visible but contaminates the witness’s scent.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/dye_test.jpg",
+        "alt": "A clean cotton tab beside a square dye stamp and ink pad.",
+        "caption": "A clean tab and square stamp before the dye test."
+      },
+      "examination": {
+        "lead": "The cotton tab is blank. The stamp will leave one small square.",
+        "action": "Test the square dye mark"
+      }
+    },
+    {
+      "id": "filter_test",
+      "title": "The filter changes with the cycle",
+      "location": "filter",
+      "kind": "Repeatable observation",
+      "body": [
+        "With the original water and upper level retained, you reverse the wheel to seven. The chipped edge becomes continuous. The brown soap ring lightens, and the chalky floral note grows clearer.",
+        "A forward turn restores the chip, darker ring and original scent balance. You repeat once and return to the photographed starting condition. The test identifies two states without assigning a date to the earlier one."
+      ],
+      "excerpt": "The filter’s shape, deposit and scent change together and can be restored.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/filter_test.jpg",
+        "alt": "The installed ceramic filter with a triangular chip, brown soap ring and pale mineral crust.",
+        "caption": "Filter edge and deposits before the reverse-cycle test."
+      },
+      "examination": {
+        "lead": "A triangular chip breaks the ceramic edge. Brown soap and white mineral deposits cover the surface.",
+        "action": "Test the filter at stop seven"
+      }
+    },
+    {
+      "id": "outlet_test",
+      "title": "A catch outside the drum",
+      "location": "filter",
+      "kind": "Repeatable test",
+      "body": [
+        "At the reverse seventh stop, you divert a small flow into a clean receiver. You close the receiver outside the machine, then turn the wheel forward. The filter changes back; the caught liquid keeps the lighter scent.",
+        "A second catch repeats the result. Water in a disconnected dish does not repair a cut thread. The effect requires the wet drum, while a separated sample retains its collected condition."
+      ],
+      "excerpt": "A diverted catch keeps its state after the machine turns forward.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/outlet_test.jpg",
+        "alt": "An empty detached glass receiver beneath the washer’s side outlet.",
+        "caption": "The collection outlet before a catch is taken."
+      },
+      "examination": {
+        "lead": "The receiver stands clear of the drum beneath the side outlet. It is empty.",
+        "action": "Catch and isolate a small sample"
+      }
+    },
+    {
+      "id": "dry_test",
+      "title": "A dry witness stays joined",
+      "location": "drying",
+      "kind": "Controlled test",
+      "body": [
+        "You remove a joined test thread at the reverse stop and let it dry on the rack. You then turn the empty test pocket forward and reverse. The dried thread remains joined.",
+        "A second thread behaves the same way. Your photograph of the original cut and the dried witness can travel together without keeping the machine active."
+      ],
+      "excerpt": "Removal and drying preserve the restored condition.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/dry_test.jpg",
+        "alt": "An empty dark sample tile on a drying rack beside an open specimen box.",
+        "caption": "Drying rack prepared for the witness."
+      },
+      "examination": {
+        "lead": "The dry tile is clear of the washer and its water. The specimen box is open.",
+        "action": "Dry and retest a joined thread"
+      }
+    },
+    {
+      "id": "sleeve",
+      "title": "The ceramic carrier",
+      "location": "drying",
+      "kind": "Equipment check",
+      "body": [
+        "The rigid carrier fits the ceramic filter and keeps its edges clear of the padding. A separate residue cup can retain loose material during transport.",
+        "The filter must be removed after draining. The machine’s wet-contact behavior has not been demonstrated in a detached dry filter, so its return would be a material recovery rather than a working reversal device."
+      ],
+      "excerpt": "Drain before removal. Pack the filter as a material specimen.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/seventh-rinse/sleeve.jpg",
+        "alt": "An empty padded carrier with a circular filter cradle and separate residue cup.",
+        "caption": "The carrier is empty; the filter remains installed."
+      },
+      "examination": {
+        "lead": "A circular cradle holds the filter clear of the padding. A separate cup fits beside it.",
+        "action": "Check the ceramic carrier"
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "cycle",
+      "title": "The wet reverse cycle",
+      "question": "Which conditions restore an earlier material state?",
+      "pairs": [
+        [
+          "wet_test",
+          "direction_test"
+        ],
+        [
+          "thread_test",
+          "level_marks"
+        ]
+      ],
+      "success": "Fully submerged material returns to its earlier state at the reverse seventh stop. A forward turn restores the later change. Holding the wheel still holds the condition.",
+      "hints": [
+        "Compare wet material with the dry control, then check direction.",
+        "The upper water line fully covers the test pockets. The reverse seventh stop closes the cut.",
+        "Connect Only submerged material changes with Forward restores the change, or A cut joins again with The upper water line."
+      ]
+    },
+    {
+      "id": "recovery",
+      "title": "Keep a recovered condition",
+      "question": "How can a sample be returned without keeping the washer in reverse?",
+      "pairs": [
+        [
+          "outlet_test",
+          "dry_test"
+        ],
+        [
+          "filter_test",
+          "outlet_test"
+        ]
+      ],
+      "success": "The filter can change back while a separated sample retains its recovered state. That gives you a way to return evidence without running the machine.",
+      "hints": [
+        "Look for samples checked after they leave the drum.",
+        "The side outlet isolates liquid. The rack isolates and dries a solid witness.",
+        "Connect A catch outside the drum with A dry witness stays joined or The filter changes with the cycle."
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "water",
+      "title": "Retain or replace the wash water",
+      "location": "filter",
+      "requires": {
+        "evidence": [
+          "filter_test",
+          "outlet_test"
+        ]
+      },
+      "intro": [
+        "The original water preserves the whole condition, including the soap already present. Fresh water will make the filter’s contribution easier to isolate but will discard most of the original wash."
+      ],
+      "options": [
+        {
+          "id": "original",
+          "label": "Retain the original wash",
+          "description": "Use the water present at the coordinate for the final recovery.",
+          "cost": "Existing soap will remain part of the recovered scent.",
+          "result": [
+            "You close the drain selector. The original water remains at the upper mark. The sealed baseline sample records the condition before the final cycle."
+          ],
+          "sceneNote": "The original wash remains in the drum.",
+          "epilogues": {
+            "cloth": [
+              "The recovered condition includes the original wash water. Soap from that water remains part of the scent, and is identified in the report."
+            ],
+            "liquid": [
+              "The recovered condition includes the original wash water. Soap from that water remains part of the scent, and is identified in the report."
+            ],
+            "filter": [
+              "The recovered condition includes the original wash water. Soap from that water remains part of the scent, and is identified in the report."
+            ],
+            "drain": [
+              "The recovered condition includes the original wash water. Soap from that water remains part of the scent, and is identified in the report."
+            ]
+          }
+        },
+        {
+          "id": "fresh",
+          "label": "Replace it with fresh water",
+          "description": "Keep the baseline vial, drain the bulk wash and refill to the upper mark.",
+          "cost": "Only the baseline vial preserves the original wash. Its full volume cannot be restored.",
+          "result": [
+            "You retain the sealed baseline vial, drain the remaining wash and refill with clean water. A short control cycle confirms that the reversal still works."
+          ],
+          "sceneNote": "Fresh water fills the drum; the original wash survives only in the baseline vial.",
+          "epilogues": {
+            "cloth": [
+              "The main recovery used fresh water. The original wash survives in its baseline vial, allowing the cleaner filter-derived scent to be distinguished from it."
+            ],
+            "liquid": [
+              "The main recovery used fresh water. The original wash survives in its baseline vial, allowing the cleaner filter-derived scent to be distinguished from it."
+            ],
+            "filter": [
+              "The main recovery used fresh water. The original wash survives in its baseline vial, allowing the cleaner filter-derived scent to be distinguished from it."
+            ],
+            "drain": [
+              "The main recovery used fresh water. The original wash survives in its baseline vial, allowing the cleaner filter-derived scent to be distinguished from it."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "witness",
+      "title": "Prepare the final witness",
+      "location": "folding",
+      "requires": {
+        "deductions": [
+          "cycle"
+        ],
+        "evidence": [
+          "thread_test",
+          "dye_test"
+        ]
+      },
+      "intro": [
+        "Prepare a physical witness to travel with the final record. A cut cotton strip can also carry scent. A dye tab gives a clearer color comparison but introduces solvent."
+      ],
+      "options": [
+        {
+          "id": "thread",
+          "label": "Prepare an undyed cut strip",
+          "description": "Photograph a clean cotton strip and make a measured cut after wetting it.",
+          "cost": "Its evidence is a fine joined edge, which needs a close photograph to show clearly.",
+          "result": [
+            "You photograph the wet strip against a dark backing and make the cut. It waits in a separate mesh pocket outside the drum until the final recovery cycle."
+          ],
+          "sceneNote": "An undyed cut strip waits outside the drum in its witness pocket.",
+          "epilogues": {
+            "cloth": [
+              "The scent-bearing cotton also preserves the joined cut. Its before photograph is packed beside it."
+            ],
+            "liquid": [
+              "A dried cotton witness accompanies the liquid, with a close photograph of the cut before reversal."
+            ],
+            "filter": [
+              "A dried cotton witness accompanies the ceramic specimen."
+            ],
+            "drain": [
+              "The prepared cut strip is packed as an unrun control. This return makes no claim that the final witness was restored."
+            ]
+          }
+        },
+        {
+          "id": "dye",
+          "label": "Prepare a stamped dye tab",
+          "description": "Photograph a stamped square on a wet cotton tab.",
+          "cost": "The dye’s solvent makes the tab unsuitable for the cloth-scent recovery method.",
+          "result": [
+            "You photograph the stamped square and place the tab in a separate witness pocket outside the drum. It stays there until the final recovery cycle."
+          ],
+          "sceneNote": "A stamped tab waits outside the drum in its witness pocket.",
+          "epilogues": {
+            "liquid": [
+              "A dried dye witness and its before photograph show the color change. It is packed apart from the scent sample."
+            ],
+            "filter": [
+              "A dried dye witness is packed separately from the ceramic specimen."
+            ],
+            "drain": [
+              "The stamped tab returns as an unrun control, with its mark still visible."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "puzzle": {
+    "id": "cycle_setup",
+    "title": "Set the recovery cycle",
+    "location": "service",
+    "type": "cycle",
+    "intro": [
+      "Set the water level, direction, stopping point and outlet. The test uses a clean witness and a small receiver, then returns the machine to its starting condition.",
+      "The hand wheel moves only when you submit a test. A wrong setup stops safely and resets. Your final recovery will use the same verified settings with the prepared sample."
+    ],
+    "requires": {
+      "deductions": [
+        "cycle"
+      ],
+      "evidence": [
+        "cam_plan",
+        "level_marks",
+        "outlet_test"
+      ]
+    },
+    "controls": [
+      {
+        "id": "level",
+        "label": "Water level",
+        "options": [
+          {
+            "value": "low",
+            "label": "Below the mesh",
+            "feedback": "The test pocket remains dry."
+          },
+          {
+            "value": "middle",
+            "label": "Lower mesh edge",
+            "feedback": "Only the bottom of the pocket touches water."
+          },
+          {
+            "value": "upper",
+            "label": "Upper mark",
+            "feedback": "The pocket and ceramic filter are fully submerged."
+          }
+        ]
+      },
+      {
+        "id": "direction",
+        "label": "Hand-wheel direction",
+        "options": [
+          {
+            "value": "forward",
+            "label": "Forward",
+            "feedback": "The wheel follows the normal wash direction."
+          },
+          {
+            "value": "hold",
+            "label": "Hold",
+            "feedback": "The wheel stays at its present index."
+          },
+          {
+            "value": "reverse",
+            "label": "Reverse",
+            "feedback": "The wheel runs back toward the reversal cam."
+          }
+        ]
+      },
+      {
+        "id": "stop",
+        "label": "Stopping point",
+        "options": [
+          {
+            "value": "one",
+            "label": "Stop one",
+            "feedback": "The loading position is selected."
+          },
+          {
+            "value": "four",
+            "label": "Stop four",
+            "feedback": "The wash hold keeps the reversal cam clear."
+          },
+          {
+            "value": "seven",
+            "label": "Stop seven",
+            "feedback": "The reversal cam meets the drum assembly."
+          }
+        ]
+      },
+      {
+        "id": "outlet",
+        "label": "Outlet",
+        "options": [
+          {
+            "value": "return",
+            "label": "Return to drum",
+            "feedback": "The flow remains in the machine."
+          },
+          {
+            "value": "collector",
+            "label": "Clean collector",
+            "feedback": "A separated receiver is connected to the side outlet."
+          },
+          {
+            "value": "drain",
+            "label": "Drain",
+            "feedback": "The flow is directed out of the recovery circuit."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "level": "upper",
+      "direction": "reverse",
+      "stop": "seven",
+      "outlet": "collector"
+    },
+    "hints": [
+      "The material must be fully wet when the reversal cam engages.",
+      "Use the seventh stop in reverse, and separate the catch from the drum.",
+      "Set upper mark, reverse, stop seven and clean collector."
+    ],
+    "success": [
+      "The test witness restores its earlier condition at the seventh stop. A small catch enters the separate receiver. When you turn forward again, the caught sample remains unchanged.",
+      "You record the four settings and return the machine to its starting position. The final recovery can now be performed without guessing at the controls."
+    ],
+    "failure": "The setup did not restore and isolate the test sample. Check full water contact, reverse direction, stop seven and the collector outlet. The test has reset without consuming the prepared witness."
+  },
+  "endings": [
+    {
+      "id": "cloth",
+      "title": "A restored strip",
+      "subtitle": "Scent and structure on cotton",
+      "requires": {
+        "deductions": [
+          "cycle",
+          "recovery"
+        ],
+        "puzzle": true,
+        "choices": {
+          "water": [
+            "original",
+            "fresh"
+          ],
+          "witness": [
+            "thread"
+          ]
+        },
+        "evidence": [
+          "dry_test"
+        ]
+      },
+      "locked": "Establish both deductions, verify the cycle, choose the water and prepare an undyed cut strip. Confirm that a dried witness keeps its restored condition.",
+      "action": "Restore the cut strip in the selected wash, remove it at the reverse stop and dry it for return.",
+      "consequence": "The cotton will preserve the recovered scent and joined cut. No liquid from the final cycle or whole filter will be recovered.",
+      "body": [
+        "You set the verified cycle and stop the wheel at seven. The cut closes in the undyed strip. Above the filter, the chalky floral note becomes clearer.",
+        "You lift the strip out without turning forward. It drains into a small waste dish, then dries on the rack. The joined fibers hold when lifted from their backing.",
+        "You return the filter to its starting condition, drain the machine and secure the disconnected drive. A final close photograph records the dry strip beside its original cut image.",
+        "You return to the Bureau with a scent-bearing textile, a visible material change and the baseline water. The dry specimen keeps its recovered state without an operating washer."
+      ],
+      "recovered": [
+        "Restored scent-bearing cotton",
+        "Before-and-after witness photographs",
+        "Baseline water and scent card"
+      ],
+      "siteStatus": "Filter retained; machine drained and secured.",
+      "sensory": {
+        "air": "Soap and chalky floral scent in cotton",
+        "contact": "Dry joined fibers",
+        "residue": "White mineral trace on the strip"
+      }
+    },
+    {
+      "id": "liquid",
+      "title": "The separated rinse",
+      "subtitle": "Liquid condition retained",
+      "requires": {
+        "deductions": [
+          "cycle",
+          "recovery"
+        ],
+        "puzzle": true,
+        "choices": {
+          "water": [
+            "original",
+            "fresh"
+          ],
+          "witness": [
+            "thread",
+            "dye"
+          ]
+        },
+        "evidence": [
+          "dry_test"
+        ]
+      },
+      "locked": "Establish both deductions, verify the cycle and make both preparations. Confirm that a dried witness keeps its restored condition.",
+      "action": "Collect the filter’s reverse-state rinse through the side outlet and seal it outside the drum.",
+      "consequence": "The recovery keeps the liquid condition, while the original filter remains at the site.",
+      "body": [
+        "You fill to the upper mark, reverse to seven and direct the small flow into the clean collector. The filter edge becomes continuous and its floral note strengthens.",
+        "You close the receiver outside the drum. The prepared witness is removed at the same stop and dried separately. Turning the wheel forward changes the filter back while the liquid keeps its collected condition.",
+        "You drain the remaining wash and secure the drive. The original ceramic filter remains behind its grille, with its starting condition recorded in the final photograph.",
+        "At the Bureau, the sealed rinse can be compared with the original water vial. The witness and control settings establish how the two samples were obtained, without assigning a historical date to the restored scent."
+      ],
+      "recovered": [
+        "Separated reverse-state rinse",
+        "Dried witness and photographs",
+        "Original baseline water"
+      ],
+      "siteStatus": "Filter retained; machine drained and secured.",
+      "sensory": {
+        "air": "Chalky floral scent above the rinse",
+        "contact": "Cool sealed receiver",
+        "residue": "Fine pale deposit in the liquid"
+      }
+    },
+    {
+      "id": "filter",
+      "title": "The ceramic source",
+      "subtitle": "Material recovered",
+      "requires": {
+        "deductions": [
+          "cycle",
+          "recovery"
+        ],
+        "puzzle": true,
+        "evidence": [
+          "sleeve",
+          "dry_test"
+        ],
+        "choices": {
+          "water": [
+            "original",
+            "fresh"
+          ],
+          "witness": [
+            "thread",
+            "dye"
+          ]
+        }
+      },
+      "locked": "Verify the cycle and recovery rule, make both preparations and inspect the carrier. Confirm that a dried witness keeps its restored condition.",
+      "action": "Restore the filter, stop the wheel, drain without a forward turn and remove the ceramic source.",
+      "consequence": "The scent-bearing filter leaves the site. It will travel dry as a material specimen; the washer’s reversal behavior will not be a portable device.",
+      "body": [
+        "You run the verified reverse cycle and hold at seven. The prepared witness is lifted out. With the wheel still, you drain the water without engaging the forward drive.",
+        "The filter’s continuous edge remains intact. You release its grille and lift the ceramic into the rigid carrier, retaining loose deposits in the separate cup.",
+        "The empty filter seat is photographed and the machine secured. Its source of the chalky floral note has been removed. The machine itself remains at the coordinate, dry and disconnected.",
+        "You return with the ceramic in its recovered condition, the dried witness and the baseline samples. The case records a physical source and a tested process, while any behavior of the detached filter remains untested."
+      ],
+      "recovered": [
+        "Restored ceramic filter and deposits",
+        "Dried witness",
+        "Baseline samples and cycle record"
+      ],
+      "siteStatus": "Scent filter removed; machine drained and secured.",
+      "sensory": {
+        "air": "Faint soap and chalky floral residue",
+        "contact": "Rigid padded carrier",
+        "residue": "Pale ceramic and retained deposits"
+      }
+    },
+    {
+      "id": "drain",
+      "title": "The stopped coordinate",
+      "subtitle": "Baseline and water recovered",
+      "requires": {},
+      "locked": "Complete the baseline survey.",
+      "action": "Take a final water sample, drain the washer and secure the disconnected controls.",
+      "consequence": "The final reverse-state recovery will not be performed. The source filter stays at the site in the state recorded before drainage.",
+      "body": [
+        "You take a small final sample of the water currently in the drum. It is labelled with the actual preparation and tests completed, so it can be distinguished from the sealed baseline vial.",
+        "Without advancing the wheel, you open the drain and let the sight tube fall to its lowest mark. The ceramic filter stays behind the grille. You photograph its edge once more.",
+        "The hand wheel is secured and the motor remains disconnected. Any prepared witness returns as a control rather than as proof of an unperformed final cycle.",
+        "You return to the Bureau with the two water records, the first scent card and the observations completed during the visit. The machine remains available for a later investigation, with its last condition documented."
+      ],
+      "recovered": [
+        "Baseline and final standing-water samples",
+        "Drum-air scent card",
+        "Final machine-condition photographs"
+      ],
+      "siteStatus": "Filter retained; machine drained and locked.",
+      "sensory": {
+        "air": "Fading laundry soap",
+        "contact": "Dry hand-wheel rim",
+        "residue": "White deposit at the grille"
+      }
+    }
+  ]
+}

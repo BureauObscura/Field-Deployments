@@ -1,0 +1,911 @@
+{
+  "version": 1,
+  "slug": "sand-map",
+  "title": "The Sand Map",
+  "number": "02",
+  "coordinate": "Red sandstone survey court · 18 June 1884 · 16:40",
+  "duration": "20–30 minutes",
+  "summary": "Map a desert court whose paths move when a small sand relief is turned.",
+  "motif": "sand",
+  "start": "ridge",
+  "intro": [
+    "You are a Bureau field agent assigned to a desert survey court in 1884. Establish how its paths move, recover the scent coming from a dry basin, and return with a usable record.",
+    "From the ridge, the court is a square of low stone walls. A model of those walls stands on a table below. One ridge of loose sand rises vertically inside its wooden frame."
+  ],
+  "brief": [
+    "The assigned coordinate is the court and the ground inside its outer wall. Establish how the small model controls the routes between the full-size walls.",
+    "Recover the air above the black crust in the basin. If you can remove material without losing its structure, bring a specimen as well. Record any change your method makes to the court.",
+    "Begin at the viewing gallery. Photograph the walls from above, mark their positions, and seal a sample of the air before touching the model. The court changes only during deliberate tests; take the time you need."
+  ],
+  "baseline": {
+    "location": "gallery",
+    "title": "Survey the court",
+    "body": [
+      "You photograph the court from the gallery and mark the ends of its low walls against the outer square. The basin lies beyond four turning passages. A broad service rim surrounds it, giving a clear view of the crust below.",
+      "You hold a blotter in the still air under the gallery roof, then seal it. It carries dry mineral dust and a faint damp smell, strongest toward the basin. There is no rain on the outer parapet.",
+      "A measured sketch and the first photograph go into your case. They will let you separate changes made during testing from the condition you found."
+    ],
+    "result": "The baseline air sample, photograph and wall measurements are packed.",
+    "inventory": [
+      "Sealed court-air blotter",
+      "Overhead photograph",
+      "Wall-position sketch"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "ridge",
+      "title": "Ridge approach",
+      "subtitle": "Outside the square",
+      "image": "assets/scenes/sand-map/ridge.jpg",
+      "description": [
+        "The approach is red gravel worn into a shallow slope. The court below has a continuous outer wall and a dry basin near its far side. Wind passes over it without raising dust from the model.",
+        "A short flight of stone steps leads to the court. The high gallery, instrument room and work alcove all open onto the same enclosure."
+      ],
+      "sensory": {
+        "air": "Warm mineral dust",
+        "contact": "Sun-heated sandstone",
+        "residue": "Fine red grit"
+      },
+      "weather": "dust",
+      "weatherLabel": "Blowing dust",
+      "hotspots": [
+        {
+          "evidence": "outer_plan",
+          "x": 34,
+          "y": 48,
+          "label": "Measure the outer wall"
+        },
+        {
+          "evidence": "wind_control",
+          "x": 72,
+          "y": 63,
+          "label": "Compare the outside air"
+        }
+      ]
+    },
+    {
+      "id": "court",
+      "title": "Model court",
+      "subtitle": "Four turning sections",
+      "image": "assets/scenes/sand-map/court.jpg",
+      "description": [
+        "The sand table stands in the open. Four square sections sit on brass pivots inside a timber frame. Each holds a bent passage with a low ridge along either side.",
+        "The full-size walls have matching corners. Narrow openings show the pale floor beyond, but the route to the basin turns out of sight."
+      ],
+      "sensory": {
+        "air": "Dry sand with a faint damp edge",
+        "contact": "Rough timber around cool brass",
+        "residue": "Pale grains along the pivots"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "scale_marks",
+          "x": 29,
+          "y": 62,
+          "label": "Read the scale"
+        },
+        {
+          "evidence": "pivot_test",
+          "x": 70,
+          "y": 48,
+          "label": "Test one section"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "title": "Viewing gallery",
+      "subtitle": "The whole court in view",
+      "image": "assets/scenes/sand-map/gallery.jpg",
+      "description": [
+        "From the gallery, the gaps between the walls can be seen together. A measuring rail follows the outer square. A plumb weight hangs over one corner of the floor.",
+        "The table and the basin remain visible from here. This is the best place to make the first record and compare later changes."
+      ],
+      "sensory": {
+        "air": "Still shade and mineral dust",
+        "contact": "Cool stone rail",
+        "residue": "Red dust caught in the rail joints"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "survey_grid",
+          "x": 36,
+          "y": 59,
+          "label": "Compare the sight lines"
+        },
+        {
+          "evidence": "sight_test",
+          "x": 74,
+          "y": 43,
+          "label": "Repeat the wall test"
+        }
+      ]
+    },
+    {
+      "id": "maproom",
+      "title": "Instrument room",
+      "subtitle": "Lay out the route",
+      "image": "assets/scenes/sand-map/maproom.jpg",
+      "description": [
+        "A stone bench holds square drawing frames and plain paper. A shallow groove in each frame matches one of the bent passages on the model.",
+        "A narrow window looks toward the basin. The four sections can be planned here before their pivots are turned outside."
+      ],
+      "sensory": {
+        "air": "Dry paper and warm wood",
+        "contact": "Smooth stone worktop",
+        "residue": "Pale grit in the drawing frames"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "tile_plan",
+          "x": 38,
+          "y": 58,
+          "label": "Read the route layout"
+        },
+        {
+          "evidence": "bead_test",
+          "x": 73,
+          "y": 62,
+          "label": "Trace a route"
+        }
+      ]
+    },
+    {
+      "id": "alcove",
+      "title": "Work alcove",
+      "subtitle": "Prepare a dry or wet recovery",
+      "image": "assets/scenes/sand-map/alcove.jpg",
+      "description": [
+        "A small black fragment lies in a ceramic tray beside a balance. Its edge has the same layered surface as the crust in the basin. A collection hood, water bottle and resin pot stand on separate shelves.",
+        "The alcove is shaded. Its bench gives you room to test the fragment without dropping material onto the model."
+      ],
+      "sensory": {
+        "air": "Clay, dust and a trace of damp stone",
+        "contact": "Cold balance pan",
+        "residue": "Black flakes in a clean tray"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "fragment",
+          "x": 31,
+          "y": 62,
+          "label": "Examine the fragment"
+        },
+        {
+          "evidence": "wet_fragment",
+          "x": 73,
+          "y": 56,
+          "label": "Wet a loose grain"
+        }
+      ]
+    },
+    {
+      "id": "basin",
+      "title": "Basin rim",
+      "subtitle": "Black crust below",
+      "image": "assets/scenes/sand-map/basin.jpg",
+      "description": [
+        "A black crust about thirty-five centimeters across covers a low plinth in the dry basin. Its surface is finely cracked. The damp smell is stronger here, although the surrounding stone remains pale and dry.",
+        "You can reach the near edge with the sampling fork from the rim. Moving a whole core will require the inner route and a stable model."
+      ],
+      "sensory": {
+        "air": "Rain on dry stone, close to the crust",
+        "contact": "Warm rough rim",
+        "residue": "Black mineral flakes"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "core_lift",
+          "x": 34,
+          "y": 66,
+          "label": "Test a small lift"
+        },
+        {
+          "evidence": "water_test",
+          "x": 72,
+          "y": 58,
+          "label": "Test a drop of water"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "outer_plan",
+      "title": "The outer square",
+      "location": "ridge",
+      "kind": "Measurement",
+      "body": [
+        "The outside wall measures the same on each side. Its corners and the gallery do not move against the horizon.",
+        "The uncertainty lies inside the court. Your sketch gives those changes a fixed reference."
+      ],
+      "excerpt": "The outer wall provides a stable reference.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/sand-map/outer_plan.jpg",
+        "alt": "A brass measuring chain follows the two faces of a sandstone corner.",
+        "caption": "Perimeter corner before measurement."
+      },
+      "examination": {
+        "lead": "The outer corner is square. Follow both walls from this point and compare their lengths.",
+        "action": "Measure the outer square"
+      }
+    },
+    {
+      "id": "wind_control",
+      "title": "Outside-air control",
+      "location": "ridge",
+      "kind": "Controlled sample",
+      "body": [
+        "After the baseline, you take equal samples on the ridge and beside the basin rim. You return to the ridge and repeat the comparison.",
+        "Both ridge samples contain dry dust. Both basin samples carry the damp mineral note. The breeze changes direction between tests without moving that difference."
+      ],
+      "excerpt": "The damp note stays with the basin when the wind changes.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/sand-map/wind_control.jpg",
+        "alt": "Two empty glass sample flasks and separate blotters in a wooden case on the ridge.",
+        "caption": "Matched air-sampling kit before collection."
+      },
+      "examination": {
+        "lead": "Two clean flasks are ready. Take one ridge sample and one basin sample, then repeat the pair.",
+        "action": "Compare ridge and basin air"
+      }
+    },
+    {
+      "id": "scale_marks",
+      "title": "Matching corners",
+      "location": "court",
+      "kind": "Object examination",
+      "body": [
+        "The four model sections have the same bent passages as the walls in the court. Each section fits a quarter of the square, and each pivot allows four positions.",
+        "Small scale cuts on the timber match your wall measurements. The model has enough positions to represent every opening you can see."
+      ],
+      "excerpt": "Each turning section corresponds to one quarter of the court.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/sand-map/scale_marks.jpg",
+        "alt": "Sand bends inside separate timber sections, with brass corner fittings and scale cuts in the near edge.",
+        "caption": "Model sections and timber scale cuts."
+      },
+      "examination": {
+        "lead": "Cuts in the timber sit beside the sand passages. Compare their spacing with the full-size walls.",
+        "action": "Compare the corners and cuts"
+      }
+    },
+    {
+      "id": "pivot_test",
+      "title": "A quarter turn",
+      "location": "court",
+      "kind": "Repeatable test",
+      "body": [
+        "You turned the near-left section one quarter turn. The opening between the matching full-size walls moved to the next edge. The outer wall stayed fixed.",
+        "You returned the section to its first position, then repeated the turn. The same opening moved and returned both times. No other section changed."
+      ],
+      "excerpt": "Turning one section moves its matching passage and can be reversed.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/sand-map/pivot_test.jpg",
+        "alt": "A square sand tray rests on a brass pivot with a loose adjustment handle beside it.",
+        "caption": "Near-left section before the turn."
+      },
+      "examination": {
+        "lead": "The near-left tray sits on a brass pivot. Its handle is within reach.",
+        "action": "Turn the near-left section"
+      }
+    },
+    {
+      "id": "survey_grid",
+      "title": "Fixed sight lines",
+      "location": "gallery",
+      "kind": "Measurement",
+      "body": [
+        "The rail and plumb line locate the four internal sections against the outer wall. Their centers match the model pivots.",
+        "A moved opening can therefore be assigned to a particular section. The basin remains in the same position even when the path toward it changes."
+      ],
+      "excerpt": "Section centers and the basin remain fixed. Only the openings move.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/sand-map/survey_grid.jpg",
+        "alt": "A brass plumb bob hangs beside a dark timber rail above the divided stone court.",
+        "caption": "Gallery plumb line and fixed rail."
+      },
+      "examination": {
+        "lead": "The line hangs beside the rail, with the court below. Use them to locate the centers of the sections.",
+        "action": "Check the fixed sight lines"
+      }
+    },
+    {
+      "id": "sight_test",
+      "title": "The far section",
+      "location": "gallery",
+      "kind": "Repeatable test",
+      "body": [
+        "Using the long adjustment rod, you turned the far-right model section while watching its wall opening from the gallery. The opening shifted to the adjacent side.",
+        "You reversed the adjustment and repeated it. The correspondence was exact, with the other three sections still. This second test supported the model rule independently of the near-left passage."
+      ],
+      "excerpt": "A second section repeats the same independent movement.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/sand-map/sight_test.jpg",
+        "alt": "A long brass rod rests across the gallery rail with its hooked end seated in the far sand section.",
+        "caption": "Adjustment rod before the second test."
+      },
+      "examination": {
+        "lead": "The long rod reaches the far-right section. From this rail you can watch the matching opening.",
+        "action": "Turn the far-right section"
+      }
+    },
+    {
+      "id": "tile_plan",
+      "title": "Four bends",
+      "location": "maproom",
+      "kind": "Route plan",
+      "body": [
+        "Place the sections as a square: A at upper left, B at lower left, C at lower right, D at upper right. Entry is west of A. The basin opening is east of D.",
+        "Every section is a bend. A must join west to south; B north to east; C west to north; D south to east. Those four joins form one continuous route without an opening to the outer edge."
+      ],
+      "excerpt": "A: west–south. B: north–east. C: west–north. D: south–east.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/sand-map/tile_plan.jpg",
+        "alt": "Four separate wooden routing frames rest on a stone desk; the nearest has an open right-angle groove.",
+        "caption": "Route frames before arrangement."
+      },
+      "examination": {
+        "lead": "The wooden frames are still apart. Each groove needs an entrance and an exit before the route can be joined.",
+        "action": "Trace the four bends"
+      }
+    },
+    {
+      "id": "bead_test",
+      "title": "The short route tests",
+      "location": "maproom",
+      "kind": "Repeatable test",
+      "body": [
+        "You place a bead in each drawing groove and tilt the frame gently. It follows the bend between its two open edges. Rotating the frame changes those edges, while the bead stays in the groove.",
+        "You join two frames at a time. Facing openings pass the bead across; an opening against a closed edge stops it. Return each frame to its starting position after the test."
+      ],
+      "excerpt": "Adjacent sections need open edges facing each other.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/sand-map/bead_test.jpg",
+        "alt": "An ivory bead rests in a wooden L-shaped groove beside a second frame with a facing open channel.",
+        "caption": "Bead and open channels before the tilt test."
+      },
+      "examination": {
+        "lead": "The bead rests in the first groove. Bring the two open ends together and test whether it can cross the seam.",
+        "action": "Join the frames and roll the bead"
+      }
+    },
+    {
+      "id": "fragment",
+      "title": "Layered black crust",
+      "location": "alcove",
+      "kind": "Material examination",
+      "body": [
+        "The fragment has a hard dry upper face and a pale, softer layer beneath it. Loose grains sit in the tray. No coating holds them together.",
+        "The dry fragment gives the same mineral smell as the basin, though much more faintly. An intact specimen would preserve both layers for examination."
+      ],
+      "excerpt": "The crust has two layers that a dry lift could preserve.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/sand-map/fragment.jpg",
+        "alt": "A broken mineral crust exposes a black cracked top above a pale crumbly layer on an earthenware dish.",
+        "caption": "Dry fragment and loose grains."
+      },
+      "examination": {
+        "lead": "The broken edge exposes a pale layer under the black surface. Loose grains remain in the dish.",
+        "action": "Examine the broken layers"
+      }
+    },
+    {
+      "id": "wet_fragment",
+      "title": "Water destroys the layers",
+      "location": "alcove",
+      "kind": "Repeatable test",
+      "body": [
+        "You place one loose grain in a water drop. It softens into a dark smear and gives a brief, strong scent of rain on stone. A second grain does the same.",
+        "A third grain kept dry holds its shape. The wet grains do not regain their layers when blotted. Rinsing can recover a stronger scent while destroying the original structure."
+      ],
+      "excerpt": "Water releases the mineral scent and destroys the grain’s structure.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/sand-map/wet_fragment.jpg",
+        "alt": "Three dry mineral grains lie apart in a white dish, with a water dropper resting beside it.",
+        "caption": "Dry grains prepared for the water test."
+      },
+      "examination": {
+        "lead": "Three loose grains are set apart. Wet two in turn and keep the third dry for comparison.",
+        "action": "Wet two grains and compare"
+      }
+    },
+    {
+      "id": "core_lift",
+      "title": "The crust supports the relief",
+      "location": "basin",
+      "kind": "Repeatable test",
+      "body": [
+        "You eased the near edge of the crust upward with the fork. In the table opposite, the corresponding sand ridges leaned inward. You lowered the crust and the ridges stood again.",
+        "A second lift gave the same response. Removing the core would let the loose model collapse. Binding the already solved route could hold its shape, but would prevent later movement."
+      ],
+      "excerpt": "Lifting the core destabilizes the sand model; lowering it restores the ridges.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/sand-map/core_lift.jpg",
+        "alt": "A cracked black mineral disk rests flat on its stone plinth, with a two-pronged lifting fork beside it.",
+        "caption": "Core and lifting fork before the test."
+      },
+      "examination": {
+        "lead": "The core rests on its plinth. The fork can reach the near edge without breaking the surface.",
+        "action": "Raise and lower the core edge"
+      }
+    },
+    {
+      "id": "water_test",
+      "title": "A drop at the edge",
+      "location": "basin",
+      "kind": "Repeatable test",
+      "body": [
+        "You wet one loose flake on the basin rim, clear of the main crust. It breaks down and gives the same sudden mineral scent as the source below.",
+        "A second flake repeats the effect. Keeping the main core dry preserves its shape. Washing it would consume the material that supports the model."
+      ],
+      "excerpt": "A rinse will dissolve the core instead of recovering it intact.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/sand-map/water_test.jpg",
+        "alt": "Two dry black flakes sit on the basin rim beside a glass pipette; the intact core remains behind them.",
+        "caption": "Loose flakes separated from the main core."
+      },
+      "examination": {
+        "lead": "The two loose flakes lie clear of the core. A small drop will test them without wetting the main crust.",
+        "action": "Wet the loose rim flakes"
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "map",
+      "title": "The model controls the route",
+      "question": "What changes a particular passage in the court?",
+      "pairs": [
+        [
+          "pivot_test",
+          "survey_grid"
+        ],
+        [
+          "sight_test",
+          "scale_marks"
+        ]
+      ],
+      "success": "Each model section controls the matching wall opening. Its turn is reversible until the sand is fixed in place.",
+      "hints": [
+        "Look for a test in which one section moves alone.",
+        "Compare the turning test with a fixed measurement or the matching scale.",
+        "Connect A quarter turn with Fixed sight lines, or The far section with Matching corners."
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Preserve the core or dissolve it",
+      "question": "Why do a dry lift and a rinse need different preparations?",
+      "pairs": [
+        [
+          "core_lift",
+          "water_test"
+        ],
+        [
+          "core_lift",
+          "wet_fragment"
+        ]
+      ],
+      "success": "The intact core supports the sand relief. A dry lift needs the solved route bound in place. A rinse releases more scent but dissolves the core.",
+      "hints": [
+        "One test changes the model when the crust is lifted.",
+        "Pair that lift with a water test on the same material.",
+        "Connect The crust supports the relief with either water test."
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "support",
+      "title": "Leave the route movable or bind it",
+      "location": "court",
+      "requires": {
+        "puzzle": true,
+        "deductions": [
+          "map",
+          "core"
+        ],
+        "evidence": [
+          "pivot_test",
+          "sight_test",
+          "scale_marks",
+          "survey_grid"
+        ]
+      },
+      "intro": [
+        "The correct route is open. Resin can hold the sand ridges while the core is lifted. Once applied, it will prevent the sections from returning to their earlier positions."
+      ],
+      "options": [
+        {
+          "id": "bound",
+          "label": "Bind the solved relief",
+          "description": "Apply resin around the sand ridges without touching the core.",
+          "cost": "The court will retain this route. Later surveys cannot repeat the turning tests.",
+          "result": [
+            "You apply resin along the bases of the ridges. They hold their shape when the crust is lifted slightly. You lower the crust back onto its bed. The model can no longer be turned."
+          ],
+          "sceneNote": "Resin fixes the model in its solved position.",
+          "epilogues": {
+            "core": [
+              "The bound relief remains fixed. Your report records the route that was preserved and the adjustments that can no longer be tested."
+            ],
+            "rain": [
+              "The bound relief remains fixed. Your report records the route that was preserved and the adjustments that can no longer be tested."
+            ],
+            "air": [
+              "The bound relief remains fixed. Your report records the route that was preserved and the adjustments that can no longer be tested."
+            ],
+            "survey": [
+              "The bound relief remains fixed. Your report records the route that was preserved and the adjustments that can no longer be tested."
+            ]
+          }
+        },
+        {
+          "id": "loose",
+          "label": "Keep the relief loose",
+          "description": "Leave the sand free to move and use a method that does not lift the whole core.",
+          "cost": "You cannot recover an intact core on this run.",
+          "result": [
+            "You leave the resin sealed. The model remains adjustable, and your original wall sketch stays beside it for the return settings."
+          ],
+          "sceneNote": "The model remains loose and adjustable.",
+          "epilogues": {
+            "air": [
+              "After collecting the air, you return each section to the position in your first photograph."
+            ],
+            "rain": [
+              "Without the core, the loose ridges settle flat and the internal wall openings return to their original positions."
+            ],
+            "survey": [
+              "The model remains movable beneath its protective cover."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "collection",
+      "title": "Prepare the collection method",
+      "location": "alcove",
+      "requires": {
+        "evidence": [
+          "fragment",
+          "water_test"
+        ]
+      },
+      "intro": [
+        "The dry surface and the water-released scent are different recoveries. Prepare either the hood and dry carrier, or the rinse vessel. The choice records which condition this collection will preserve."
+      ],
+      "options": [
+        {
+          "id": "dry",
+          "label": "Prepare a dry collection",
+          "description": "Fit the air hood and line the rigid core carrier.",
+          "cost": "This setup will not capture the stronger scent released by dissolving the crust.",
+          "result": [
+            "The hood is clean and dry. A rigid tray is ready if you choose to remove the core. Nothing has touched the source."
+          ],
+          "sceneNote": "A dry hood and lined carrier are ready.",
+          "epilogues": {}
+        },
+        {
+          "id": "rinse",
+          "label": "Prepare a measured rinse",
+          "description": "Measure water into the rinse vessel and fit its vapor trap.",
+          "cost": "Using this method will dissolve the core and lose its layered structure.",
+          "result": [
+            "You measure the water and fit the vapor trap. The vessel remains sealed until you choose the final recovery."
+          ],
+          "sceneNote": "A sealed rinse vessel stands beside the basin kit.",
+          "epilogues": {}
+        }
+      ]
+    }
+  ],
+  "puzzle": {
+    "id": "route",
+    "title": "Open the route to the basin",
+    "location": "maproom",
+    "type": "route",
+    "intro": [
+      "Arrange the four bent passages as a square. A is upper left, B lower left, C lower right and D upper right. Entry is west of A; the basin is east of D.",
+      "Your settings are a plan until you test them. A failed route leaves the sections at their starting positions. A successful test turns the model and verifies the full-size path."
+    ],
+    "requires": {
+      "deductions": [
+        "map"
+      ],
+      "evidence": [
+        "tile_plan",
+        "bead_test"
+      ]
+    },
+    "controls": [
+      {
+        "id": "a",
+        "label": "Section A",
+        "options": [
+          {
+            "value": "ws",
+            "label": "West to south",
+            "feedback": "The bend joins west to south."
+          },
+          {
+            "value": "ne",
+            "label": "North to east",
+            "feedback": "The bend joins north to east."
+          },
+          {
+            "value": "wn",
+            "label": "West to north",
+            "feedback": "The bend joins west to north."
+          },
+          {
+            "value": "se",
+            "label": "South to east",
+            "feedback": "The bend joins south to east."
+          }
+        ]
+      },
+      {
+        "id": "b",
+        "label": "Section B",
+        "options": [
+          {
+            "value": "ws",
+            "label": "West to south",
+            "feedback": "The bend joins west to south."
+          },
+          {
+            "value": "ne",
+            "label": "North to east",
+            "feedback": "The bend joins north to east."
+          },
+          {
+            "value": "wn",
+            "label": "West to north",
+            "feedback": "The bend joins west to north."
+          },
+          {
+            "value": "se",
+            "label": "South to east",
+            "feedback": "The bend joins south to east."
+          }
+        ]
+      },
+      {
+        "id": "c",
+        "label": "Section C",
+        "options": [
+          {
+            "value": "ws",
+            "label": "West to south",
+            "feedback": "The bend joins west to south."
+          },
+          {
+            "value": "ne",
+            "label": "North to east",
+            "feedback": "The bend joins north to east."
+          },
+          {
+            "value": "wn",
+            "label": "West to north",
+            "feedback": "The bend joins west to north."
+          },
+          {
+            "value": "se",
+            "label": "South to east",
+            "feedback": "The bend joins south to east."
+          }
+        ]
+      },
+      {
+        "id": "d",
+        "label": "Section D",
+        "options": [
+          {
+            "value": "ws",
+            "label": "West to south",
+            "feedback": "The bend joins west to south."
+          },
+          {
+            "value": "ne",
+            "label": "North to east",
+            "feedback": "The bend joins north to east."
+          },
+          {
+            "value": "wn",
+            "label": "West to north",
+            "feedback": "The bend joins west to north."
+          },
+          {
+            "value": "se",
+            "label": "South to east",
+            "feedback": "The bend joins south to east."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "a": "ws",
+      "b": "ne",
+      "c": "wn",
+      "d": "se"
+    },
+    "hints": [
+      "Start at the west edge of A and follow every opening.",
+      "The path must go down into B, right into C, then up into D.",
+      "Set A west–south, B north–east, C west–north and D south–east."
+    ],
+    "success": [
+      "The test bead follows all four bends and reaches the basin opening. You transfer the settings to the model.",
+      "The full-size passages now form the same route. You walk it once with the empty collection case and return. The path is verified; the core is untouched."
+    ],
+    "failure": "The route meets a closed edge or leaves the square. Follow it from west of A and check each shared opening. The test resets safely."
+  },
+  "endings": [
+    {
+      "id": "core",
+      "title": "The intact core",
+      "subtitle": "Structure recovered",
+      "requires": {
+        "deductions": [
+          "map",
+          "core"
+        ],
+        "puzzle": true,
+        "choices": {
+          "support": [
+            "bound"
+          ],
+          "collection": [
+            "dry"
+          ]
+        }
+      },
+      "locked": "Solve the route, understand the core, bind the relief and prepare a dry collection.",
+      "action": "Lift the dry core into the rigid carrier.",
+      "consequence": "The specimen keeps its layers. Binding the model has permanently fixed the court’s internal route.",
+      "body": [
+        "You follow the verified path with the rigid carrier and lift the core a little at a time. The bound ridges stay upright. The black upper layer remains attached to the pale material beneath.",
+        "The carrier closes around the core without touching its surface. Through the inspection window you can still see moisture along one fine crack. You seal a separate air sample before leaving the basin.",
+        "With the source removed, the damp smell in the court weakens. The fixed model no longer responds to its pivots. You photograph the final openings from the gallery.",
+        "You return to the Bureau with the intact layers, the air samples and the sequence of measurements. The specimen preserves a material relationship that a rinse would have destroyed."
+      ],
+      "recovered": [
+        "Layered mineral core",
+        "Dry headspace and baseline blotters",
+        "Before-and-after route record"
+      ],
+      "siteStatus": "Core removed; route fixed.",
+      "sensory": {
+        "air": "Faint damp mineral air",
+        "contact": "Rigid padded carrier",
+        "residue": "Intact black and pale layers"
+      }
+    },
+    {
+      "id": "rain",
+      "title": "A measured first rain",
+      "subtitle": "Dissolved sample recovered",
+      "requires": {
+        "deductions": [
+          "map",
+          "core"
+        ],
+        "puzzle": true,
+        "choices": {
+          "collection": [
+            "rinse"
+          ]
+        }
+      },
+      "locked": "Solve the route, establish both deductions and prepare the measured rinse.",
+      "action": "Wash the crust inside the vapor trap and recover the liquid.",
+      "consequence": "The stronger mineral scent can be collected, but the core’s original layers will be destroyed.",
+      "body": [
+        "You seat the vessel over the crust and release the measured water. The black surface darkens, softens and runs into the lower receiver. The vapor trap fills with the sharp smell of rain striking dry stone.",
+        "You keep the liquid and the trapped vapor separate. The remaining surface is a pale smear. There is no intact core left to lift.",
+        "From the gallery you photograph the model and the final wall positions. Your preparation determines which parts of the relief remain fixed; the dissolved material can no longer support loose sand.",
+        "You return with a concentrated account of the wet condition and the original dry-air baseline. The paired samples show how strongly water changes this source, while the lost layers are recorded in photographs."
+      ],
+      "recovered": [
+        "Measured mineral rinse",
+        "Wet-scent trap and dry baseline",
+        "Final model photographs"
+      ],
+      "siteStatus": "Core dissolved; final route recorded.",
+      "sensory": {
+        "air": "Strong wet-stone scent",
+        "contact": "Cool glass receiver",
+        "residue": "Dark mineral suspension"
+      }
+    },
+    {
+      "id": "air",
+      "title": "Air above the crust",
+      "subtitle": "Source retained",
+      "requires": {
+        "deductions": [
+          "map"
+        ],
+        "puzzle": true,
+        "choices": {
+          "collection": [
+            "dry"
+          ]
+        }
+      },
+      "locked": "Verify the route and prepare a dry collection.",
+      "action": "Place the hood over the crust and collect its undisturbed air.",
+      "consequence": "The core stays at the site. The recovery will contain its airborne scent rather than the material that produces it.",
+      "body": [
+        "You carry the dry hood through the verified passage and lower it over the raised crust. The glass rests on the clean surrounding stone. Nothing is poured onto the surface.",
+        "A fresh blotter collects the air from inside the hood. Beside the baseline sample, its damp mineral note is much clearer. You close it before lifting the hood away.",
+        "The crust remains layered and dry on top. You record the state of the model, including any resin used, and cover it against ordinary windblown grit.",
+        "At the Bureau, the two air samples can be compared with the measured route. The source remains available, and your report gives the exact settings needed to reach it again."
+      ],
+      "recovered": [
+        "Source-air blotter",
+        "Baseline air and route measurements",
+        "Source-condition photograph"
+      ],
+      "siteStatus": "Core retained; model covered.",
+      "sensory": {
+        "air": "Concentrated damp mineral air",
+        "contact": "Dry hood rim",
+        "residue": "Undisturbed black crust"
+      }
+    },
+    {
+      "id": "survey",
+      "title": "A surveyed coordinate",
+      "subtitle": "Source retained without collection",
+      "requires": {},
+      "locked": "Complete the baseline survey.",
+      "action": "Cover the model and return with the air sample, photographs and measurements.",
+      "consequence": "The source remains unrecovered. The next entry will need to check the model’s recorded condition before collecting from the basin.",
+      "body": [
+        "You close the clear cover over the model without changing its current settings. The low walls remain visible beneath the gallery.",
+        "At the ridge you photograph the whole court once more. The baseline blotter and wall sketch are already sealed in your case. Any tests you completed remain in the field record.",
+        "You mark the model’s present condition and the position of the basin. The cover will keep ordinary drifting sand from changing the loose surface while the coordinate is secured.",
+        "You return to the Bureau with enough evidence to plan another entry. The damp note is present in the baseline, but no sample from directly above the crust has been recovered."
+      ],
+      "recovered": [
+        "Baseline court-air blotter",
+        "Wall-position sketch",
+        "Exterior and gallery photographs"
+      ],
+      "siteStatus": "Model covered; basin source retained.",
+      "sensory": {
+        "air": "Dry ridge dust",
+        "contact": "Warm stone cover seat",
+        "residue": "Fine red grit"
+      }
+    }
+  ]
+}

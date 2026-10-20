@@ -1,0 +1,860 @@
+{
+  "version": 1,
+  "slug": "third-exposure",
+  "title": "The Third Exposure",
+  "number": "03",
+  "coordinate": "Coastal optical station · 7 September 1926 · 17:20",
+  "duration": "20–30 minutes",
+  "summary": "Align a coastal light bench whose projected shoreline leaves real water and scent on a stone wall.",
+  "motif": "light",
+  "start": "entrance",
+  "intro": [
+    "You are a Bureau field agent assigned to a coastal optical station in 1926. Find which part of its light bench produces a physical trace, recover that trace, and return with the conditions needed to reproduce it.",
+    "A rectangular patch on the receiving wall is wet. The stone around it is dry. Through the open exterior door, the shore lies under a dull sky without rain."
+  ],
+  "brief": [
+    "The assigned coordinate includes the station, its terrace and the shingle immediately below. Your subject is the illuminated patch inside the receiving gallery.",
+    "Recover the salt, warm tar and wet-stone notes separately if the apparatus permits it. An intact source plate would be useful only if its condition and handling can be recorded.",
+    "First photograph the receiving wall, seal a blotter from beside it, and take a dry control from outside the light. Keep the main shutter closed between deliberate tests. No exposure continues while you read or explore."
+  ],
+  "baseline": {
+    "location": "gallery",
+    "title": "Record the illuminated patch",
+    "body": [
+      "You photograph the receiving wall from its marked center line. Moisture stops at the edge of the projected rectangle. The surrounding plaster and floor are dry.",
+      "You seal one blotter from the patch and another from the unlit side of the gallery. The patch carries salt, warm tar and wet mineral notes. The control carries old plaster and faint sea air.",
+      "You mark the rectangle’s dimensions and close the main shutter. The wall stops gaining moisture. Its existing droplets remain available for inspection."
+    ],
+    "result": "The patch sample, unlit control and first wall photograph are sealed.",
+    "inventory": [
+      "Projected-scent blotter",
+      "Unlit gallery control",
+      "Wall photograph and dimensions"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "entrance",
+      "title": "Station entrance",
+      "subtitle": "Sea outside, light inside",
+      "image": "assets/scenes/third-exposure/entrance.jpg",
+      "description": [
+        "The station stands above a shingle shore. Its windows are tall and narrow, with shutters facing inland. A low wooden stair leads from the entrance to the terrace.",
+        "The sea is dark under broken cloud. Inside, the optical bench points toward a pale receiving wall."
+      ],
+      "sensory": {
+        "air": "Cold sea air",
+        "contact": "Dry painted doorframe",
+        "residue": "Salt along the threshold"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "weather_card",
+          "x": 32,
+          "y": 62,
+          "label": "Read the outdoor comparison"
+        },
+        {
+          "evidence": "outside_test",
+          "x": 75,
+          "y": 53,
+          "label": "Compare the outdoor sample"
+        }
+      ]
+    },
+    {
+      "id": "lenshall",
+      "title": "Lens hall",
+      "subtitle": "The image plate",
+      "image": "assets/scenes/third-exposure/lenshall.jpg",
+      "description": [
+        "A glass plate sits in a brass frame at the front of the light housing. Its image shows an empty strip of shore. The emulsion has a slight grain visible along one edge.",
+        "A separate clear cover protects the image face. Salt and a brown deposit cling to this outer glass. The frame can be removed after the shutter is closed."
+      ],
+      "sensory": {
+        "air": "Sea salt with a warm tar note",
+        "contact": "Cool brass frame",
+        "residue": "Salt and brown film on the cover"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "plate_edge",
+          "x": 34,
+          "y": 56,
+          "label": "Examine the plate edge"
+        },
+        {
+          "evidence": "mask_test",
+          "x": 74,
+          "y": 45,
+          "label": "Mask part of the image"
+        }
+      ]
+    },
+    {
+      "id": "shutterroom",
+      "title": "Shutter room",
+      "subtitle": "Three mirrors on the bench",
+      "image": "assets/scenes/third-exposure/shutterroom.jpg",
+      "description": [
+        "Three mirrors carry the light around the room toward the gallery. Each has two diagonal settings and an opaque cover. A plan of the bench is engraved into a removable metal plate.",
+        "Blue and amber filters stand in holders beside the source. They can be inserted separately after the route is aligned."
+      ],
+      "sensory": {
+        "air": "Dry wood and warm metal",
+        "contact": "Firm mirror adjustment rings",
+        "residue": "Dust outside the beam path"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "bench_plan",
+          "x": 33,
+          "y": 65,
+          "label": "Read the beam route"
+        },
+        {
+          "evidence": "filter_test",
+          "x": 74,
+          "y": 54,
+          "label": "Test the filters"
+        }
+      ]
+    },
+    {
+      "id": "darkroom",
+      "title": "Plate room",
+      "subtitle": "Controls and transport",
+      "image": "assets/scenes/third-exposure/darkroom.jpg",
+      "description": [
+        "Blank glass plates stand in a rack above enamel trays. An opaque sleeve fits the source frame. The tray nearest the door is clean enough to catch a small test projection.",
+        "A black cloth covers the unused worktop. The red room light shows edges and droplets without feeding the optical bench."
+      ],
+      "sensory": {
+        "air": "Cool enamel and dry cloth",
+        "contact": "Smooth glass edges",
+        "residue": "A little white powder in an old tray"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "blank_control",
+          "x": 31,
+          "y": 59,
+          "label": "Try a blank plate"
+        },
+        {
+          "evidence": "face_test",
+          "x": 71,
+          "y": 49,
+          "label": "Reverse the source plate"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "title": "Receiving gallery",
+      "subtitle": "A wet rectangle on dry stone",
+      "image": "assets/scenes/third-exposure/gallery.jpg",
+      "description": [
+        "The receiving panel is a broad, matte slab. A shallow lip beneath it leads to removable glass catchers. Moisture is confined to the rectangle you saw from the doorway.",
+        "The main shutter can stop a test immediately. The panel is broad enough to keep separate catchers beneath different exposures."
+      ],
+      "sensory": {
+        "air": "Salt, warm tar and wet stone",
+        "contact": "Cool stone outside the light",
+        "residue": "Clear droplets inside the rectangle"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "catcher_test",
+          "x": 32,
+          "y": 66,
+          "label": "Compare three catches"
+        },
+        {
+          "evidence": "repeat_test",
+          "x": 73,
+          "y": 48,
+          "label": "Repeat the exposure series"
+        }
+      ]
+    },
+    {
+      "id": "terrace",
+      "title": "Terrace",
+      "subtitle": "An outdoor control",
+      "image": "assets/scenes/third-exposure/terrace.jpg",
+      "description": [
+        "The terrace looks over the same stretch of shingle shown on the glass plate. A shallow shelter keeps the comparison tray out of stray drops from the roof.",
+        "The station door gives a direct view of the receiving gallery. A dry line runs across the threshold."
+      ],
+      "sensory": {
+        "air": "Cold salt air",
+        "contact": "Weathered stone balustrade",
+        "residue": "White salt on sheltered stone"
+      },
+      "weather": "none",
+      "weatherLabel": "",
+      "hotspots": [
+        {
+          "evidence": "surface_layers",
+          "x": 34,
+          "y": 62,
+          "label": "Examine the cover deposits"
+        },
+        {
+          "evidence": "transport",
+          "x": 75,
+          "y": 57,
+          "label": "Check the plate sleeve"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "weather_card",
+      "title": "Outdoor conditions",
+      "location": "entrance",
+      "kind": "Observation",
+      "body": [
+        "The exposed shingle and the sheltered terrace have the same cool temperature. No rain strikes either surface during the observation.",
+        "The wet receiving wall is therefore a separate condition to record, rather than a wet surface carried indoors."
+      ],
+      "excerpt": "The exterior is cool and dry during the survey.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/third-exposure/weather_card.jpg",
+        "alt": "Dry shingle beside the station's sheltered threshold.",
+        "caption": "Exposed shingle and the sheltered threshold."
+      },
+      "examination": {
+        "lead": "Dry shingle lies beside the sheltered threshold. Check both surfaces before treating the indoor moisture as evidence.",
+        "action": "Compare the outdoor surfaces"
+      }
+    },
+    {
+      "id": "outside_test",
+      "title": "Matched outdoor sample",
+      "location": "entrance",
+      "kind": "Repeatable comparison",
+      "body": [
+        "After the baseline, you compare a fresh terrace blotter with one held at the projected patch during a brief pulse. You close the shutter and repeat with new blotters.",
+        "Both outdoor samples carry cold salt air. Both projected samples add warm tar and wet stone. The difference remains when the terrace door is closed."
+      ],
+      "excerpt": "The projected scent persists independently of air from outside.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/third-exposure/outside_test.jpg",
+        "alt": "Four clean paper blotters in an enamel tray at the station door.",
+        "caption": "Fresh blotters prepared for the outdoor comparison."
+      },
+      "examination": {
+        "lead": "Fresh blotters are ready at the terrace door. Use a second pair to check that the comparison repeats.",
+        "action": "Compare fresh indoor and outdoor blotters"
+      }
+    },
+    {
+      "id": "plate_edge",
+      "title": "Image face and clear cover",
+      "location": "lenshall",
+      "kind": "Object examination",
+      "body": [
+        "A fine-grained image layer lies on the inner face of the plate. The outer clear cover is separate and held by small corner clips.",
+        "A shallow edge notch shows which face points toward the lamp. Removing deposits from the outer cover need not touch the image layer."
+      ],
+      "excerpt": "The image layer and surface deposits can be handled separately.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/third-exposure/plate_edge.jpg",
+        "alt": "Separate image and cover glass edges held in a brass frame, with a small orientation notch.",
+        "caption": "The notched plate edge and its separate clear cover."
+      },
+      "examination": {
+        "lead": "A corner clip holds the cover away from the image plate. The glass edges are exposed here.",
+        "action": "Examine the two glass layers"
+      }
+    },
+    {
+      "id": "mask_test",
+      "title": "A masked strip stays dry",
+      "location": "lenshall",
+      "kind": "Repeatable test",
+      "body": [
+        "You mask a narrow strip of the source image and give one short exposure. A matching strip of the receiving panel stays dry. Uncovering the image restores moisture across it.",
+        "You repeat at the opposite edge. The dry strip follows the mask each time; the lamp and outdoor conditions remain unchanged."
+      ],
+      "excerpt": "Blocking part of the source image blocks the matching physical trace.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/third-exposure/mask_test.jpg",
+        "alt": "A narrow black card held over one strip of the shore image plate.",
+        "caption": "The mask is positioned before the shutter opens."
+      },
+      "examination": {
+        "lead": "A narrow card can cover one strip of the source image. The shutter is closed while you position it.",
+        "action": "Mask one strip and give a short exposure"
+      }
+    },
+    {
+      "id": "bench_plan",
+      "title": "The mirror route",
+      "location": "shutterroom",
+      "kind": "Instrument plan",
+      "body": [
+        "Viewed from above, light enters the first mirror from the west. It must leave north, reach the second mirror from the south, then leave east toward the third mirror.",
+        "The third mirror receives from the west and must send the light south to the gallery. Use a rising diagonal for the first two mirrors and a falling diagonal for the third. A covered mirror stops the path."
+      ],
+      "excerpt": "Mirror one: rising diagonal. Two: rising diagonal. Three: falling diagonal.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/third-exposure/bench_plan.jpg",
+        "alt": "Three brass-mounted mirrors positioned around the optical bench's rectangular route.",
+        "caption": "The mirrors and their adjustable pivot locks."
+      },
+      "examination": {
+        "lead": "Three pivoting mirrors carry the route around the bench. Follow the rail from the source toward the gallery.",
+        "action": "Trace the three-mirror route"
+      }
+    },
+    {
+      "id": "filter_test",
+      "title": "Blue, amber and clear",
+      "location": "shutterroom",
+      "kind": "Repeatable test",
+      "body": [
+        "You send three short pulses to a test tile: blue filter, amber filter, then no filter. Blue leaves cool saline droplets. Amber leaves a thin warm brown trace with a tar note. Clear light produces both, with a wet-stone note between them.",
+        "You dry the test tile and repeat in reverse order. Each setting produces the same result. The last result does not depend on which filter came first."
+      ],
+      "excerpt": "Filters separate repeatable parts of the unfiltered scent.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/third-exposure/filter_test.jpg",
+        "alt": "Blue and amber glass filters beside an empty brass holder and a clean test tile.",
+        "caption": "The two filters and the unfiltered position."
+      },
+      "examination": {
+        "lead": "The blue and amber filters stand beside an empty holder. The test tile has been cleaned for the first pulse.",
+        "action": "Compare blue, amber and clear pulses"
+      }
+    },
+    {
+      "id": "blank_control",
+      "title": "Blank glass produces no trace",
+      "location": "darkroom",
+      "kind": "Controlled test",
+      "body": [
+        "You substitute a blank plate without moving the lamp or test tile. Light reaches the tile, but it stays dry and cool.",
+        "Replacing the image plate restores the wet patch. A second exchange repeats the difference. You return the source to its original frame position."
+      ],
+      "excerpt": "Light alone does not make the physical trace. The source image is required.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/third-exposure/blank_control.jpg",
+        "alt": "A blank glass plate beside the framed shore image and an empty enamel tray.",
+        "caption": "The clear control plate and the image-bearing source."
+      },
+      "examination": {
+        "lead": "A clear plate fits the same holder as the source. Keep the lamp and tile fixed while exchanging them.",
+        "action": "Substitute a blank glass plate"
+      }
+    },
+    {
+      "id": "face_test",
+      "title": "The image must face the lamp",
+      "location": "darkroom",
+      "kind": "Repeatable test",
+      "body": [
+        "You turn the source plate around for a short test. Its reversed image is still visible on the tile, but no new droplets form.",
+        "Turning the image face back toward the lamp restores the effect. You repeat the reversal and mark the required orientation in your own record."
+      ],
+      "excerpt": "The source creates moisture only with its image face toward the lamp.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/third-exposure/face_test.jpg",
+        "alt": "The source plate's notched edge and coated face in a padded wooden cradle.",
+        "caption": "The plate edge before the orientation test."
+      },
+      "examination": {
+        "lead": "The notch marks the image face. The frame can be reversed without moving the lamp or test tile.",
+        "action": "Reverse the plate for a short exposure"
+      }
+    },
+    {
+      "id": "catcher_test",
+      "title": "Three separate catches",
+      "location": "gallery",
+      "kind": "Controlled sample",
+      "body": [
+        "Using the test tile and small catchers, you collect blue, amber and clear pulses separately. The blue catch is cool and saline; the amber catch is warm and tar-scented. The clear catch has both notes and wet stone.",
+        "Mixing tiny portions makes their individual contributions harder to identify. Separate catches preserve the comparisons; one broad hood can instead recover the complete unfiltered air."
+      ],
+      "excerpt": "Separate vessels preserve component comparisons; a hood preserves the full exposure.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/third-exposure/catcher_test.jpg",
+        "alt": "Three separate empty glass catchers beneath the receiving panel.",
+        "caption": "Clean catchers ready for separate exposures."
+      },
+      "examination": {
+        "lead": "Three clean catchers sit beneath the panel. Keep the pulses separate so their residues can be compared.",
+        "action": "Collect the three exposures separately"
+      }
+    },
+    {
+      "id": "repeat_test",
+      "title": "The series repeats",
+      "location": "gallery",
+      "kind": "Repeatable test",
+      "body": [
+        "You run clear, blue and amber exposures with the short test path, clearing the tile between pulses. Then you repeat blue, amber and clear.",
+        "The same temperatures, residues and scents return under the same filters. Every run ends when you close the shutter. There is no continuing cycle to race."
+      ],
+      "excerpt": "The filter setting controls the result, and each exposure can be repeated.",
+      "intervention": true,
+      "visual": {
+        "image": "assets/evidence/third-exposure/repeat_test.jpg",
+        "alt": "A closed sliding shutter, clean receiving tile, and two filters on dark cloth.",
+        "caption": "The shutter and cleared tile between exposure series."
+      },
+      "examination": {
+        "lead": "The shutter is closed and the tile is dry. Change the order of the filters and compare a second series.",
+        "action": "Repeat the pulses in a different order"
+      }
+    },
+    {
+      "id": "surface_layers",
+      "title": "Deposits on the cover",
+      "location": "terrace",
+      "kind": "Material examination",
+      "body": [
+        "Under outdoor light, the source cover has white crystals over a brown film. The two deposits are mixed at their edges. The image layer remains sealed behind a separate piece of glass.",
+        "A careful wipe of the cover would collect those deposits together and clarify the next exposure. Leaving them in place would preserve their arrangement, while allowing their scent to remain in the apparatus."
+      ],
+      "excerpt": "Cleaning clarifies the source path but loses the deposits’ original arrangement.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/third-exposure/surface_layers.jpg",
+        "alt": "White crystals over a brown film on the source plate's clear protective cover.",
+        "caption": "The deposits remain in their original arrangement."
+      },
+      "examination": {
+        "lead": "White crystals sit over a brown film on the outer cover. Look at their edges before choosing whether to clean it.",
+        "action": "Examine the untouched surface deposits"
+      }
+    },
+    {
+      "id": "transport",
+      "title": "An opaque plate sleeve",
+      "location": "terrace",
+      "kind": "Equipment check",
+      "body": [
+        "The rigid sleeve accepts the source frame and closes with its image face clear of the padding. Its opaque sides exclude the light needed for an exposure.",
+        "The frame can be removed with the main shutter closed. The sleeve will preserve the plate’s orientation and any deposits left on its cover."
+      ],
+      "excerpt": "Close the shutter before withdrawing the frame into its opaque sleeve.",
+      "intervention": false,
+      "visual": {
+        "image": "assets/evidence/third-exposure/transport.jpg",
+        "alt": "An open opaque plate sleeve with padded edge channels and a clear central cavity.",
+        "caption": "The sleeve supports the frame without touching the image face."
+      },
+      "examination": {
+        "lead": "The sleeve holds the frame by its edges. Check that the padding clears the glass before packing the source.",
+        "action": "Check the sleeve's frame supports"
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "source",
+      "title": "The image makes the trace",
+      "question": "Which part of the apparatus is responsible for the wet projection?",
+      "pairs": [
+        [
+          "mask_test",
+          "blank_control"
+        ],
+        [
+          "face_test",
+          "plate_edge"
+        ]
+      ],
+      "success": "The source image controls the physical trace. Keep the orientation recorded in the successful test when collecting.",
+      "hints": [
+        "Compare an exposure that works with a controlled change that stops it.",
+        "The mask and blank-plate tests isolate the source. The face test also identifies the active orientation.",
+        "Connect A masked strip stays dry with Blank glass produces no trace, or The image must face the lamp with Image face and clear cover."
+      ]
+    },
+    {
+      "id": "separation",
+      "title": "Separate the exposures",
+      "question": "How can the component scents be recovered without mixing them?",
+      "pairs": [
+        [
+          "filter_test",
+          "catcher_test"
+        ],
+        [
+          "repeat_test",
+          "catcher_test"
+        ]
+      ],
+      "success": "Blue, amber and clear exposures give repeatable, different catches. Separate vessels retain the comparison; a single hood collects the complete clear-light atmosphere.",
+      "hints": [
+        "Look at tests that compare filters, then the vessels used below them.",
+        "The order can change without changing what each filter produces.",
+        "Connect Three separate catches with Blue, amber and clear or The series repeats."
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "collector",
+      "title": "Choose the recovery vessels",
+      "location": "gallery",
+      "requires": {
+        "deductions": [
+          "separation"
+        ]
+      },
+      "intro": [
+        "The gallery can be arranged for separate catches or for a single hood. Choose the recovery the finished case will emphasize."
+      ],
+      "options": [
+        {
+          "id": "separate",
+          "label": "Set out separate catchers",
+          "description": "Label individual vessels for blue, amber and clear exposures.",
+          "cost": "The recovery favors comparison over a large sample of the whole atmosphere.",
+          "result": [
+            "You arrange three sealed receivers beneath separate catch positions. A dry control sits beyond the projected rectangle."
+          ],
+          "sceneNote": "Three separate receivers are ready beneath the panel.",
+          "epilogues": {}
+        },
+        {
+          "id": "whole",
+          "label": "Fit the full-width hood",
+          "description": "Enclose the unfiltered projection in one clean collection hood.",
+          "cost": "The recovered atmosphere will not have separate blue and amber fractions.",
+          "result": [
+            "You fit the hood over the entire receiving rectangle and check its seal against the dry stone."
+          ],
+          "sceneNote": "A single hood covers the receiving rectangle.",
+          "epilogues": {}
+        }
+      ]
+    },
+    {
+      "id": "surface",
+      "title": "Preserve or clean the outer cover",
+      "location": "lenshall",
+      "requires": {
+        "evidence": [
+          "plate_edge",
+          "surface_layers"
+        ],
+        "deductions": [
+          "source"
+        ]
+      },
+      "intro": [
+        "The deposits on the outer cover may affect a recovery. Cleaning will pack them as a mixed residue. Keeping them preserves their arrangement on the original glass."
+      ],
+      "options": [
+        {
+          "id": "retain",
+          "label": "Keep the cover as found",
+          "description": "Retain the salt crystals and brown film in their original positions.",
+          "cost": "The surface deposits may contribute to the collected scent.",
+          "result": [
+            "You map the deposits through the clear cover and leave them untouched. The next exposure will pass through the same surface you found."
+          ],
+          "sceneNote": "The original salt and brown film remain on the cover.",
+          "epilogues": {
+            "fractions": [
+              "The original cover deposits remain in place. Your report identifies their possible contribution to the scent instead of treating the plate as a clean source."
+            ],
+            "atmosphere": [
+              "The original cover deposits remain in place. Your report identifies their possible contribution to the scent instead of treating the plate as a clean source."
+            ],
+            "plate": [
+              "The original cover deposits remain in place. Your report identifies their possible contribution to the scent instead of treating the plate as a clean source."
+            ],
+            "trace": [
+              "The original cover deposits remain in place. Your report identifies their possible contribution to the scent instead of treating the plate as a clean source."
+            ]
+          }
+        },
+        {
+          "id": "clean",
+          "label": "Recover the cover deposits",
+          "description": "Wipe the outer cover into a sealed residue vial while leaving the image layer untouched.",
+          "cost": "The crystals and film lose their original arrangement, though their mixed material is retained.",
+          "result": [
+            "You photograph the cover closely, then recover its deposits with a clean wipe. The inner image layer stays sealed. A repeat pulse still produces moisture."
+          ],
+          "sceneNote": "The cover is clear; its deposits are sealed in a separate vial.",
+          "epilogues": {
+            "fractions": [
+              "A separate vial contains the mixed cover deposits. Their original positions survive in your photograph, while the optical source was tested through clean glass."
+            ],
+            "atmosphere": [
+              "A separate vial contains the mixed cover deposits. Their original positions survive in your photograph, while the optical source was tested through clean glass."
+            ],
+            "plate": [
+              "A separate vial contains the mixed cover deposits. Their original positions survive in your photograph, while the optical source was tested through clean glass."
+            ],
+            "trace": [
+              "A separate vial contains the mixed cover deposits. Their original positions survive in your photograph, while the optical source was tested through clean glass."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "puzzle": {
+    "id": "beam",
+    "title": "Align the full optical path",
+    "location": "shutterroom",
+    "type": "optics",
+    "intro": [
+      "The full-width recovery needs the light to reach the gallery. It enters mirror one from the west, travels north to mirror two, then east to mirror three and south to the panel.",
+      "Set the three mirrors and test with a brief covered-sample pulse. A missed beam lands on a dry control surface, and the shutter closes before you adjust again."
+    ],
+    "requires": {
+      "deductions": [
+        "source"
+      ],
+      "evidence": [
+        "bench_plan"
+      ]
+    },
+    "controls": [
+      {
+        "id": "mirror1",
+        "label": "Mirror 1",
+        "options": [
+          {
+            "value": "rise",
+            "label": "Rising diagonal /",
+            "feedback": "The mirror joins west with north, and south with east."
+          },
+          {
+            "value": "fall",
+            "label": "Falling diagonal \\",
+            "feedback": "The mirror joins west with south, and north with east."
+          },
+          {
+            "value": "closed",
+            "label": "Opaque cover",
+            "feedback": "The mirror is covered and the light stops here."
+          }
+        ]
+      },
+      {
+        "id": "mirror2",
+        "label": "Mirror 2",
+        "options": [
+          {
+            "value": "rise",
+            "label": "Rising diagonal /",
+            "feedback": "The mirror joins west with north, and south with east."
+          },
+          {
+            "value": "fall",
+            "label": "Falling diagonal \\",
+            "feedback": "The mirror joins west with south, and north with east."
+          },
+          {
+            "value": "closed",
+            "label": "Opaque cover",
+            "feedback": "The mirror is covered and the light stops here."
+          }
+        ]
+      },
+      {
+        "id": "mirror3",
+        "label": "Mirror 3",
+        "options": [
+          {
+            "value": "rise",
+            "label": "Rising diagonal /",
+            "feedback": "The mirror joins west with north, and south with east."
+          },
+          {
+            "value": "fall",
+            "label": "Falling diagonal \\",
+            "feedback": "The mirror joins west with south, and north with east."
+          },
+          {
+            "value": "closed",
+            "label": "Opaque cover",
+            "feedback": "The mirror is covered and the light stops here."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "mirror1": "rise",
+      "mirror2": "rise",
+      "mirror3": "fall"
+    },
+    "hints": [
+      "Trace the incoming direction at each mirror.",
+      "The first two turns use the same diagonal. The third turns the eastward beam south.",
+      "Set mirrors one and two to rising diagonal, and mirror three to falling diagonal."
+    ],
+    "success": [
+      "The test beam reaches the center of the gallery panel. A narrow wet line appears exactly where the short test path predicted.",
+      "You close the shutter and record all three mirror settings. The full apparatus is ready for separate filtered catches or an unfiltered hood collection."
+    ],
+    "failure": "The beam stops at a cover or misses the next mirror. Trace west to north, south to east, then west to south. The shutter has closed and the sample vessels remain untouched."
+  },
+  "endings": [
+    {
+      "id": "fractions",
+      "title": "Three labeled exposures",
+      "subtitle": "Comparative samples recovered",
+      "requires": {
+        "deductions": [
+          "source",
+          "separation"
+        ],
+        "puzzle": true,
+        "choices": {
+          "collector": [
+            "separate"
+          ]
+        }
+      },
+      "locked": "Establish both deductions, align the mirrors and prepare separate catchers.",
+      "action": "Collect blue, amber and clear exposures in separate vessels.",
+      "consequence": "The source remains at the station. Each recovered fraction will be small, with its filter condition preserved.",
+      "body": [
+        "You open the aligned path for the blue exposure and collect the cool saline catch. After closing the shutter, you move the second receiver into place for amber.",
+        "The amber receiver holds the warm tar trace. A third clear exposure adds the complete wet-stone atmosphere. You close each vessel before moving to the next.",
+        "With the shutter latched, the panel stops gaining moisture. The source plate stays in its frame. Your final photograph records its surface and orientation.",
+        "You return to the Bureau with three distinct catches, the baseline and the mirror settings. They can be compared directly without reconstructing which trace came from which filter."
+      ],
+      "recovered": [
+        "Blue, amber and clear catches",
+        "Baseline and unlit control",
+        "Source and mirror record"
+      ],
+      "siteStatus": "Source retained; shutter latched.",
+      "sensory": {
+        "air": "Salt, warm tar and wet stone kept separate",
+        "contact": "Cool glass receivers",
+        "residue": "Three distinct traces"
+      }
+    },
+    {
+      "id": "atmosphere",
+      "title": "The complete exposure",
+      "subtitle": "Full scent recovered",
+      "requires": {
+        "deductions": [
+          "source",
+          "separation"
+        ],
+        "puzzle": true,
+        "choices": {
+          "collector": [
+            "whole"
+          ]
+        }
+      },
+      "locked": "Establish both deductions, align the mirrors and fit the full-width hood.",
+      "action": "Run an unfiltered exposure inside the hood and seal its air and condensate.",
+      "consequence": "The components will be recovered together. The result will preserve the atmosphere rather than separate filter fractions.",
+      "body": [
+        "You seat the hood against the receiving panel and open the clear optical path. Droplets spread across the image rectangle. The enclosed air warms and takes on the salt, tar and wet-stone notes.",
+        "You close the shutter before opening the collection ports. The air trap and the liquid receiver are sealed separately, both marked as parts of one unfiltered exposure.",
+        "The source plate remains in the frame. You record the final cover condition and latch the housing so ordinary daylight cannot start another projection.",
+        "At the Bureau, the recovered air can be compared with the first blotter. The stronger sample preserves how the notes occurred together, while your test record describes their filtered differences."
+      ],
+      "recovered": [
+        "Unfiltered air trap",
+        "Unfiltered condensate",
+        "Baseline and filter-test record"
+      ],
+      "siteStatus": "Source retained; optical path closed.",
+      "sensory": {
+        "air": "Warm saline mineral air",
+        "contact": "Damp hood seal",
+        "residue": "Clear condensate"
+      }
+    },
+    {
+      "id": "plate",
+      "title": "The sleeved image",
+      "subtitle": "Original source recovered",
+      "requires": {
+        "deductions": [
+          "source"
+        ],
+        "evidence": [
+          "transport"
+        ]
+      },
+      "locked": "Identify the active image plate and inspect the transport sleeve.",
+      "action": "Close the shutter and withdraw the source frame into its opaque sleeve.",
+      "consequence": "The station will lose its source. No new full-gallery scent collection is required for this method.",
+      "body": [
+        "You latch the main shutter and check the receiving panel. Existing droplets remain, but no new ones form. The frame releases from the optical bench without disturbing its image face.",
+        "You slide it directly into the opaque sleeve and secure the orientation tabs. The sleeve closes before the plate reaches the doorway.",
+        "The station now contains a lamp, mirrors and a blank source position. You photograph the empty frame support and take the baseline samples already sealed in your case.",
+        "You return with the original image, its recorded condition and the observed light requirements. Further exposures will require a controlled arrangement at the Bureau. The sleeve itself has produced no weather."
+      ],
+      "recovered": [
+        "Original source plate",
+        "Baseline scent and unlit control",
+        "Orientation and handling record"
+      ],
+      "siteStatus": "Original plate removed; station inactive.",
+      "sensory": {
+        "air": "Fading tar note in the gallery",
+        "contact": "Rigid opaque sleeve",
+        "residue": "Recorded cover condition"
+      }
+    },
+    {
+      "id": "trace",
+      "title": "The shuttered record",
+      "subtitle": "Surface evidence recovered",
+      "requires": {},
+      "locked": "Complete the baseline survey.",
+      "action": "Close the shutter, recover a small trace from the existing wet patch and secure the apparatus.",
+      "consequence": "The original plate remains. This method preserves the observed patch without establishing every setting of the optical path.",
+      "body": [
+        "You latch the main shutter. Using a clean glass edge, you lift a small portion of the existing wet trace into a receiver and leave the rest of the panel undisturbed.",
+        "The trace is marked as material present at the coordinate, without assigning it to a particular filter. The baseline photograph records exactly where it was taken.",
+        "You cover the light housing and photograph the current positions of the mirrors. The original plate remains inside the secured station.",
+        "You return with the wet trace, the two baseline blotters and your completed observations. The case distinguishes what was directly recovered from any optical behavior still untested."
+      ],
+      "recovered": [
+        "Existing wall trace",
+        "Baseline scent and control",
+        "Current apparatus photographs"
+      ],
+      "siteStatus": "Source retained; shutter secured.",
+      "sensory": {
+        "air": "Cool gallery air",
+        "contact": "Dry shutter latch",
+        "residue": "Small wet wall trace"
+      }
+    }
+  ]
+}

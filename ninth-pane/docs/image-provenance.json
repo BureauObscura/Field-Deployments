@@ -1,0 +1,110 @@
+{
+  "format": "field-deployments-image-provenance-v1",
+  "images": [
+    {
+      "scene": "exterior",
+      "sourcePath": "source-assets/scenes/exterior.png",
+      "sourceSha256": "a36efd04d6b8f17a71748ce5b8fe8d41960619df92f5925141a997472cb54912",
+      "webPath": "assets/scenes/exterior.jpg",
+      "sha256": "4f12a7c6d440d0986dda4431b742095669e779e424b5b95cbe22a7c14923c83d",
+      "width": 1672,
+      "height": 941,
+      "generated": true,
+      "tool": "image_gen.imagegen",
+      "modelVersion": "not exposed by tool",
+      "prompt": "Use case: photorealistic-natural. Asset type: 16:9 landscape photographic background for an immersive browser mystery game. Style: tactile documentary architectural photography, believable real construction and weathering, restrained cinematic composition, absolutely no illustration or videogame-render appearance. This is a modest abandoned late-Victorian conservatory with thin iron glazing ribs painted dark verdigris, damp brick foundations and old glass, during a cold rainy night just before dawn. Palette: desaturated deep blue green, charcoal, isolated amber practical light, natural contrast with visible detail in shadows. No people, faces, figures, creatures, words, numbers, signs, logos, watermarks, captions or UI. Return one single uninterrupted landscape photo, not a collage.\nScene: wide exterior of the small conservatory under overhanging mature trees at 03:17, rain and mist, wet stone path leading toward a lit door on the right side of the building. Roof structure and many fogged panes visible. The sky and tree canopy occupy the upper portion; damp path reflects a little amber doorway light. Eerie and quietly beautiful, actual weather and material texture, enough visual clarity to recognize the place immediately. Eye-level 28mm architectural photography, expansive 16:9 composition, generous uncluttered shadow space toward the left center for later interface overlay. No written time or text in the picture.",
+      "encoding": {
+        "format": "JPEG",
+        "quality": 87,
+        "progressive": true,
+        "subsampling": 0,
+        "resized": false,
+        "cropped": false
+      }
+    },
+    {
+      "scene": "nave",
+      "sourcePath": "source-assets/scenes/nave.png",
+      "sourceSha256": "7ca3422d84c037b74a9d82427ea47ed362ed493bc8c24c32b0bf05931cae968f",
+      "webPath": "assets/scenes/nave.jpg",
+      "sha256": "bf9e90f51069b98cda65344062bff09aa5f254badd62a0a777bbfbee18072a90",
+      "width": 1672,
+      "height": 941,
+      "generated": true,
+      "tool": "image_gen.imagegen",
+      "modelVersion": "not exposed by tool",
+      "prompt": "Use case: photorealistic-natural. Asset type: 16:9 landscape photographic background for an immersive browser mystery game. Style: tactile documentary architectural photography, believable real construction and weathering, restrained cinematic composition, absolutely no illustration or videogame-render appearance. This is a modest abandoned late-Victorian conservatory with thin iron glazing ribs painted dark verdigris, damp brick foundations and old glass, during a cold rainy night just before dawn. Palette: desaturated deep blue green, charcoal, isolated amber practical light, natural contrast with visible detail in shadows. No people, faces, figures, creatures, words, numbers, signs, logos, watermarks, captions or UI. Return one single uninterrupted landscape photo, not a collage.\nScene: interior nave of that conservatory, a straight aisle of damp worn stone extending into convincing depth under narrow pitched iron roof ribs. Dense believable foliage gathers at the sides. A bitter-orange tree with a few small orange fruits stands on the right. On the far wall are about nine tall upright fogged glass panels, one with an isolated dim warm amber-orange glow behind it. Condensation, quiet puddles and dark moss at foundations. The left center aisle stays unobstructed and relatively calm for interface overlay; atmospheric detail concentrates around the right, upper structure and distant wall. Eye-level 28mm photograph, beautiful eerie depth, no human presence, 16:9.",
+      "encoding": {
+        "format": "JPEG",
+        "quality": 87,
+        "progressive": true,
+        "subsampling": 0,
+        "resized": false,
+        "cropped": false
+      }
+    },
+    {
+      "scene": "boiler",
+      "sourcePath": "source-assets/scenes/boiler.png",
+      "sourceSha256": "9317ffe35d87d4b5389eb120f6e082d081a94da5caab87f17a10c422ee3b3748",
+      "webPath": "assets/scenes/boiler.jpg",
+      "sha256": "be2d0718cbb104026854294500aee731d259c3964285db775c2a004264b9ebaf",
+      "width": 1672,
+      "height": 941,
+      "generated": true,
+      "tool": "image_gen.imagegen",
+      "modelVersion": "not exposed by tool",
+      "prompt": "Use case: photorealistic-natural. Asset type: 16:9 landscape photographic background for an immersive browser mystery game. Style: tactile documentary architectural photography, believable real construction and weathering, restrained cinematic composition, absolutely no illustration or videogame-render appearance. This is a modest abandoned late-Victorian conservatory with thin iron glazing ribs painted dark verdigris, damp brick foundations and old glass, during a cold rainy night just before dawn. Palette: desaturated deep blue green, charcoal, isolated amber practical light, natural contrast with visible detail in shadows. No people, faces, figures, creatures, words, numbers, signs, logos, watermarks, captions or UI. Return one single uninterrupted landscape photo, not a collage.\nScene: small maintenance room attached to that conservatory, red-brown aged brick walls, old black cast-iron boiler and a large iron valve wheel, naturally routed copper and iron pipes. A small plain work desk holds a closed worn maintenance notebook without lettering. One exposed amber practical bulb creates warm localized light on brick and brass; cool blue light enters through a doorway showing a little of the conservatory's dark verdigris frame. Damp floor, believable practical layout and restrained wear. Eye-level 28mm documentary photograph, boiler and valve weighted toward the right half, relatively quiet left-center shadow for UI. A real modest utility room, not a fantasy engine or enormous factory. 16:9.",
+      "encoding": {
+        "format": "JPEG",
+        "quality": 87,
+        "progressive": true,
+        "subsampling": 0,
+        "resized": false,
+        "cropped": false
+      }
+    },
+    {
+      "scene": "potting",
+      "sourcePath": "source-assets/potting-original.png",
+      "sourceSha256": "1cf21dcff18b3859ea840ddabd2c05d6c99937810b3eadd4a0c4997771aa7f2c",
+      "webPath": "assets/scenes/potting.jpg",
+      "sha256": "f4b2db22daf182c3c6ce4eb2b150a206d3daacf89ffbce3167e4680dce9829b2",
+      "width": 1672,
+      "height": 941,
+      "generated": true,
+      "tool": "image_gen.imagegen",
+      "modelVersion": "not exposed by tool",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: full-screen photographic room background for an immersive investigation browser game.\nCreate a new original photograph, 16:9 landscape, ideally 2048 by 1152. Interior of a modest Victorian iron and glass conservatory potting room, at cold rainy predawn. Medium-wide view of a worn wooden potting bench, useful open areas of worktop visible. Small bitter-orange tree cuttings with glossy deep green leaves, terracotta pots, a folded damp linen cloth, one pair of old pruning scissors, a few blank plant labels. A small warm amber desk lamp stands at the left. Rain-streaked greenhouse glass and oxidized verdigris iron ribs behind the bench. Cold blue-green ambient light beyond the glass meets the small pool of warm lamp light. Documentary photographic realism, credible natural exposure, tactile natural wear on real wood and pottery, wet soil detail, quiet unresolved atmosphere. Camera at standing eye height, 35mm editorial photography, natural perspective. Compose as a complete believable room with evidence objects visible and a little negative space. No people, faces, bodies, readable writing, lettering, typography, logos, signage, UI, watermarks, overt supernatural effects, smoke or cinematic artificial haze. Do not create a collage or multiple panels. One finished landscape photograph.",
+      "encoding": {
+        "format": "JPEG",
+        "quality": 93,
+        "progressive": true,
+        "subsampling": 0,
+        "resized": false,
+        "cropped": false
+      }
+    },
+    {
+      "scene": "office",
+      "sourcePath": "source-assets/office-original.png",
+      "sourceSha256": "9c341cda497a4c0835f3c4c1fd262a1bd0efc7b4238f6d7918cfd76025c54eec",
+      "webPath": "assets/scenes/office.jpg",
+      "sha256": "33371cee578611c1314c84871e7e1c90a04c8a1ff307fbbaacb2667866298884",
+      "width": 1672,
+      "height": 941,
+      "generated": true,
+      "tool": "image_gen.imagegen",
+      "modelVersion": "not exposed by tool",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: full-screen photographic room background for an immersive investigation browser game.\nCreate a new original photograph, 16:9 landscape, ideally 2048 by 1152. A small timber records office adjoining a modest Victorian iron and glass conservatory at cold rainy predawn. Medium-wide standing-eye-height view of a worn wooden desk holding an old conservatory floorplan with geometric room lines only and no labels, a narrow cream fuel receipt with no readable writing, a weathered open notebook whose marks are indistinct, and an analog black telephone. A small amber practical desk light creates a quiet warm pool over this evidence. Behind the desk, a window looks into the cold wet greenhouse: rain on glass, muted blue-green pre-dawn light, verdigris iron framework and dim plants. Rough timber wall, old shelves with unlabeled folders, credible natural wear, tactile paper and wood. The evidence is visible without dominating the image, with useful negative space. Documentary photographic realism with restrained color, plausible physical light and natural photographic texture, 35mm camera perspective, inviting investigation. No people, faces, bodies, readable text, numbers, labels, typography, logos, UI, watermarks, modern electronics, overt supernatural effects, or cinematic smoke/haze. Do not create a collage or multiple panels. One finished landscape photograph.",
+      "encoding": {
+        "format": "JPEG",
+        "quality": 93,
+        "progressive": true,
+        "subsampling": 0,
+        "resized": false,
+        "cropped": false
+      }
+    }
+  ]
+}

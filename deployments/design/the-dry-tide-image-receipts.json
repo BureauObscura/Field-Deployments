@@ -1,0 +1,176 @@
+[
+  {
+    "webPath": "assets/scenes/the-dry-tide/basin.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "45059f5d6af8caea7641d539921718ba7e169f24551f8a452c1eed068bd4867f",
+    "sourcePath": "source-assets/scenes/the-dry-tide/basin.png",
+    "sourceSha256": "0ffef09314a9483eeb6cecf6f2810231243d12cd9bfaed894c7ba5b7097dd02a",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Edit this square photograph with a focused physical-scale correction only. Preserve the same ancient vaulted limestone room, same camera and composition, same large circular stone basin, central dark rounded stone, stairs, arches, lamps, daylight shaft, photographic textures and lighting. Remove the enormous thick horizontal water hoop spanning the room. Replace it with one delicate, upright circular ring of translucent water, approximately 45 centimeters across and only a few millimeters thick, immediately around and above the small central dark rounded stone. Its lowest edge is near that stone; it occupies only a small central area of the large dry basin. The large basin and surrounding floor remain dry, with no pooled reservoir or extra water. Make the water ring optically clear and credible as a small portable volume; a fine glint catches the daylight so it remains visible. Keep every other feature unchanged. Native 1:1 square output with equal width and height, no cropping, no borders, no UI, no text, no people, bodies, faces, hands or animals.",
+    "scene": "basin",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Small upright water ring around the central stone, approximately 45 cm across with a thin section; collection scale is compatible with the portable flask. Original room, camera, architecture and light retained. No people, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-dry-tide/channels.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f0971543f6427c3279e227ecd6992ad991f72ba8aba709b4bc931cb6b5412f55",
+    "sourcePath": "source-assets/scenes/the-dry-tide/channels.png",
+    "sourceSha256": "c3ca99699b28741c99d8b3c31c4eb9cd67729eebb93c3dec46e41c034869a7b0",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Photograph of a small completely DRY ancient limestone service gallery, assigned year 246 BCE. Main subject is a waist-high stone WORKBENCH with a hand-width shallow channel carved across its top, miniature simple bronze sliding gates in stone slots, a small removable stone wedge, and an empty hand-sized removable catch tray beneath the outlet. Only one very thin line of water, about a centimeter wide, occupies the little bench channel. Every floor and background surface is dry stone. No pools, no large water reservoirs, no flooded floor, no river, no canal, no massive industrial sluices. Human-scaled tools but no person. Raking daylight across the stone workbench, muted amber oil-lamp spill, limestone grey and bronze-green palette. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "channels",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Small bench channel, plain bronze slides, removable wedge and catch tray; no large reservoir. No figures, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-dry-tide/receivers.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ca0cf4fca0971b55a8769503ce20faa8dad3dce7bf57ccaf3d635f6c41e6064e",
+    "sourcePath": "source-assets/scenes/the-dry-tide/receivers.png",
+    "sourceSha256": "2e0897096325e6f2fae8285e5843bf6c56bb0498635018f8548f388f2901bef8",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Photograph of a waist-high dry stone sampling bench inside a modest ancient limestone room, 246 BCE. A modern compact plain brandless field kit is open on cream cloth. Main objects: a removable small rack holding THREE narrow clear capped glass sample vials, ONE empty plain wide-neck glass flask, and unmarked simple fittings. Behind the bench is a close solid dry limestone wall with one narrow dawn slit, no view into any reservoir. Every visible surface is dry. No pools, no flooding, no water anywhere. No extra rack of vials. Soft pale dawn and one warm oil lamp, clear glass, cream cloth, dark case, chalk stone. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "receivers",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Three narrow capped vials, empty common flask, case and dry stone bench. No figures, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-dry-tide/return.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "dcdb88d226537854e34236d44a7cee2d1e08d0a8b8f4cca2ad58d94c08102580",
+    "sourcePath": "source-assets/scenes/the-dry-tide/return.png",
+    "sourceSha256": "f40c653ce0242c326846f5a37d1654c296644e01ce3ea65f867b8fec2534c797",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Close architectural photograph of a small shallow HAND-WIDTH carved channel on a dry stone ledge under a low ancient limestone vault, assigned year 246 BCE. The entire room floor and foreground ledge are visibly dry. A very thin clear ribbon of water, with a faint copper-brown clay streak, bends UP a short two-centimeter lip into a small dark opening in the stone wall. The single impossible effect is the narrow water film climbing this small lip. Pale salt rind surrounds the small opening. No pool, no flooded chamber, no waterfall, no pond, no large-volume flow. Warm amber oil lamp from behind the dry ledge, cool grey-green shadows, close composition dominated by dry textured stone. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "return",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Narrow clay-colored water film at a small stone lip, dry surrounding ledge. No figures, faces, text or animals observed. Flow direction is supplied by the explicit observation text."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-dry-tide/shelf.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "71954f75cb8703c8c48aecb10ba07b11beabb352d7fdca974aa22f8a3617dc4b",
+    "sourcePath": "source-assets/scenes/the-dry-tide/shelf.png",
+    "sourceSha256": "c8c58c376a94a59224d273bb554c361b82984e83ea3d0092598a03f30aab49a5",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Close oblique photograph of a dry limestone wall alcove in an ancient underground room, 246 BCE. Horizontal pale mineral ridges and small amber-brown deposits cross the plaster. A narrow stone shelf holds a small unglazed catch tile, clean folded linen and two plain lidded specimen pots. Composition is filled by the wall, shelf and dry stone floor below. Every visible surface is dry; no water, no pool, no cistern reservoir, no liquid anywhere in this picture. Warm raking oil-lamp light reveals cloth weave and ridges; warm ivory, salt white, amber-brown. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "shelf",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Dry mineral ridges, folded linen, plain pots and tile. No figures, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-dry-tide/stair.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3233f09f0c4a0d107f5e4918356a224939f3d023a00109abcc739bd6a7df007d",
+    "sourcePath": "source-assets/scenes/the-dry-tide/stair.png",
+    "sourceSha256": "18562970537e42d54bca4c370fb59facd9ceb068ea9bf7c423860026bb60b335",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Photograph of a completely DRY steep limestone stair descending from pale coastal dawn into a small ancient plaster-lined underground room, assigned year 246 BCE. Worn chalk-colored steps and a low arch, a continuous visibly dry stone floor at the bottom of the stairs. Absolutely no water inside this image: no pool, no flooding, no pond, no wet stairs, no canal. The sea may be glimpsed through a tiny distant entrance behind the stair, but there is no connection to it. A small plain field case rests on the upper landing. One simple oil lamp lights the lower arch amber; cool pale dawn at entrance. Close architectural framing. Warm ivory, ochre and cool shadows. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "stair",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Dry continuous stair and landing; oil lamp and plain field case; sea remains outside. No figures, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "bureau-the-ninth-pane",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4177 --bind 127.0.0.1 --directory dist",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/engine.js && node --check dist/story.js && node --check dist/account.js && node --check dist/audio.js"
+  }
+}

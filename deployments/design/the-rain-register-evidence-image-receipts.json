@@ -1,0 +1,350 @@
+[
+  {
+    "webPath": "assets/evidence/the-rain-register/air_phase.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e13f9a4ad0130717075703884875d4422aed77c8ff3ac94c8d94831597a2ec16",
+    "sourcePath": "source-assets/evidence/the-rain-register/air_phase.png",
+    "sourceSha256": "029dc0ed31c091f46882b55080bb31aa9f6d55c2459caf4e8188edd6dc9c1855",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Create one native 1:1 SQUARE documentary evidence photograph, equal width and height, for a Bureau Obscura investigation in a weather installation in the year 2486. Restrained future engineering with worn practical steel, enamel, ceramic, glass, screws and physical mechanisms, no holograms or ornamental sci-fi. The photo is a new close camera view of a specific object, not a collage or graphic diagram. Convincing material detail, coherent mechanical construction, visible shadow detail, natural practical light, high photographic realism. Absolutely no people, hands, body parts, faces, silhouettes, animals or human reflections. No lettering, numerals, labels, logos, watermarks, captions, UI, arrows, printed symbols, diagram lines or graphic overlays. No rain inside a dry room. No borders. Close photograph of the air collection port on the dull galvanized wall beneath a huge open circular duct. A capped round sampling port with a short retaining chain sits in the foreground, alongside a transparent empty glass air-sampling tube with pale ceramic end plugs resting in a fitted metal bracket. A short pipe enters the duct just downstream of a narrow suspended band of fine mineral dust visible in the dark duct opening behind. Everything is dry, cap shut, tube empty and uninstalled. No mist, smoke or droplets. Cool metal and a warm caged utility light. The port and glass tube occupy most of the square frame; realistic screws, chain links and glass.",
+    "scene": "duct",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native inspected: closed chained sampling port, clear empty capped tube, suspended duct dust and dry galvanized surfaces. No result sample, labels or occupants."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/copy_trial.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a43cc5ccbeb077f587279c833cbfdd43700351a352076a2b8667e2cddf984f0c",
+    "sourcePath": "source-assets/evidence/the-rain-register/copy_trial.png",
+    "sourceSha256": "df02eae4638344644c8d23f43be3fa6e9a1d19b7d57e372537d9e19ae16a97df",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Edit only the rain and floor seen THROUGH THE BACKGROUND WINDOW in image 1. Keep every foreground object and the entire photograph otherwise unchanged. Image 2 is the authoritative reference for the suspended rain condition: the rain forms a RECTANGLE whose LOWER EDGE ends halfway down the chamber wall, leaving a LARGE EMPTY AIR GAP from the lower edge to the completely dry floor. In image 1 REMOVE all droplets, water streaks, mist, splashes and spray from the lower half of the window view, and make the lower half simply clear empty chamber air above a dry floor. Preserve suspended droplets only in the upper half of the window view, with a crisp horizontal bottom edge. Absolutely no rain reaches the floor. It is a stopped storm, nothing is falling. No foreground edits, no people, labels or graphics. Preserve native square frame.",
+    "scene": "bench",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native final image inspected: noncontact reader has visible air gap above intact banded ribbon; spare cartridge remains blank; closed service channel is idle. Window now faces interior chamber with suspended rain ending above dry floor, no exterior snow or structures."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/drain_interlock.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f11e81bfbaebac2f640bff6a5f31286d3f424fe4506f28ed6502ff03a4e2a72d",
+    "sourcePath": "source-assets/evidence/the-rain-register/drain_interlock.png",
+    "sourceSha256": "a3924497a952dd7775b6259ddb87c753cb1250354efef2b5ce251174e536592f",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Create one native 1:1 SQUARE documentary evidence photograph, equal width and height, for a Bureau Obscura investigation in a weather installation in the year 2486. Restrained future engineering with worn practical steel, enamel, ceramic, glass, screws and physical mechanisms, no holograms or ornamental sci-fi. The photo is a new close camera view of a specific object, not a collage or graphic diagram. Convincing material detail, coherent mechanical construction, visible shadow detail, natural practical light, high photographic realism. Absolutely no people, hands, body parts, faces, silhouettes, animals or human reflections. No lettering, numerals, labels, logos, watermarks, captions, UI, arrows, printed symbols, diagram lines or graphic overlays. No rain inside a dry room. No borders. Macro-close photograph inside a small exposed service recess next to the dry dark mineral drain trench. A flat steel impact plate above is physically linked by a pivoted short rod to a spring latch holding a small rounded runoff float at the bottom of a dry ceramic-lined channel. Clear continuous connection from impact plate to latch to float, sturdy engineered pivots, no impossible floating hardware. Fine pale dry dust on plate and channel, no splash or water. Slotted metal grate displaced at frame edge, background soft. Cool work light, tight square composition with all mechanical junctions in focus. No diagram or arrows.",
+    "scene": "drain",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native inspected: dusty impact plate physically linked by pivoted rod and spring latch to lowered round ceramic float in dry ceramic channel. No test result, water, people or graphic overlay."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/drop_trace.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a978f1bcd737fd13b401996f2479cce44efaff25cc7b2908efadfecf59f34529",
+    "sourcePath": "source-assets/evidence/the-rain-register/drop_trace.png",
+    "sourceSha256": "b1bebf4d8b126d8e419770668362ce929c46c813f9fc6a4e7b6d51fea7adda2d",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Precise correction of this native square photograph. Keep the chamber, dusty impact plate, camera position, lighting and dry floor unchanged. The three foreground water droplets must float entirely unsupported in EMPTY AIR. Remove EVERY long thin vertical filament, thread, wire or stream touching the foreground droplets, restoring unobstructed background above them. Make each drop a separate natural small water globule with an irregular rounded shape, no glass ornament appearance and no attachment point. Also change the metal spherical runoff float at right to a plain pale off-white ceramic sphere resting at the bottom of the dry ceramic-lined channel, keeping the small attached linkage intact. Preserve dry undisturbed dust and no splash. No people, text, diagrams or other additions. Native 1:1 square.",
+    "scene": "chamber",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native repaired image inspected: isolated unsupported drops above unmarked dry dust and impact plate, lowered pale ceramic float matching drain detail. Filament-like attachments removed; no splash or people."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/order_rail.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0ce69d244cfd75cd78a0c7501baf07a04ca42d7d3943a1ff622e8e16acccd17f",
+    "sourcePath": "source-assets/evidence/the-rain-register/order_rail.png",
+    "sourceSha256": "7b562b05e881a4422c2f38af2bedc6fbf6adbc108525d3693cd80d0501ab330c",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Create one native 1:1 SQUARE documentary evidence photograph, equal width and height, for a Bureau Obscura investigation in a weather installation in the year 2486. Restrained future engineering with worn practical steel, enamel, ceramic, glass, screws and physical mechanisms, no holograms or ornamental sci-fi. The photo is a new close camera view of a specific object, not a collage or graphic diagram. Convincing material detail, coherent mechanical construction, visible shadow detail, natural practical light, high photographic realism. Absolutely no people, hands, body parts, faces, silhouettes, animals or human reflections. No lettering, numerals, labels, logos, watermarks, captions, UI, arrows, printed symbols, diagram lines or graphic overlays. No rain inside a dry room. No borders. Close oblique photograph beneath an open service cover in the galvanized duct gallery. A compact, physically continuous three-part mechanical sequence rail runs from front left to back right: corrugated metal pressure bellows, short lever reaching a first spring latch attached to a small wind vane shaft, then a second lever reaching a ceramic-mounted droplet contact. Make all three components and the uninterrupted rods between them visually traceable, mechanically credible, simple and uncluttered. No arrows, no labels, no dial, no numerals, no graphic diagram. All pieces stationary, dry. Dark galvanized duct behind and warm utility lamp raking the metal.",
+    "scene": "duct",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native inspected: physical rail links bellows, vane latch and ceramic contact. Connections are inspectable, dry and unlabelled, galvanized duct continuity retained."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/original_surface.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "de2c692a3290fff126eec5f368bff0784c92b9efd206ff2aa7a1ca68c5012b97",
+    "sourcePath": "source-assets/evidence/the-rain-register/original_surface.png",
+    "sourceSha256": "9fdfd57e536bc580375d84445ea8c4b3885a854bb4f6765ee7a9feddbcacd0ef",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Create one native 1:1 SQUARE documentary evidence photograph, equal width and height, for a Bureau Obscura investigation in a weather installation in the year 2486. Restrained future engineering with worn practical steel, enamel, ceramic, glass, screws and physical mechanisms, no holograms or ornamental sci-fi. The photo is a new close camera view of a specific object, not a collage or graphic diagram. Convincing material detail, coherent mechanical construction, visible shadow detail, natural practical light, high photographic realism. Absolutely no people, hands, body parts, faces, silhouettes, animals or human reflections. No lettering, numerals, labels, logos, watermarks, captions, UI, arrows, printed symbols, diagram lines or graphic overlays. No rain inside a dry room. No borders. Extreme close documentary photograph of a single translucent pale ceramic recording ribbon passing over a smooth steel roller in the warm-lit ribbon recorder. Its top surface carries ONE thin cloudy mineral coating with broad crosswise bands and much finer closely spaced bands between them. At a naturally exposed edge the ceramic support and single coating are clear, without a second recorded layer. Beside the ribbon, a very narrow pointed contact pickup is lifted clear, and a separate optical reader has a noticeably wider rectangular aperture. An empty shallow powder tray is immediately underneath. No head touching the ribbon, no bare scraped path, no test result. Warm amber task light, cool blue window edge reflection. The fine bands, intact coating and two different reader widths are the sharp main subject.",
+    "scene": "recorder",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native inspected: intact banded ribbon, narrow raised pickup, visibly wider optical opening and empty collection tray. Warm recorder/cool-window continuity, no extra layers, markings or people."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/outside_control.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "9fbf12e16adeca20741b27c9ea4233260588c08c44e90a257e292fcd6388b23e",
+    "sourcePath": "source-assets/evidence/the-rain-register/outside_control.png",
+    "sourceSha256": "2e9697f46dbb65770535ae95c3c6f0a24104e4e217b1dc4da7bc952dcc95c646",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Create one native 1:1 SQUARE documentary evidence photograph, equal width and height, for a Bureau Obscura investigation in a weather installation in the year 2486. Restrained future engineering with worn practical steel, enamel, ceramic, glass, screws and physical mechanisms, no holograms or ornamental sci-fi. The photo is a new close camera view of a specific object, not a collage or graphic diagram. Convincing material detail, coherent mechanical construction, visible shadow detail, natural practical light, high photographic realism. Absolutely no people, hands, body parts, faces, silhouettes, animals or human reflections. No lettering, numerals, labels, logos, watermarks, captions, UI, arrows, printed symbols, diagram lines or graphic overlays. No rain inside a dry room. No borders. At the weather installation airlock, close photograph of two matching empty clear glass air-sampling cylinders with plain pale ceramic caps, resting side by side in separate machined steel cradles on a narrow grey enamel shelf. Both are unlabelled and clean, visibly ready to use, not filled with results. One cradle is beside the open outer threshold, with the bare charcoal basalt plateau and heavy cloud softly visible beyond. The second cradle lies on the interior side of the same shelf. Dry pale mineral dust on the exterior sill, no rain outdoors. Cool overcast daylight, faint warm airlock work light. The cylinders fill most of the square frame.",
+    "scene": "airlock",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Inspected full native image: two matching empty capped glass cylinders, separate metal cradles, dry basalt outside and coherent airlock materials. No text, occupants, result sample or graphic overlay."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/pressure_link.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "584a62d331e3707c333ca072485c1fa4f41ee3ab43fde86e209d90aac092dbfd",
+    "sourcePath": "source-assets/evidence/the-rain-register/pressure_link.png",
+    "sourceSha256": "2883f3b0231934c52949d8348f5c322d88c9dd0302cd30d83d52908df89d18bb",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Create one native 1:1 SQUARE documentary evidence photograph, equal width and height, for a Bureau Obscura investigation in a weather installation in the year 2486. Restrained future engineering with worn practical steel, enamel, ceramic, glass, screws and physical mechanisms, no holograms or ornamental sci-fi. The photo is a new close camera view of a specific object, not a collage or graphic diagram. Convincing material detail, coherent mechanical construction, visible shadow detail, natural practical light, high photographic realism. Absolutely no people, hands, body parts, faces, silhouettes, animals or human reflections. No lettering, numerals, labels, logos, watermarks, captions, UI, arrows, printed symbols, diagram lines or graphic overlays. No rain inside a dry room. No borders. Macro-close photograph inside an open grey enamel airlock service housing: a compact corrugated stainless steel pressure bellows on the left is physically joined by a short pivoted lever to a closed spring-loaded metal latch/contact on the right. Its rods, pivot pins and insulated ceramic contact block are visible and mechanically coherent. A second insulated wire continues out of frame. Bellows intact, mechanism dry, no test has been performed, no dial or display. Subtle warm overhead work light, cool exterior light along edges. Fill frame with the bellows, the continuous linkage and the closed contact.",
+    "scene": "airlock",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native inspected: corrugated bellows, pivoted continuous lever and ceramic-backed spring contact clearly resolved, no text or occupants."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/service_spool.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "500b4da3439d48b304577fec57423df11990e307034b0142f9db3a1cdfa143fa",
+    "sourcePath": "source-assets/evidence/the-rain-register/service_spool.png",
+    "sourceSha256": "7903443b0d2aac68a1a6e79302ba1d48e4c506f4748db4f65d1422f1f31172c5",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Edit only the rain and floor seen THROUGH THE BACKGROUND WINDOW in image 1. Keep every foreground object and the entire photograph otherwise unchanged. Image 2 is the authoritative reference for the suspended rain condition: the rain forms a RECTANGLE whose LOWER EDGE ends halfway down the chamber wall, leaving a LARGE EMPTY AIR GAP from the lower edge to the completely dry floor. In image 1 REMOVE all droplets, water streaks, mist, splashes and spray from the lower half of the window view, and make the lower half simply clear empty chamber air above a dry floor. Preserve suspended droplets only in the upper half of the window view, with a crisp horizontal bottom edge. Absolutely no rain reaches the floor. It is a stopped storm, nothing is falling. No foreground edits, no people, labels or graphics. Preserve native square frame.",
+    "scene": "bench",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native final image inspected: narrow contact head raised clear of intact original; separate optical cartridge and cables clearly distinct; small service channel idle. Window now matches suspended interior rain with empty air below and dry floor. No occupants or text."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/stage_contacts.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3db73c0fc9389d6ca0cfd8b80e7fce897392c5b0ad3256c4875bd256fd524092",
+    "sourcePath": "source-assets/evidence/the-rain-register/stage_contacts.png",
+    "sourceSha256": "6c00c3c570eadc08df31998a78f2c060c76febf9a4de14716cecbe90edfff8b3",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Create one native 1:1 SQUARE documentary evidence photograph, equal width and height, for a Bureau Obscura investigation in a weather installation in the year 2486. Restrained future engineering with worn practical steel, enamel, ceramic, glass, screws and physical mechanisms, no holograms or ornamental sci-fi. The photo is a new close camera view of a specific object, not a collage or graphic diagram. Convincing material detail, coherent mechanical construction, visible shadow detail, natural practical light, high photographic realism. Absolutely no people, hands, body parts, faces, silhouettes, animals or human reflections. No lettering, numerals, labels, logos, watermarks, captions, UI, arrows, printed symbols, diagram lines or graphic overlays. No rain inside a dry room. No borders. Close photograph of a small open physical service panel attached to the steel rain-chamber walkway. Foreground has exactly four separate short black insulated signal leads with metal plug ends lying disconnected in four simple ceramic retaining slots. No color-coded labels or marks. Behind them inside the same housing, a small air vane shaft operates a spring contact and a single wire can be followed from that contact to the droplet circuit terminal. This is practical compact metal and ceramic apparatus, no circuit board clutter. Out-of-focus grey chamber wall and hanging rain high in background, walkway stays dry. Cool work light, tactile worn surfaces, clear inspectable lead ends and vane contact.",
+    "scene": "chamber",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native inspected: four separate disconnected plug ends in retaining slots, vane/contact apparatus and chamber context are clear; no graphic overlay or text."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/water_phase.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e269d92f9a45ebdb28e9198710492a301b0804782c32676a46b633aab1268fef",
+    "sourcePath": "source-assets/evidence/the-rain-register/water_phase.png",
+    "sourceSha256": "cf6e88327c1ada6979a1956b6ac7ae5f9fcfe61b7c49fc2e9aaae76ea146df2b",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Correct only the collection apparatus in this native square photograph. Preserve the dry mineral drain trench, lighting, stone edges, camera view and grate. The glass coil condenser must be UNCONNECTED, lying loose in a simple open cradle on the stone ledge. Remove its end flange joining it to the installation. Put a separate CLOSED capped metal coupling immediately beside the condenser, visibly separated by a 5 centimeter air gap. The mechanical linkage should connect ONLY this closed coupling to a plain pale off-white ceramic SPHERICAL float at the bottom of the dry channel, matching an ordinary round ceramic ball float. Replace the existing dark cylindrical float with that ceramic sphere. Remove the hanging nozzle and droplet at top center. Keep every surface dry, condenser empty, no liquid or completed test. No labels, graphics, text, people or other additions. Native 1:1 square composition.",
+    "scene": "drain",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native repaired image inspected: empty condenser has visible air gap from separate closed coupling, linkage goes to lowered pale ceramic sphere, dry trench remains. Premature installed state removed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/the-rain-register/wear_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ae96f832d3540f93f63d98a061df8c1e4d41eb41f3a8c91e060afb4519af7531",
+    "sourcePath": "source-assets/evidence/the-rain-register/wear_test.png",
+    "sourceSha256": "20a4c057c2bebff1943193ba93c76a5f415b8fa863ed7a52322ff6b4426983ab",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Create one native 1:1 SQUARE documentary evidence photograph, equal width and height, for a Bureau Obscura investigation in a weather installation in the year 2486. Restrained future engineering with worn practical steel, enamel, ceramic, glass, screws and physical mechanisms, no holograms or ornamental sci-fi. The photo is a new close camera view of a specific object, not a collage or graphic diagram. Convincing material detail, coherent mechanical construction, visible shadow detail, natural practical light, high photographic realism. Absolutely no people, hands, body parts, faces, silhouettes, animals or human reflections. No lettering, numerals, labels, logos, watermarks, captions, UI, arrows, printed symbols, diagram lines or graphic overlays. No rain inside a dry room. No borders. Close photograph of the recorder service fixture on a dark practical metal bench under warm amber work light. Three matching intact pale ceramic service strips lie in a tidy shallow metal carrier. Each has the same thin cloudy mineral coating with broad bands and very fine closely spaced crosswise bands. One strip is seated under a narrow contact head which is visibly raised, ready for a first pass; two spare intact strips rest beside it. A wider optical reader is parked to the side over a separate intact control strip. Small clean powder-catching tray below. Every strip still coated, no scraped strip, no debris, no performed test shown. The original ribbon recorder is soft in background. Photograph the poised head and untested strips as the main subject.",
+    "scene": "recorder",
+    "qa": {
+      "status": "accepted",
+      "scope": "Project visual inspection only; not owner approval or benchmark grading",
+      "notes": "Full native inspected: multiple intact coated service strips, contact fixture poised at strip start, separate optical reader/control and empty tray. No scraped strip or completed test result. Warm recorder materials match scene."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  }
+]

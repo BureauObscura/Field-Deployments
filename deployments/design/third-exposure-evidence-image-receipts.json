@@ -1,0 +1,362 @@
+[
+  {
+    "webPath": "assets/evidence/third-exposure/bench_plan.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "65a7851d2c597fdc2c4c3bc52c729119cff1f85973b50f284c55c1d922dc2f4f",
+    "sourcePath": "source-assets/evidence/third-exposure/bench_plan.png",
+    "sourceSha256": "d34c802bb3bb3c42c92b771f32a12a486e76ce319df00c4693fedc92e7f7fad0",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Overhead oblique close photograph of the actual mechanical route on a worn dark oak optical bench, showing exactly THREE small square silvered mirrors in adjustable brass pivot holders. Arrange the first lower-left, second upper-left, third upper-right. Three dark rail runs connect these positions around a single open rectangle. Incoming physical rail reaches first from frame-left; outgoing rail leaves third toward foreground. Mirror edges and pivot locks crisp; no light beam and no arrows, letters, labels or schematic overlay. Their actual tangible geometry is what the player examines. Period 1926 brass and steel, same coastal stone room softly blurred. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "bench_plan",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Three independent tangible pivoting mirrors and connected rails are visible without schematic overlay or occupants."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/blank_control.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f2d223051646c5180e0c7f3bf7ea997e4cb912849ed976aad26c6de456171728",
+    "sourcePath": "source-assets/evidence/third-exposure/blank_control.png",
+    "sourceSha256": "e71754fa4d44e6bc1d85e5b1edf7932b4afa22daa5cc17d01f58eeabee98ac4b",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Close photograph on the plate room's worn wooden worktop under dim red safelight with soft cold light from the doorway. ONE absolutely clear blank rectangular glass plate stands in a short wooden rack. Beside it rests the separate brass-framed shore-image plate on dark cloth, its monochrome shore image subtle but visible. A clean dry white enamel test tray occupies foreground. Show distinct blank glass versus image-bearing glass, ready for substitution, no active projection or moisture result. Nothing labeled or written. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "blank_control",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Blank and image-bearing glass remain visually distinct, with empty tray and no active exposure."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/catcher_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "345d0c4f23c8340f13875fb4b62ff12eed3898f7fbe94356a332fa0fc9610ffc",
+    "sourcePath": "source-assets/evidence/third-exposure/catcher_test.png",
+    "sourceSha256": "1b6c82d0cade80eb1d8f042b54fe3651eee59286ddcc61a9b62a2cdb20b9ea4c",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Close photograph of exactly THREE separate empty low rectangular glass catchers with small brass corner feet, spaced on the receiving gallery's pale limestone sill beneath the lower lip of the matte stone receiving panel. Tight focus on distinct glass mouths, separate walls and clean dry interiors. A little of the receiving slab above remains visible, unlit because shutter closed. Warm natural side light from the sea window, no visible result or liquid in catchers yet. These are real vessels for separate short exposures, not perfume bottles. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "catcher_test",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Exactly three independent glass catchers are visible; interiors show glass reflections without a completed catch."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/face_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "aefbee1974fc9f3cfb3fc6ac5e92cc343fcf0ff5ef4b09b3d17568b03c68fcfb",
+    "sourcePath": "source-assets/evidence/third-exposure/face_test.png",
+    "sourceSha256": "6a7374b1ec81cfbea63694f832d26d2cf86c9cc878badccd997174ea1a7cf181",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Close side-angle photograph of the brass source plate stood safely in a small padded V-shaped wooden cradle on dark cloth in the plate room. The glass is seen obliquely enough to see a thin matte image coating on ONE face and a smooth glossy reverse face at its edge. The small triangular orientation notch is visible. A dark closed lamp housing sits beyond, out of focus. Red safelight picks out brass while weak cool doorway light reveals edge structure. Plate intact, no fingerprints, hand, labels, arrows, double image, projection or result. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels. Critical correction: this must be the SAME source plate shown in the second reference close-up. Its coastal shore IMAGE MUST BE VISIBLE on the coated face. Its small triangular notch is CUT INTO THE VERTICAL GLASS EDGE on the left, exactly as the reference, NOT engraved or drawn into any brass frame edge. Do not replace the plate with blank frosted glass. Show the reverse glass edge by oblique camera angle while the actual coastal image remains visible.",
+    "scene": "face_test",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Corrected image shows the same coastal image and actual notch cut into the glass edge. Matte coated face and clear glass edge are legible in the cradle."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/filter_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "791c363669dcab6a3d9354379252f4a130cffe4a8f23cbeddf9a6295cc112634",
+    "sourcePath": "source-assets/evidence/third-exposure/filter_test.png",
+    "sourceSha256": "9f09059dcb90c92f4565f754d6543818e75247fba8040f3f1ccafd66ddaf0543",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Close photograph of three actual optical paths prepared on the dark oak bench: ONE rich transparent cobalt-blue circular glass filter in a brass rim, ONE transparent amber circular glass filter in matching brass rim, and ONE empty identical brass holder for the unfiltered exposure. Each stands separately, not stacked. A single clean pale matte ceramic test tile rests beyond them, dry and unmarked. Shutter closed, no colored beam or experimental result yet. Colored glass luminous from the real coastal window only. No labels, writing, decorative rainbow or extra filters. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "filter_test",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Distinct blue and amber panes, a genuinely open third holder and clean test tile make all three conditions clear."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/mask_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "b3984dda238f540754eada3a35a5bd6af1a426cb3302ef9ffee268af6a160b35",
+    "sourcePath": "source-assets/evidence/third-exposure/mask_test.png",
+    "sourceSha256": "ef470720519a5ed1f39273c358b8e04339d61a9da63c081c0f1d9afe11021dcd",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Close three-quarter photograph of the same brass framed monochrome shore image on its dark oak optical bench. A single narrow matte black opaque card strip is held in a small adjustable brass clamp immediately in front of one vertical band of the image plate. A second loose narrow card strip lies on the bench. Shutter closed, no active light beam, no receiving-wall result. Depict the physical masking setup before the exposure; weathered glass and brass material continuity. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "mask_test",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Opaque strip, closed lens cap and separate spare strip clearly show a pre-exposure masking setup."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/outside_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3f6403cd9e977c23a0a9a932a80ca3e524fb9f60b1947b96074cd42019fe4a31",
+    "sourcePath": "source-assets/evidence/third-exposure/outside_test.png",
+    "sourceSha256": "e5165380b7b108b3ac45e5001a34f982c380fbbe2b1c212fb2535c9d1cb5f18b",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Close view on a plain small enamel comparison tray beside the open station door: two fresh narrow unmarked ivory paper blotters held apart by two simple brass clips, plus two spare untouched blotters resting parallel in a separate tray recess. One clip is on the outdoor side, one is just inside the threshold. Dry surfaces, neither blotter has been tested yet. The wooden steps and coast softly recede. No hands, writing, labels or smell graphics. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "outside_test",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Four clean blotters and two brass clips show the unperformed comparison setup without findings."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/plate_edge.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "77a4fbb7cd0f34289e370336c0e7e9d1f6e1163618cf14aa6fbc5b77bf04feea",
+    "sourcePath": "source-assets/evidence/third-exposure/plate_edge.png",
+    "sourceSha256": "6441be08c24bcad3fe33b9a3548cc185bc1132a525f150bedead59ab3b7bc381",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Extreme close photograph along one corner of the aged brass source frame. Clearly show TWO separate thin panes with a visible narrow gap: the INNER pane bears a fine-grained monochrome coastal image in its coating, the OUTER clear protective pane is held by a small brass corner clip and has a few white salt crystals and a brown film. A shallow triangular edge notch on the inner pane is plainly visible beside its frame. Real glass edge refraction, brass screws, same dark oak bench and soft sea-window light. Do not show a completed cleaning or removal. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "plate_edge",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Two distinct glass edges, a notched image pane, salt deposits and separate brass cover clip are visible."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/repeat_test.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "189838e0edcad64a74377679b3a44c9dfde401145d28fdebed75c8f00b9bc794",
+    "sourcePath": "source-assets/evidence/third-exposure/repeat_test.png",
+    "sourceSha256": "e335f16cff325572fd65e42487257b5178f601c9f4bc33c422f49d7bdbe4d803",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Close photograph of the receiving gallery's actual short-test setup from a new viewpoint: clean matte pale test tile in a brass footed holder at right; a physically CLOSED black metal sliding shutter with brass finger tab at left on the low optical rail; blue and amber glass filter rims resting separately on a folded plain dark cloth in foreground. The same warm limestone, limewashed wall and sea-window light. No moving beam, moisture, written timer, graphic waveform or completed test. Show the shutoff and reusable clean tile clearly. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "repeat_test",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Closed shutter and clean tile are plainly separated; two colored filter panes are ready without an active test."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/surface_layers.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "7489dea4a69c15f8a1ec5d6dad139bf32f1173b1f821eabeea86f3907d5dedb8",
+    "sourcePath": "source-assets/evidence/third-exposure/surface_layers.png",
+    "sourceSha256": "55ab0f9625ab2f009480c7c696b4132c101816bc44926d8591c08662f05ec271",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Extreme macro photograph of the OUTER protective glass cover of the shore-image source in its aged brass frame, resting securely on a folded dark cloth atop the sheltered limestone terrace ledge. Large sharply visible irregular white salt crystals sit OVER a thin brown translucent oily film; both materials mix only at their ragged margins. A clear corner reveals a separate inner image-bearing pane beneath, kept distinct. Outdoor cool daylight reveals crystalline facets and brown-film edges. The coast is barely a blurred sliver. No wiped area, brush, cleaning action, labels or hands. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels. Critical construction detail: the source is a RECTANGULAR flat glass plate in a straight-sided RECTANGULAR brass frame, as the second reference. Show one straight rail meeting another at a sharp square right-angle corner. Absolutely no circular, oval or curved frame. Show a small portion of the shore image through the separate inner pane where cover deposits are absent.",
+    "scene": "surface_layers",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Correct rectangular brass corner matches source plate. White crystals overlap brown film; the separate inner shore image remains visible through the clear area."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/transport.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a3dc09c53a06a6a221e1de51c4a143dca9284842073ed1120306cccaf557c293",
+    "sourcePath": "source-assets/evidence/third-exposure/transport.png",
+    "sourceSha256": "809e1c34d2a79314ba3c1e30ca5f9126fb681f160bc1eee036891c713fb43918",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Close photograph of a purpose-made rigid opaque dark leather-and-wood plate sleeve, lying OPEN on the sheltered terrace's weathered limestone ledge. The fitted interior has slim padded edge channels and a clear open central cavity, so padding contacts only the brass frame edges, never the glass image face. A flat hinged opaque lid rests open beside it; brass latches are simple and unmarked. The source's brass rectangular frame rests nearby still outside the sleeve, glass intact. 1926 construction, honest worn materials, cold coastal daylight. No people, text, brand mark or decorative evidence labels. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "transport",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Opaque case, narrow padded edge supports and clear central cavity visibly explain safe frame transport."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  },
+  {
+    "webPath": "assets/evidence/third-exposure/weather_card.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "394c66ac6f91947a0b9a69b51cace3eb4821a39d2ce269f196ea9b52db64c387",
+    "sourcePath": "source-assets/evidence/third-exposure/weather_card.png",
+    "sourceSha256": "06df3f9d8aeadb67d99dca9b37dd632ab3060882d49cb00f4c81f5c64b05effe",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Use case: photorealistic-natural. Asset: a unique Bureau Obscura game evidence close-up, one full-bleed native square 1:1 photograph. The attached image is a reference for the existing room, materials and lighting, not a composition to reuse. Create a new close view that belongs to this same coastal optical station, September 1926. Low close view of the station's dry exposed shingle and the dry sheltered threshold together. Crisp pale pebbles and weathered stone remain entirely free of fresh raindrops. The bottom of the weathered timber stair and white limewashed wall identify this exact coastal station. Cold blue sea and broken cloud appear only in soft background. No thermometer or written weather card. Photorealistic tactile materials, believable construction, camera optics and natural grain. Keep the clue legible at phone size. No people, body parts, faces, reflections of people, animals, non-Bureau activity, writing, text, numerals, labels, logos, watermarks, graphic frames, UI or diagrams. No added supernatural effect; the named apparatus and materials are the subject. One square image, no split panels.",
+    "scene": "weather_card",
+    "qa": {
+      "status": "accepted",
+      "reviewer": "Codex",
+      "notes": "Dry shingle, sheltered stair and limewashed station remain legible, no rainfall or occupants."
+    },
+    "encoding": {
+      "operation": "format-only",
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "resized": false,
+      "cropped": false,
+      "retouched": false
+    }
+  }
+]

@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+.dev.vars*
+.private/
+.openai/
+.wrangler/
+.sites-runtime/
+.sites-checkout/
+artifacts/
+*.log
+*.tar.gz

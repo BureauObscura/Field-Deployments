@@ -1,0 +1,176 @@
+[
+  {
+    "webPath": "assets/scenes/the-rain-register/airlock.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "bdcb3d336a61ecbddee3d23ddf54400d923315b172074d5dd4c364411701fdf4",
+    "sourcePath": "source-assets/scenes/the-rain-register/airlock.png",
+    "sourceSha256": "07170e3b6711ad5aba2efbdf116c7e37eacfd049ed7a03ba870396a4300ba651",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Photograph of Far-future unattended weather installation on a bare mineral plateau. View from a sheltered open airlock toward the exterior: broad enamel-coated structural ribs, dark stone ground, a flat overcast sky and a low bank of clouds. The building looks practical and heavily maintained, not a spaceship set.. Lighting and atmosphere: Low cold daylight outside, restrained warm work light under the airlock. Palette: Off-white enamel, graphite, cold blue-grey stone.. Visible anomaly: No exterior anomaly; the plateau is dry.. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "airlock",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Empty installation and bare plateau beyond doorway. Clouded sky without visible precipitation. No figures, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-rain-register/bench.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "68fcacda17f839cc143134c51f00689d27513024cf49924f5b610ceb9a73ff25",
+    "sourcePath": "source-assets/scenes/the-rain-register/bench.png",
+    "sourceSha256": "c57dda763f6dce3541235e7af061f22b320345901b2c08f16691f0330aad14c4",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Photograph of Practical future laboratory service bench beside a window into the weather chamber. A blank spare ceramic ribbon cartridge, a clear mist condenser and a narrow capped adsorption tube are laid apart on matte pale enamel. The empty field case leaves space for the selected kit.. Lighting and atmosphere: A warm task lamp and diffuse blue-grey chamber light. Palette: Pale enamel, clear glass, matte graphite, warm amber.. Visible anomaly: No anomaly at the bench; the distant rain sheet is out of focus and secondary.. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "bench",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Blank spare cartridge, clear condenser, air tube and field case. Chamber visible through window. No figures, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-rain-register/chamber.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "940c2854587e09ac18a62495bde932984fa85bef8a30e7d418dd4802a531a479",
+    "sourcePath": "source-assets/scenes/the-rain-register/chamber.png",
+    "sourceSha256": "b465988cd8e25302dca75e3a04a2d6689d6cbe3c303b32588d6b45ee67f479db",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Photograph of Huge empty indoor weather chamber with a low maintenance walkway on one side and a dark mineral floor. A sharply bounded rectangular sheet of rain stops halfway down the room, hanging above a completely dry floor. Heavy enamel ribs and ordinary pipes ground the scale.. Lighting and atmosphere: Broad soft overhead work light; a slight cold backlight makes droplets visible. Palette: Graphite, pearl grey, clear water, muted blue.. Visible anomaly: A suspended sheet of rain ends in midair above the dry floor.. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "chamber",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Rectangular rain sheet ends visibly above the floor; empty industrial chamber with practical lighting. No figures, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-rain-register/drain.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6e5d4b8103967f85002d145c0f0e57437bd4576e84bad587eb0a0cba4ddc00c0",
+    "sourcePath": "source-assets/scenes/the-rain-register/drain.png",
+    "sourceSha256": "850228124b23b17d33b602225032c127b8a1d97161ac17ef91e177328f80c5d3",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Close documentary photograph inside an empty future weather installation. A COMPLETELY DRY shallow trench in matte dark-grey mineral concrete runs toward a dry slotted floor drain. The metal grate is offset to one side so the entire dry trench can be inspected. One single isolated clear water droplet hangs unsupported in midair fifteen centimeters above the drain, with a visible air gap on ALL sides, no string, no jet, no moisture trail, no other droplets. This hovering drop is the only water anywhere. The trench floor, grate and surrounding stone are rough, dusty, dry and NONREFLECTIVE, with absolutely no puddles, no wet sheen, no liquid film, no condensation or running water. An unused pale mineral tray sits on the ledge. Cold soft service light, small warm side reflection only on metal; graphite, slate-grey, enamel. No windows to rain. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "drain",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "One isolated hovering drop above a fully dry matte trench and displaced grate. No figures, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-rain-register/duct.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6b575799d160ae60692ab3fe5a2c776d3ddcf4627291296f220b4c58608d8c82",
+    "sourcePath": "source-assets/scenes/the-rain-register/duct.png",
+    "sourceSha256": "f15a1207565068e5ee83db9f49dcb78b9c084b7b9e4aeab2d843e592f6b02157",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Photograph of Long accessible air-handling gallery with large round ducts, removable mesh panels and three small sampling ports near waist height. A fine dry mineral dust line lies on the walkway under one port. No plants, habitation or personal objects.. Lighting and atmosphere: Alternating warm work lamps and cool reflected chamber light, no neon. Palette: Dull silver, dark graphite, pale mineral dust.. Visible anomaly: A thin band of dust hangs motionless across the mouth of one open duct.. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "duct",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Single dust band across open duct, plain capped sampling ports, accessible grated gallery. No figures, faces, text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  },
+  {
+    "webPath": "assets/scenes/the-rain-register/recorder.jpg",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a1b603438beb297656919f700b9ca2f6b1d7ac4961c111b710d896865d267ff2",
+    "sourcePath": "source-assets/scenes/the-rain-register/recorder.png",
+    "sourceSha256": "f8dae77503b26981b3f7db107c7147d0001e6ad3a9a3d9c9ad7f2b0d25e83fa6",
+    "sourceWidth": 1254,
+    "sourceHeight": 1254,
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "modelVersion": "not exposed by tool",
+    "prompt": "Photograph of Small mechanical recording room beside the weather chamber. A broad translucent ceramic ribbon passes over large plain rollers behind an open service cover. Alternating clear and cloudy segments cross the ribbon; one blank gap is visible. Unmarked mechanical dial controls on the bench. No screen text.. Lighting and atmosphere: Warm low work light through translucent ribbon, cold spill from the hall. Palette: Bone white, dull aluminium, amber translucency.. Visible anomaly: The same pale condensation mark appears on successive separated ribbon segments.. Create a native 1:1 SQUARE photograph with equal width and height. Compose the entire scene specifically for a square frame; no landscape canvas, letterbox, border or collage. This is a scene photograph for a browser investigation. Tactile photographic realism, convincing construction, coherent foreground/midground/background depth, visible shadow detail and plausible material textures. Eye-level 28mm architectural photograph unless the scene explicitly needs a closer evidence view. Compose the main object within the central 70 percent; keep a small quiet area at upper left for a title added in code. Do not draw an interface or typography. Absolutely zero people, silhouettes, hands, body parts, faces, human reflections or animals anywhere. No logos, watermarks, captions, legible letters, numbers, signs or pseudo-writing. No illustration, painting, fantasy concept art, plastic 3D render or ornamental steampunk. Preserve the stated period and lighting; indoor rooms have no rain overlay.",
+    "scene": "recorder",
+    "qa": {
+      "status": "accepted",
+      "method": "Visual inspection of native generation output plus file dimension/hash verification",
+      "notes": "Translucent banded ribbon on physical rollers, plain controls and practical lamp. No figures, faces, legible text or animals observed."
+    },
+    "encoding": {
+      "format": "JPEG",
+      "quality": 88,
+      "subsampling": 0,
+      "progressive": true,
+      "crop": false,
+      "retouch": false,
+      "rescale": false
+    }
+  }
+]

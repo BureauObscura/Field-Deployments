@@ -1,0 +1,15 @@
+{
+  "name": "field-deployments",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Six Bureau Obscura browser investigation games with branching recoveries and evidence puzzles.",
+  "keywords": ["game", "browser-game", "puzzle-game", "interactive-fiction", "choose-your-own-adventure"],
+  "repository": {"type": "git", "url": "https://github.com/BureauObscura/Field-Deployments.git"},
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "test": "node --test deployments/tests/*.test.mjs ninth-pane/tests/*.test.mjs",
+    "check": "node scripts/verify-backup.mjs && node deployments/scripts/check.mjs --assets && npm --prefix ninth-pane run check"
+  }
+}
